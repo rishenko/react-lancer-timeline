@@ -82,7 +82,7 @@ function App() {
           </p>
           <p>
             If you would like to contribute your time to this project - whether functionality, typos,
-            styling, or timeline entries - please <a href="http://github.com/rishenko/lancer-timeline">visit the project page on Github</a>.
+            styling, or timeline entries - please <a href="https://github.com/rishenko/react-lancer-timeline">visit the project page on Github</a>.
           </p>
         </div>
         <h2>Filters</h2>
