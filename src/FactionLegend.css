@@ -1,0 +1,54 @@
+/* Legend and filters */
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 100%;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: min(60rem, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+div.faction-legend,
+div.source-legend,
+div.publishing-attribute-legend {
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+}
+
+div.faction-legend .faction .fname,
+div.source-legend .source .sname,
+div.publishing-attribute-legend .publishing-attribute .paname {
+  padding: .25rem .25rem .25rem .25rem;
+  width: 300px;
+  border-radius: 25px;
+  margin: 2px auto 2px auto;
+}
+
+div.source-legend .source .sname,
+div.publishing-attribute-legend .publishing-attribute .paname {
+  background-color: #555;
+  color: white;
+
+}
+
+.faction.hidden,
+.source.hidden,
+.publishing-attribute.hidden {
+  text-decoration: line-through 3px #f00;
+  opacity: 50%;
+}
