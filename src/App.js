@@ -68,21 +68,20 @@ function App() {
     }));
   }
 
-
-
   return (
     <div>
       <h1>Unofficial Lancer Universe Timeline</h1>
       <div className="intro">
+        <div className="site-status">BETA: Currently undergoing testing. Timeline, faction, and source data is incomplete.</div>
         <div className="overview">
           <h2>Overview</h2>
           <p>
-            This is an unofficial timeline for the Lancer TTRPG universe. It is a living document,
+            This is an unofficial timeline for the amazing <a href="https://massifpress.com/lancer" target="_blank">Lancer TTRPG</a> universe. It is a living document,
             which is to say that the timeline will be updated as more content is released for Lancer.
           </p>
           <p>
             If you would like to contribute your time to this project - whether functionality, typos,
-            styling, or timeline entries - please <a href="https://github.com/rishenko/react-lancer-timeline">visit the project page on Github</a>.
+            styling, or timeline entries - please <a href="https://github.com/rishenko/react-lancer-timeline" target="_blank">visit the project page on Github</a>.
           </p>
         </div>
         <h2>Filters</h2>

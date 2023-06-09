@@ -58,6 +58,17 @@ h2 {
   margin-bottom: 2rem;
 }
 
+.intro .site-status {
+  background: #D55;
+  color: var(--bgColor);
+  border-radius: 25px;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 2rem;
+  align-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 .intro p {
   display: block;
   margin-bottom: 1rem;
