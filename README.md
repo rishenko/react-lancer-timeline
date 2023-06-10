@@ -4,13 +4,15 @@
 
 This project seeks to provide a an interactive timeline for content in the Lancer universe.
 
+Please note this readme is incomplete and this project not quite ready for primetime.
+
 ## How to Use
 
 ...
 
 ## Data Formats
 
-The data used to build the timeline can be found in `data/lancer-timeline-data.json`. The JSON data contains listings for:
+The data used to build the timeline can be found in `src/lancer-timeline-data.json`. The JSON data contains listings for:
 
 - Factions
 - Sources

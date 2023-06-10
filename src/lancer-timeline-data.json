@@ -491,12 +491,12 @@
             "year": 3156,
             "era": "U",
             "faction": "union",
-            "title": "Venusian Ganiki Incident",
-            "descr": "The NHP archives at the Ganiki Planitia on Venus goes dark.",
+            "title": "Event in Legionnaire",
+            "descr": "An event taking place in Union regarding NHPs.",
             "sources": [
                 {
                     "sourceKey": "legionnaire",
-                    "sourceLocation": "pg. 17"
+                    "sourceLocation": "pg. 808"
                 }
             ]
         },

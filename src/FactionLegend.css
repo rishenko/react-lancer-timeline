@@ -33,9 +33,9 @@ div.publishing-attribute-legend {
 div.faction-legend .faction .fname,
 div.source-legend .source .sname,
 div.publishing-attribute-legend .publishing-attribute .paname {
-  padding: .25rem .25rem .25rem .25rem;
-  width: 300px;
-  border-radius: 25px;
+  padding: .25rem .35rem .25rem .35rem;
+  width: 17rem;
+  border-radius: 1rem;
   margin: 2px auto 2px auto;
 }
 
