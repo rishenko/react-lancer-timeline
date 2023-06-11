@@ -17,7 +17,7 @@
             "color": "#6F0066"
         },
         "horus": {
-            "name": "H0rus",
+            "name": "HORUS",
             "color": "#00822F"
         },
         "ssc": {
@@ -687,7 +687,7 @@
             "era": "U",
             "faction": "horus",
             "title": "Hypothesized Creation of Lich chassis",
-            "descr": "Only known date for Lich creation, though could have been faked by H0rus hackers."
+            "descr": "Only known date for Lich creation, though could have been faked by HORUS hackers."
         }
     ]
 }
