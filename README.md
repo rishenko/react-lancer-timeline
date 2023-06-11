@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project seeks to provide a an interactive timeline for content in the Lancer universe.
+This project seeks to provide a an interactive timeline for content in the Lancer universe using the React framework.
 
 Please note this readme is incomplete and this project not quite ready for primetime.
 
@@ -79,6 +79,24 @@ Example entry:
     ]
 }
 ```
+
+It should be noted that timeline entries are automatically sorted by the React app. The sort order is descending `year` for entries in the `BU` era, and ascending `year` for entries in the `U` era.
+
+## On Contributing
+
+### Data
+
+This site's content is populated using the data format outlined under _Data Formats_, where all data is stored and pulled from `src/lancer-timeline-data.json`. All data contributions should follow the above data formats and pattern. It should be noted that there is no required ordering of nodes or list items in any of the data structures.
+
+**FOR AUTHORS OF PUBLISHED THIRD PARTY CONTENT**: This project is more than happy to receive and present any timeline data from people who have published third party content. All entries have sources at the bottom that link to a given source's home or store page.
+
+If the submitter is not the author of the third party content, the submitter will need to present some form of validation that they have received consent from the author, or have the content author contact the admins of this project.
+
+### Code
+
+This is my first React app. There are bound to be any number of odd bugs that could be fixed, inefficiencies to be found, and improvements to be made. So what's next, and what am I looking for? Currently, the goals of this project are: simplicity; easy to update data structures; clean and simple user interface; and a snappy response time.
+
+Please keep those things in mind when making suggestions or submitting PRs for feature additions.
 
 ## Credits
 
