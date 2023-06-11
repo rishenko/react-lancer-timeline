@@ -488,19 +488,6 @@
             "descr": "Rights given to families to colonize Ras Sharma"
         },
         {
-            "year": 3156,
-            "era": "U",
-            "faction": "union",
-            "title": "Event in Legionnaire",
-            "descr": "An event taking place in Union regarding NHPs.",
-            "sources": [
-                {
-                    "sourceKey": "legionnaire",
-                    "sourceLocation": "pg. 808"
-                }
-            ]
-        },
-        {
             "year": 3199,
             "era": "U",
             "faction": "ha",
@@ -688,6 +675,165 @@
             "faction": "horus",
             "title": "Hypothesized Creation of Lich chassis",
             "descr": "Only known date for Lich creation, though could have been faked by HORUS hackers."
+        },
+		{
+            "year": 2910,
+            "era": "U",
+            "faction": "ssc",
+            "title": "Civil war on Opal",
+            "descr": "Opal, SSC's primary colony world devolves into civil war, leading to the destruction of the corpro-state's R&D campus and major manufactories.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 18"
+                }
+            ]
+        },
+		{
+            "year": 3000,
+            "era": "U",
+            "faction": "union",
+            "title": "First Wave of NHPs",
+            "descr": "Following the manifestation of MONIST-1 into realspace, the first wave of NHPs emerges.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 9"
+                },
+				{
+                    "sourceKey": "lcrb",
+                    "sourceLocation": "p. 381"
+                }
+            ]
+        },
+		{
+            "year": 3000,
+            "era": "U",
+            "faction": "union",
+            "title": "Inter-Deimos Period",
+            "descr": "3000-3002u. Deimos is missing. The Second Committee covers up its absence by suppressing information and falsifying USB reports, while also beginning a program of heightened military production and mobilization.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 17"
+                },
+				{
+                    "sourceKey": "lcrb",
+                    "sourceLocation": "p. 384"
+                }
+            ]
+        },
+		{
+            "year": 3002,
+            "era": "U",
+            "faction": "union",
+            "title": "Second Wave of NHPs",
+            "descr": "Following the reappearance of MONIST-1, the second wave of NHPs emerges.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 9"
+                },
+				{
+                    "sourceKey": "lcrb",
+                    "sourceLocation": "p. 381"
+                }
+            ]
+        },
+		{
+            "year": 3002,
+            "era": "U",
+            "faction": "union",
+            "title": "Third Wave of NHPs",
+            "descr": "3002u-present. New NHPs periodically emerge, classified as a third wave. These emergences are infrequent but intensify after 4900u, when analysis of H0r_OS INSTINCT paracode spurs breakthroughs in protomind development.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "pp. 9, 18"
+                },
+				{
+                    "sourceKey": "lcrb",
+                    "sourceLocation": "p. 381"
+                }
+            ]
+        },
+		{
+            "year": 3200,
+            "era": "U",
+            "faction": "ssc",
+            "title": "Constellar Congress Construction",
+            "descr": "Second Expansion Period. SSC begins construction on the Constellar Congress, an ambitious physical and digital infrastructure project designed to support a shared virtual omninet campus.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 18"
+                }
+            ]
+        },
+		{
+            "year": 3156,
+            "era": "U",
+            "faction": "union",
+            "title": "The Ganiki Incident",
+            "descr": "Research campuses under Venus's Ganiki Planitia go dark and the archives are sealed. When they are reopened, many NHPs were missing or altered, displaced by unknown paracausal activity.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 17"
+                }
+            ]
+        },
+		{
+            "year": 3803,
+            "era": "U",
+            "faction": "union",
+            "title": "Fiaraidh Dyson Swarm Project",
+            "descr": "Facing challenges building and powering blink gates, the UCM establishes a research base in the Sierra Madre line for the development of Dyson swarm technology.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 69"
+                }
+            ]
+        },
+		{
+            "year": 4900,
+            "era": "U",
+            "faction": "horus",
+            "title": "Rise of HORUS",
+            "descr": "4900u onwards. Influenced by unknown parties, HORUS begins to develop from a series of disconnected cells and collectives into one of the \"big four\" galactic suppliers of mech licenses.",
+			"sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 18"
+                }
+            ]
+        },
+		{
+            "year": 4900,
+            "era": "U",
+            "faction": "horus",
+            "title": "Project XENIA",
+            "descr": "UIB Project XENIA is established to monitor systems incursions and data manifestation events associated with HORUS and metavault paracode.",
+			"sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 19"
+                }
+            ]
+        },
+		{
+            "year": 4997,
+            "era": "U",
+            "faction": "ha",
+            "title": "The ASURA Breach",
+            "descr": "Unknown parties acquire and release proprietary data from secure Harrison Army servers, bringing to light questionable practices during the development of the ASURA-class NHP. A CentComm investigation is commissioned and Horizon Collective membership swells.",
+            "sources": [
+                {
+                    "sourceKey": "legionnaire",
+                    "sourceLocation": "p. 19"
+                }
+            ]
         }
     ]
 }
