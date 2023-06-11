@@ -49,6 +49,7 @@ Timeline entries are represented in the following format:
 ```text
 {
     "year": (number; start year for the entry),
+    "intraYearIndex": (number; index number, where lower is shown first, to be added on events happening in the same year to ensure certain events come before others),
     "era": (string; the era of the timeline designated as "BU" or "U"),
     "faction": (string: the faction key, choose one from the `factions` node in the JSON data library),
     "title": (string: title of the timeline entry),

@@ -4,6 +4,12 @@ import './Timeline.css';
 
 function Timeline({ timelineEntries, factions, sources, visibleFactions, visibleSources }) {
 
+    /**
+     * Sorting function. Logic works as follows:
+     * 1. by era: BU comes before U
+     * 2. by year: BU years are descending, while U years are ascending
+     * 3. by intraYearIndex: lower index values are shown first, no index is treated as an index with '999'
+     */
     function timelineSortByEraYearIndex(a, b) {
         var intraYearIndexA = a.intraYearIndex == null ? 999 : a.intraYearIndex;
         var intraYearIndexB = b.intraYearIndex == null ? 999 : b.intraYearIndex;
