@@ -7,14 +7,25 @@ function Timeline({ timelineEntries, factions, sources, visibleFactions, visible
     function timelineSortByEraYearIndex(a, b) {
         var intraYearIndexA = a.intraYearIndex == null ? 999 : a.intraYearIndex;
         var intraYearIndexB = b.intraYearIndex == null ? 999 : b.intraYearIndex;
-        var result = a.era < b.era && a.year > b.year && intraYearIndexA >= intraYearIndexB ? 1 : -1;
-        console.log(result)
-        return result;
+
+        var eraYearComparisonResult = -1;
+        if (a.era < b.era) {
+            eraYearComparisonResult = -1;
+        } else if (a.era > b.era) {
+            eraYearComparisonResult = 1;
+        } else if (a.era === 'BU') {
+            eraYearComparisonResult = ((a.year - b.year) * -1) || intraYearIndexA - intraYearIndexB;
+        } else if ( a.era === 'U') {
+            eraYearComparisonResult = (a.year - b.year) || intraYearIndexA - intraYearIndexB;
+        }
+
+        return eraYearComparisonResult;
     }
 
     function isTimelineEntryVisible(entry) {
-        if (entry.sources == null)
+        if (entry.sources == null) {
             entry.sources = [{ "sourceKey": "no-source", "sourceLocation": "" }];
+        }
 
         var anySourceVisible = false;
         entry.sources.forEach(source => {

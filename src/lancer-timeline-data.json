@@ -155,16 +155,14 @@
             "era": "BU",
             "faction": "aun",
             "title": "Rihla Departs",
-            "descr": "Estimated no-later-than departure date of the Rihla during the Fall",
-            "intraYearIndex": "2"
+            "descr": "Estimated no-later-than departure date of the Rihla during the Fall"
         },
         {
             "year": 5000,
             "era": "BU",
             "faction": "sparri",
             "title": "Yggdrasil Departs",
-            "descr": "Estimated no-later-than departure date of the Yggdrasil during the Fall",
-            "intraYearIndex": "2"
+            "descr": "Estimated no-later-than departure date of the Yggdrasil during the Fall"
         },
         {
             "year": 5000,
