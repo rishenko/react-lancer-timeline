@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/react-lancer-timeline/static/css/main.6dc08ae5.css",
-    "main.js": "/react-lancer-timeline/static/js/main.c432e7a3.js",
+    "main.css": "/react-lancer-timeline/static/css/main.8c389f83.css",
+    "main.js": "/react-lancer-timeline/static/js/main.916dba04.js",
     "static/js/787.a65ebca8.chunk.js": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js",
+    "static/media/voladores.svg": "/react-lancer-timeline/static/media/voladores.fa852a020ecd407e4b06.svg",
+    "static/media/sparri.svg": "/react-lancer-timeline/static/media/sparri.0bc8d1b7349588845a11.svg",
+    "static/media/aun.svg": "/react-lancer-timeline/static/media/aun.18223cf5c978b7f9afe6.svg",
+    "static/media/albatross.svg": "/react-lancer-timeline/static/media/albatross.686d7a9e9cb6f4dbf553.svg",
+    "static/media/gms.svg": "/react-lancer-timeline/static/media/gms.fa48299d6aec48145c2c.svg",
+    "static/media/union.svg": "/react-lancer-timeline/static/media/union.fa48299d6aec48145c2c.svg",
+    "static/media/ssc.svg": "/react-lancer-timeline/static/media/ssc.bf9a018eab34025cc261.svg",
+    "static/media/ipsn.svg": "/react-lancer-timeline/static/media/ipsn.cc28df461b71517bf168.svg",
+    "static/media/ha.svg": "/react-lancer-timeline/static/media/ha.b96ef516c742d5205aca.svg",
+    "static/media/horus.svg": "/react-lancer-timeline/static/media/horus.f861dd1c536874da0c97.svg",
     "static/media/powered_by_Lancer.svg": "/react-lancer-timeline/static/media/powered_by_Lancer.e398fe27a9294c5254c019a28ffa2611.svg",
+    "static/media/ktb.svg": "/react-lancer-timeline/static/media/ktb.23a4753321dd3fc216a0.svg",
     "index.html": "/react-lancer-timeline/index.html",
-    "main.6dc08ae5.css.map": "/react-lancer-timeline/static/css/main.6dc08ae5.css.map",
-    "main.c432e7a3.js.map": "/react-lancer-timeline/static/js/main.c432e7a3.js.map",
+    "main.8c389f83.css.map": "/react-lancer-timeline/static/css/main.8c389f83.css.map",
+    "main.916dba04.js.map": "/react-lancer-timeline/static/js/main.916dba04.js.map",
     "787.a65ebca8.chunk.js.map": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dc08ae5.css",
-    "static/js/main.c432e7a3.js"
+    "static/css/main.8c389f83.css",
+    "static/js/main.916dba04.js"
   ]
 }
