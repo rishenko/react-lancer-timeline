@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project seeks to provide a an interactive timeline for content in the Lancer universe using the React framework.
+This project seeks to provide an interactive timeline for content in the Lancer universe using the React framework.
 
 Please note this readme is incomplete and this project not quite ready for primetime.
 
