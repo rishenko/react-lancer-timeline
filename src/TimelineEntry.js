@@ -22,7 +22,6 @@ function TimelineEntry({ indexVal, entry, factions, sources }) {
     var accentKey = "--accent-color-"+(i+1);
     accentColors[accentKey] = factions[faction].color;
   });
-  console.log(accentColors);
 
   return (
     <li className={`timeline-entry ${sourceKeyText} factions-${numFactions}`} style={accentColors}>
