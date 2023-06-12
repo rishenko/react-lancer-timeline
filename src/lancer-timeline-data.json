@@ -110,7 +110,9 @@
         {
             "year": 6000,
             "era": "BU",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "Apollo Departs",
             "descr": "Apollo – the first of the Ten, a series of massive generation ships – departs for an identified Gaia world.",
             "sources": [
@@ -127,7 +129,9 @@
         {
             "year": 5800,
             "era": "BU",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "Apollo Lands on Karrakis",
             "descr": "Apollo confirms landfall and establishment of a colony on the planet Karrakis; sequential launches of the next nine ships begin thereafter.",
             "sources": [
@@ -140,7 +144,9 @@
         {
             "year": 5500,
             "era": "BU",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "Beginning of The Melee",
             "descr": "5500-4900bu. After communications with Earth cease due to the Fall, Karrakis planetary admin officials seize control over the colony. The colony devolves into factions and war.",
             "sources": [
@@ -153,21 +159,27 @@
         {
             "year": 5000,
             "era": "BU",
-            "faction": "aun",
+            "factions": [
+                "aun"
+            ],
             "title": "Rihla Departs",
             "descr": "Estimated no-later-than departure date of the Rihla during the Fall"
         },
         {
             "year": 5000,
             "era": "BU",
-            "faction": "sparri",
+            "factions": [
+                "sparri"
+            ],
             "title": "Yggdrasil Departs",
             "descr": "Estimated no-later-than departure date of the Yggdrasil during the Fall"
         },
         {
             "year": 5000,
             "era": "BU",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Leading to the Fall",
             "descr": "Catastrophic ecological collapse marks the end of the Anthropocene epoch via irreversible mass extinction and climate change. Historians typically identify this as the point at which the Fall became inevitable for Old Humanity.",
             "sources": [
@@ -181,7 +193,9 @@
         {
             "year": 4899,
             "era": "BU",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "Beginning of the Annorum Passacaglia",
             "descr": "4899bu-1999u. The city-states of Karrakis are forcibly united under Passacaglia, leading to a golden age of sorts on Karrakis.",
             "sources": [
@@ -194,7 +208,9 @@
         {
             "year": 4899,
             "era": "BU",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The Early Passacaglian Period",
             "descr": "4899bu-3000u. The people of Karrakis rediscover old technology and undergoes a technological renaissance, including exploration beyond their home planet.",
             "sources": [
@@ -207,7 +223,9 @@
         {
             "year": 4900,
             "era": "BU",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "The Fall",
             "descr": "4900-150BU. A dark age. The human population of Cradle (formerly Earth) falls from a peak of around 15 billion to less than 500,000 humans. All contact with the Ten ceases.",
             "sources": [
@@ -220,14 +238,18 @@
         {
             "year": 2999,
             "era": "BU",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The High Passacaglian Period",
             "descr": "2999bu-1u. A golden age on Karrakis, seeing the people expand their influence to several planets and surrounding systems."
         },
         {
             "year": 150,
             "era": "BU",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Massif Vault Discovery",
             "descr": "The discovery on Cradle of Massif-A, the first of several pre-Fall vaults, prompts global societal rejuvenation. Additional vaults are identified using data preserved inside , and extant powers race to control them.",
             "sources": [
@@ -240,7 +262,9 @@
         {
             "year": 53,
             "era": "BU",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Little Wars",
             "descr": "The Little Wars begin – a polarity struggle between Cradle's major powers fueled by the discovery of the Vaults. The accumulation of regional conflicts that followed hurled Cradle into a global war.",
             "sources": [
@@ -253,7 +277,9 @@
         {
             "year": 0,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Foundation of Union",
             "descr": "The conclusion of the Little Wars leads to the founding of Union and the establishment of the First Committee of Union (FirstComm; retroactively named by the Second Committee).",
             "sources": [
@@ -266,14 +292,18 @@
         {
             "year": 1,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The Low Passacaglian Period",
             "descr": "1u-1908u. The slow deterioration of the Passacaglia, seeing corruption on far-removed planets and holdings of Karrakis."
         },
         {
             "year": 1400,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Distress Signals from the Fall",
             "descr": "Long-range communications systems are reactivated, enabling the recovery of countless archived, Fall-age SOS transmissions. The Union Space Program (USP) is announced shortly thereafter.",
             "sources": [
@@ -286,7 +316,9 @@
         {
             "year": 1450,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Seeking Gaia Worlds",
             "descr": "The first Nearlight-class interstellar ships – based on plans preserved in the Massif vaults and built using Theseus – are launched, seeking Gaia worlds identified in legacy star charts.",
             "sources": [
@@ -299,14 +331,18 @@
         {
             "year": 1998,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Boundary Garden Distress Signals",
             "descr": "The USP Anthem, a Nearlight C.8 vessel associated with the Boundary Garden mission, reports first contact with distress beacons from two of the Ten – the Rihla and the Armstrong – and those descended from their original crews: the Aunic peoples, organized under the Aun Ecumene on a nearby habitable world."
         },
         {
             "year": 1700,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "First Expansion / Exodus",
             "descr": "1700-1999U. Expansion within Cradle takes place. Union mounts expeditions across the worlds and moons of the Cradle system, repopulating old stations, installations, and colonies.",
             "sources": [
@@ -319,28 +355,36 @@
         {
             "year": 1900,
             "era": "U",
-            "faction": "sparri",
+            "factions": [
+                "sparri"
+            ],
             "title": "Yggdrasil lands on Sparr",
             "descr": "One of the Ten, a generation ship named Yggdrasil, lands on Sparr"
         },
         {
             "year": 1908,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The Antiannorum",
             "descr": "1908u-1999u. Corruption across the Concern reaches a breaking point. Planets revolt against Karrakis rule and war breaks out."
         },
         {
             "year": 1998,
             "era": "U",
-            "faction": "aun",
+            "factions": [
+                "aun"
+            ],
             "title": "Aun First Contact with Union",
             "descr": "First Contact with Union. Cornucopia settled as part of contact contingency, Boundary Garden named."
         },
         {
             "year": 2000,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Discovery of the Oracle Chorus",
             "descr": "The Oracle Chorus installation is discovered under the Vastitas Borealis of Mars. The installation is reactivated, and the Five Voices – advanced machine minds capable of predicting the future with nearperfect precision – are identified. This creates the foundations for what would later become Forecast/ Galactic Simulation.",
             "sources": [
@@ -353,14 +397,18 @@
         {
             "year": 2000,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The Annorum Tyrannus",
             "descr": "2000-2089u. Tyrannus suppresses the revolts on another planetary and returns to take over Karrakis, ending the bloody war there, as well as the Annorum Passacaglia."
         },
         {
             "year": 2001,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Discovery of Old Human Colonies",
             "descr": "Several Old Human colonies are discovered beyond Cradle – some derelict, others inhabited. The Union Administrative Department (UAD) is created to oversee interstellar expansion efforts and the reintegration of all rediscovered exclaves.",
             "sources": [
@@ -373,35 +421,45 @@
         {
             "year": 2003,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The Succession War",
             "descr": "2003-2017u. Tyrannus' son, Tagetes, reconquers the revolting planets of the Concern. Tyrannus, Tagetes, and his daughter work to resolve any potential succession disputes."
         },
         {
             "year": 2025,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The Dynasticlade",
             "descr": "Message broadcast on behalf of Tyrannus' and his children stating that the Annorum is ending and power will be transferred to a New Federation."
         },
         {
             "year": 2089,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "The New Federation",
             "descr": "2089-3150u. The New Federation serves as the ruling body of the Karrakin peoples after the Dynasticlade."
         },
         {
             "year": 2800,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb"
+            ],
             "title": "Union Contacts New Federation (KTB)",
             "descr": "Union's first contact with the New Federation, which later became the Karrakin Trade Baronies."
         },
         {
             "year": 2880,
             "era": "U",
-            "faction": "aun",
+            "factions": [
+                "aun", "union"
+            ],
             "title": "Second Contact Between Union and Aun",
             "descr": "Diplomatic friction between the Aunic peoples and Union colonies in Boundary Garden leads to the First Distal War. Hardline Anthrochauvinist elements in Union launch PISTON-1 – a mass “shotgun”-style kinetic strike – toward Aunic space. The First Committee is dissolved, replaced by the Second Committee (SecComm). TBK PISTON-1 launched.",
             "sources": [
@@ -414,273 +472,351 @@
         {
             "year": 2885,
             "era": "U",
-            "faction": "ktb",
+            "factions": [
+                "ktb", "union"
+            ],
             "title": "The First Union-Karrakin War",
             "descr": "A militant group of Karrakins bombed a Union diplomatic yacht. Union annhialated Karrakin defenses, but just before they reached Karrakis, Union turned around and left."
         },
         {
             "year": 2890,
             "era": "U",
-            "faction": "aun",
+            "factions": [
+                "aun"
+            ],
             "title": "Aunic Civil War Begins",
             "descr": "Estimated beginning of Second Dawn Period. Estimated start date of the Aunic Civil War"
         },
         {
             "year": 2890,
             "era": "U",
-            "faction": "aun",
+            "factions": [
+                "aun"
+            ],
             "title": "Aunic Civil War Ends / Second Dawn Period",
             "descr": "??? 2890-5000u. Second Dawn Period. Conclusion of the Aunic Civil War at the end of this period. Aunic re-contact with Apollonians. Aun introduced to Firmament, Minds."
         },
         {
             "year": 4700,
             "era": "U",
-            "faction": "aun",
+            "factions": [
+                "aun"
+            ],
             "title": "Second Cornucopian Civil War.",
             "descr": "Seeded Ascendancy agents steal plans for GMS chassis following failed invasion of Dawn Throne by a Minor Crusade. Development of Ofanim begins."
         },
         {
             "year": 5000,
             "era": "U",
-            "faction": "aun",
+            "factions": [
+                "aun"
+            ],
             "title": "Third Dawn Period",
             "descr": "Estimated beginning of Third Dawn Period. First contact of Crusade forces reported at Borea, Dodona, and Calvary -- all minor colony worlds in the Boundary Garden sector of Union space."
         },
         {
             "year": 2998,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Manifestation of MONIST-1",
             "descr": "During the course of a forecast iteration, the Five Voices manifest MONIST-1 (also known as “RA”). MONIST-1 is retroactively classified as the first NHP."
         },
         {
             "year": 3000,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "MONIST-1 Ascends",
             "descr": "MONIST-1 ascends, bringing about the Deimos Event – the complete disappearance of Deimos from known space. The study of paracausal science becomes possible. The disparate ships, shuttles, and force organizations of the USP are reorganized into the Union Navy."
         },
         {
             "year": 3002,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "First Contact Accords Signed",
             "descr": "The First Contact Accords are signed in negotiations with MONIST-1 following the Siege of Mars. The concept of “non-human persons” is defined and applied to the anomalous machine minds left behind. The shackling process is developed to constrain NHPs."
         },
         {
             "year": 3002,
             "era": "U",
-            "faction": "ssc",
+            "factions": [
+                "ssc"
+            ],
             "title": "Smith-Shimano Shifts Focus to Bio-Enhancements",
             "descr": "The FCA signing causes SSC to switch from focusing on transhumanism and AI to enhancing the human body to its limits."
         },
         {
             "year": 3130,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Blinkspace Access",
             "descr": "3130-3200u. Blinkspace is identified and pierced. The technology to create blink fields is developed, and the first blink station is built. The UAD is dissolved and replaced with the Union Colonial Mission (UCM)."
         },
         {
             "year": 3135,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Ras Shamra Colony Approved",
             "descr": "Rights given to families to colonize Ras Sharma"
         },
         {
             "year": 3199,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Ras Shamra Settled",
             "descr": ""
         },
         {
             "year": 3200,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Second Expansion Begins",
             "descr": "3200-4599u. The Second Expansion Period begins, as the Second Committee begins a massive, Unionwide colonization and expansion effort throughout the Orion Arm of the galaxy. The blink network is grown through rapid construction of gates, and billions of colonists are sent out to tens of thousands of worlds over this time. This period represents the single largest movement of human life in recorded history."
         },
         {
             "year": 3348,
             "era": "U",
-            "faction": "sparri",
+            "factions": [
+                "sparri", "union"
+            ],
             "title": "Union Colonial Missions Crashes on Sparr",
             "descr": "UCM team focused on recontacting lost colonies crash lands on Sparr."
         },
         {
             "year": 3350,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Ras Shamra Pandemic",
             "descr": "3350-3360. Pandemic sweeps over Ras Shamra, wrecking both massive parts of the population and forcing people to live in specific quarantined areas."
         },
         {
             "year": 3360,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Beginning of First Temperate Period",
             "descr": "3360-3500. The events taking place after the plague years of the Ras Shamra Pandemic."
         },
         {
             "year": 3500,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Ras Shamra Cedes Control to Union",
             "descr": "3500-3600u. The Ras Shamran Trium gives control to Union's Second Committee. "
         },
         {
             "year": 3500,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "GMS Site Built on Ras Shamra",
             "descr": "GMS surveys and builds a Special Project site on Ras Shamra."
         },
         {
             "year": 3600,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Second Temperate Period on Ras Shamra",
             "descr": ""
         },
         {
             "year": 4000,
             "era": "U",
-            "faction": "sparri",
+            "factions": [
+                "sparri", "union"
+            ],
             "title": "Union returns to Sparr",
             "descr": "Union returns to contact Sparr. Fighting breaks out between Union forces and the Sparri forces serving the cascading NHP, Ynneval."
         },
         {
             "year": 4500,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Hercynian Crisis",
             "descr": "4500-4560u. The Hercynian Crisis. During the course of the conflict, the efficacy of hardsuits and mechanized chassis (“mechs”) is demonstrated. Union’s state manufacturer, General Massive Systems, begins galaxy-wide production of mechanized chassis."
         },
         {
             "year": 4591,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Harrison Armory Established",
             "descr": "4500-4600u. Harrison Armory is established."
         },
         {
             "year": 4560,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Union Civil War",
             "descr": "4560-4591u. Mounting discontent with the great expansion, the growing need to address PISTON-1, and the acute criminality of the Hercynian Crisis boil over into widespread popular revolution across Cradle and some Galactic Core worlds. Union is gripped by civil war."
         },
         {
             "year": 4591,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union", "ha"
+            ],
             "title": "Second Committee Surrenders",
             "descr": "The remaining Central Committee members of the Second Committee agree to terms of surrender in 4591u. Some portions of Second Committee flee to Diasporan planets or to places such at Harrison Armory."
         },
         {
             "year": 4600,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Second Committee Surrenders, Founding of Third Committee",
             "descr": "New stable government in Union is formed, the Third Committee (ThirdComm). The Union Colonial Mission is immediately dissolved and the Union Administrative Department is reconstituted. Expansion is halted."
         },
         {
             "year": 4600,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha", "union"
+            ],
             "title": "John Harrison I's Execution",
             "descr": "John Harrison I turns himself in to ThirdComm authorities and is executed by hanging."
         },
         {
             "year": 4600,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "John Harrison II Takes the Harrison Armory Throne",
             "descr": "After the execution of John Harrison I, JH I's clone son, JH II, takes his seat on the Temperate Throne."
         },
         {
             "year": 4600,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Third Temperate Period",
             "descr": "4600-4815u"
         },
         {
             "year": 4630,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "The Interest War",
             "descr": "Harrison Armory and the Karrakin Trade Baronies engage in the Interest War; Union acts as a neutral party, ultimately securing peace. Harrison I returns to Cradle and faces justice in exchange for the Armory’s continued sovereignty; the Baronies agree to become a member state of Union."
         },
         {
             "year": 4591,
             "era": "U",
-            "faction": "sparri",
+            "factions": [
+                "sparri"
+            ],
             "title": "Sparri Diaspora Population Surpasses Population on Sparr",
             "descr": ""
         },
         {
             "year": 4815,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "John Harrison II Dies",
             "descr": "John Harrison II dies, and many others, die at RA's hand during the Black Throne Incident."
         },
         {
             "year": 4828,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "John Harrison III Takes the Temperate Throne",
             "descr": "John Harrison III, but a child, ascends to the Temperate Throne."
         },
         {
             "year": 4828,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "John Harrison III Begins the Ageless Survey of the Purview",
             "descr": "4828-5017u. John Harrison III is sent on a survey of all planets on HA's Purview while the Stewards run the nation."
         },
         {
             "year": 4828,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "Fourth Temperate Period",
             "descr": "4828-5016u. Fourth Temperate Period continues to present (5016u) time."
         },
         {
             "year": 4900,
             "era": "U",
-            "faction": "horus",
+            "factions": [
+                "horus"
+            ],
             "title": "GOBLIN Leaked",
             "descr": "GOBLIN mech chassis is leaked onto the omninet."
         },
         {
             "year": 5000,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union", "aun"
+            ],
             "title": "Second Distal War Begins",
             "descr": "The presence of an Aunic crusade fleet in Boundary Garden is confirmed. For the first time, a blink gate is lost to hostile state actions. The Second Distal War begins."
         },
         {
             "year": 5016,
             "era": "U",
-            "faction": "no-faction",
+            "factions": [
+                "no-faction"
+            ],
             "title": "Narrative Present 1",
             "descr": "First year in which the events of Lancer take place."
         },
         {
             "year": 15005,
             "era": "U",
-            "faction": "horus",
+            "factions": [
+                "horus"
+            ],
             "title": "Hypothesized Creation of Lich chassis",
             "descr": "Only known date for Lich creation, though could have been faked by HORUS hackers."
         },
-		{
+        {
             "year": 2910,
             "era": "U",
-            "faction": "ssc",
+            "factions": [
+                "ssc"
+            ],
             "title": "Civil war on Opal",
             "descr": "Opal, SSC's primary colony world devolves into civil war, leading to the destruction of the corpro-state's R&D campus and major manufactories.",
             "sources": [
@@ -690,10 +826,12 @@
                 }
             ]
         },
-		{
+        {
             "year": 3000,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "First Wave of NHPs",
             "descr": "Following the manifestation of MONIST-1 into realspace, the first wave of NHPs emerges.",
             "sources": [
@@ -701,16 +839,18 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 9"
                 },
-				{
+                {
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 381"
                 }
             ]
         },
-		{
+        {
             "year": 3000,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Inter-Deimos Period",
             "descr": "3000-3002u. Deimos is missing. The Second Committee covers up its absence by suppressing information and falsifying USB reports, while also beginning a program of heightened military production and mobilization.",
             "sources": [
@@ -718,16 +858,18 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 17"
                 },
-				{
+                {
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 384"
                 }
             ]
         },
-		{
+        {
             "year": 3002,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Second Wave of NHPs",
             "descr": "Following the reappearance of MONIST-1, the second wave of NHPs emerges.",
             "sources": [
@@ -735,16 +877,18 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 9"
                 },
-				{
+                {
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 381"
                 }
             ]
         },
-		{
+        {
             "year": 3002,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Third Wave of NHPs",
             "descr": "3002u-present. New NHPs periodically emerge, classified as a third wave. These emergences are infrequent but intensify after 4900u, when analysis of H0r_OS INSTINCT paracode spurs breakthroughs in protomind development.",
             "sources": [
@@ -752,16 +896,18 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "pp. 9, 18"
                 },
-				{
+                {
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 381"
                 }
             ]
         },
-		{
+        {
             "year": 3200,
             "era": "U",
-            "faction": "ssc",
+            "factions": [
+                "ssc"
+            ],
             "title": "Constellar Congress Construction",
             "descr": "Second Expansion Period. SSC begins construction on the Constellar Congress, an ambitious physical and digital infrastructure project designed to support a shared virtual omninet campus.",
             "sources": [
@@ -771,10 +917,12 @@
                 }
             ]
         },
-		{
+        {
             "year": 3156,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "The Ganiki Incident",
             "descr": "Research campuses under Venus's Ganiki Planitia go dark and the archives are sealed. When they are reopened, many NHPs were missing or altered, displaced by unknown paracausal activity.",
             "sources": [
@@ -784,10 +932,12 @@
                 }
             ]
         },
-		{
+        {
             "year": 3803,
             "era": "U",
-            "faction": "union",
+            "factions": [
+                "union"
+            ],
             "title": "Fiaraidh Dyson Swarm Project",
             "descr": "Facing challenges building and powering blink gates, the UCM establishes a research base in the Sierra Madre line for the development of Dyson swarm technology.",
             "sources": [
@@ -797,36 +947,42 @@
                 }
             ]
         },
-		{
+        {
             "year": 4900,
             "era": "U",
-            "faction": "horus",
+            "factions": [
+                "horus"
+            ],
             "title": "Rise of HORUS",
             "descr": "4900u onwards. Influenced by unknown parties, HORUS begins to develop from a series of disconnected cells and collectives into one of the \"big four\" galactic suppliers of mech licenses.",
-			"sources": [
+            "sources": [
                 {
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 18"
                 }
             ]
         },
-		{
+        {
             "year": 4900,
             "era": "U",
-            "faction": "horus",
+            "factions": [
+                "horus"
+            ],
             "title": "Project XENIA",
             "descr": "UIB Project XENIA is established to monitor systems incursions and data manifestation events associated with HORUS and metavault paracode.",
-			"sources": [
+            "sources": [
                 {
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 19"
                 }
             ]
         },
-		{
+        {
             "year": 4997,
             "era": "U",
-            "faction": "ha",
+            "factions": [
+                "ha"
+            ],
             "title": "The ASURA Breach",
             "descr": "Unknown parties acquire and release proprietary data from secure Harrison Armory servers, bringing to light questionable practices during the development of the ASURA-class NHP. A CentComm investigation is commissioned and Horizon Collective membership swells.",
             "sources": [

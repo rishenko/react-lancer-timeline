@@ -51,7 +51,7 @@ Timeline entries are represented in the following format:
     "year": (number; start year for the entry),
     "intraYearIndex": (number; index number, where lower is shown first, to be added on events happening in the same year to ensure certain events come before others),
     "era": (string; the era of the timeline designated as "BU" or "U"),
-    "faction": (string: the faction key, choose one from the `factions` node in the JSON data library),
+    "factions": [(array of strings: the faction key, choose one from the `factions` node in the JSON data library)],
     "title": (string: title of the timeline entry),
     "descr": (string: the description of the timeline entry),
     "sources": [
@@ -69,7 +69,7 @@ Example entry:
 {
     "year": 5500,
     "era": "BU",
-    "faction": "ktb",
+    "factions": ["ktb"],
     "title": "Beginning of The Melee",
     "descr": "5500-4900bu. After communications with Earth cease due to the Fall, Karrakis planetary admin officials seize control over the colony. The colony devolves into factions and war.",
     "sources" : [
@@ -101,7 +101,7 @@ Please keep those things in mind when making suggestions or submitting PRs for f
 
 ## Credits
 
-This timeline would not be possible without all of the hard work by Massif Press' Lancer team and the many supporters and third party content creators.
+This timeline would not be possible without all of the hard work by Massif Press' Lancer team and the many supporters and third party content creators. All SVG faction logos were borrowed from Massif's Compcon repo.
 
 The original design of the timeline is based on the following CodePen:
 A Pen created on CodePen.io. Original URL: [https://codepen.io/MarkBoots/pen/OJOqNyB](https://codepen.io/MarkBoots/pen/OJOqNyB).

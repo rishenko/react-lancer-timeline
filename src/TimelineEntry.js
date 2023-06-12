@@ -2,8 +2,7 @@ import React from 'react';
 import TimelineEntrySource from './TimelineEntrySource';
 import './TimelineEntry.css';
 
-function TimelineEntry({ entry, factions, sources }) {
-  const faction = factions[entry.faction];
+function TimelineEntry({ indexVal, entry, factions, sources }) {
 
   if (entry.sources == null || entry.sources == []) {
     entry.sources = [{ "sourceKey": "no-source", "sourceLocation": "" }];
@@ -16,9 +15,27 @@ function TimelineEntry({ entry, factions, sources }) {
   })
   var sourceKeyText = sourceKeys.join(' ');
 
+  const numFactions = entry.factions.length;
+  const lastFaction = entry.factions[numFactions - 1];
+  var accentColor = factions[lastFaction].color;
+  console.log(lastFaction);
+  var backgroundStyle = { "--accent-color": accentColor };
+  if (numFactions > 1) {
+    var angle = indexVal % 2 == 0 ? 120 : 240;
+    backgroundStyle = {
+      "background-image": `linear-gradient(${angle}deg, ${entry.factions.map((faction, i) => `${factions[faction].color} ${i * 88 / numFactions}%, ${factions[faction].color} ${(i + 1) * 88 / numFactions}% `).join(",")}, var(--accent-color) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color) 89.5%, var(--accent-color) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color) 92%, var(--bgColor) 92.75%)`,
+      "--accent-color": `${accentColor}`
+    };
+  }
+
+  console.log(backgroundStyle);
+
   return (
-    <li className={`timeline-entry ${entry.faction} ${sourceKeyText}`} style={{ "--accent-color": faction.color }}>
-      <div className="date">{entry.year}{entry.era}</div>
+    <li className={`timeline-entry ${entry.faction} ${sourceKeyText}`} style={{ "--accent-color": accentColor }}>
+      <div className="factions">{entry.factions.map((faction, i) => {
+        return <span className={faction} style={{"--faction-color": factions[faction].color}} title={factions[faction].name}/>;
+      })}</div>
+      <div className="date" style={backgroundStyle}>{entry.year}{entry.era}</div>
       <div className="title">{entry.title}</div>
       <div className="descr">{entry.descr}</div>
       <div className="source" style={{ "--num-sources": entry.sources.length }}>
