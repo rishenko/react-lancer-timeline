@@ -108,7 +108,7 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/MarkBoots/pen/OJO
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the GPL v3 license.
 
 ## Legal
 
