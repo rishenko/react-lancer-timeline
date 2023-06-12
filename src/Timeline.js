@@ -32,13 +32,21 @@ function Timeline({ timelineEntries, factions, sources, visibleFactions, visible
         if (entry.sources == null) {
             entry.sources = [{ "sourceKey": "no-source", "sourceLocation": "" }];
         }
-
         var anySourceVisible = false;
         entry.sources.forEach(source => {
             anySourceVisible = visibleSources[source.sourceKey] || anySourceVisible;
         })
 
-        return visibleFactions[entry.faction == null ? ['no-faction'] : entry.faction] && anySourceVisible;
+
+        if (entry.factions == null) {
+            entry.factions = ['no-faction'];
+        }
+        var anyFactionVisible = false;
+        entry.factions.forEach(faction => {
+            anyFactionVisible = visibleFactions[faction] || anyFactionVisible;
+        })
+
+        return anyFactionVisible && anySourceVisible;
     }
 
     return (
