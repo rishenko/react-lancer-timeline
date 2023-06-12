@@ -51,7 +51,7 @@ Timeline entries are represented in the following format:
     "year": (number; start year for the entry),
     "intraYearIndex": (number; index number, where lower is shown first, to be added on events happening in the same year to ensure certain events come before others),
     "era": (string; the era of the timeline designated as "BU" or "U"),
-    "faction": (string: the faction key, choose one from the `factions` node in the JSON data library),
+    "factions": [(array of strings: the faction key, choose one from the `factions` node in the JSON data library)],
     "title": (string: title of the timeline entry),
     "descr": (string: the description of the timeline entry),
     "sources": [
@@ -69,7 +69,7 @@ Example entry:
 {
     "year": 5500,
     "era": "BU",
-    "faction": "ktb",
+    "factions": ["ktb"],
     "title": "Beginning of The Melee",
     "descr": "5500-4900bu. After communications with Earth cease due to the Fall, Karrakis planetary admin officials seize control over the colony. The colony devolves into factions and war.",
     "sources" : [

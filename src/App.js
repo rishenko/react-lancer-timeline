@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import data from './lancer-timeline-data.json';
-import { ReactComponent as Logo } from './powered_by_Lancer.svg';
+import { ReactComponent as Logo } from './imgs/powered_by_Lancer.svg';
 import FactionLegend from './FactionLegend';
 import SourceLegend from './SourceLegend'; 
 import PublishingAttributeLegend from './PublishingAttributeLegend'; 

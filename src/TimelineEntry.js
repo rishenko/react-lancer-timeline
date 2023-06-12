@@ -32,6 +32,9 @@ function TimelineEntry({ indexVal, entry, factions, sources }) {
 
   return (
     <li className={`timeline-entry ${entry.faction} ${sourceKeyText}`} style={{ "--accent-color": accentColor }}>
+      <div className="factions">{entry.factions.map((faction, i) => {
+        return <span className={faction} style={{"--faction-color": factions[faction].color}} title={factions[faction].name}/>;
+      })}</div>
       <div className="date" style={backgroundStyle}>{entry.year}{entry.era}</div>
       <div className="title">{entry.title}</div>
       <div className="descr">{entry.descr}</div>

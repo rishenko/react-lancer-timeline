@@ -126,6 +126,71 @@
     bottom: 0.25rem;
 }
 
+/* factions */
+li.timeline-entry .factions {
+    z-index: 2;
+    position: relative;
+    top: 1.5rem;
+}
+
+li.timeline-entry .factions span {
+    background-color: var(--bgColor);
+    background-size: 100%;
+    border: 0.3rem solid var(--faction-color);
+    border-radius: 50%;
+    width: 2.25rem;
+    height: 2.25rem;
+    display: block;
+    float: left;
+}
+
+li.timeline-entry .factions {
+    .ktb {
+        background-image: url('./imgs/logos/ktb.svg');
+    }
+
+    .union {
+        background-image: url('./imgs/logos/union.svg');
+    }
+
+    .ha {
+        background-image: url('./imgs/logos/ha.svg');
+    }
+
+    .aun {
+        background-image: url('./imgs/logos/aun.svg');
+    }
+
+    .albatross {
+        background-image: url('./imgs/logos/albatross.svg');
+    }
+
+    .gms {
+        background-image: url('./imgs/logos/gms.svg');
+    }
+
+    .horus {
+        background-image: url('./imgs/logos/horus.svg');
+    }
+
+    .ipsn {
+        background-image: url('./imgs/logos/ipsn.svg');
+    }
+
+    .sparri {
+        background-image: url('./imgs/logos/sparri.svg');
+    }
+
+    .ssc {
+        background-image: url('./imgs/logos/ssc.svg');
+    }
+
+    .voladores {
+        background-image: url('./imgs/logos/voladores.svg');
+    }
+}
+
+
 /* columnar grid styles */
 @media (min-width: 10rem) {
     .timeline ul li:nth-child(odd) {
@@ -159,5 +224,19 @@
     .timeline ul li:nth-child(even) .date {
         background-image: linear-gradient(240deg, var(--accent-color) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color) 89.5%, var(--accent-color) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color) 92%, var(--bgColor) 92.75%);
         background-size: 100%;
+    }
+
+    .timeline ul li:nth-child(even) .factions {
+        z-index: 2;
+        position: relative;
+        margin-left: auto;
+        top: 1.5rem;
+    }
+
+    .timeline ul li:nth-child(odd) .factions {
+        z-index: 2;
+        position: relative;
+        margin-right: auto;
+        top: 1.5rem;
     }
 }
