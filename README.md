@@ -101,7 +101,7 @@ Please keep those things in mind when making suggestions or submitting PRs for f
 
 ## Credits
 
-This timeline would not be possible without all of the hard work by Massif Press' Lancer team and the many supporters and third party content creators.
+This timeline would not be possible without all of the hard work by Massif Press' Lancer team and the many supporters and third party content creators. All SVG faction logos were borrowed from Massif's Compcon repo.
 
 The original design of the timeline is based on the following CodePen:
 A Pen created on CodePen.io. Original URL: [https://codepen.io/MarkBoots/pen/OJOqNyB](https://codepen.io/MarkBoots/pen/OJOqNyB).
