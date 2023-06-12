@@ -144,50 +144,48 @@ li.timeline-entry .factions span {
     float: left;
 }
 
-li.timeline-entry .factions {
-    .ktb {
-        background-image: url('./imgs/logos/ktb.svg');
-    }
+li.timeline-entry .factions .ktb {
+    background-image: url('./imgs/logos/ktb.svg');
+}
 
-    .union {
-        background-image: url('./imgs/logos/union.svg');
-    }
+li.timeline-entry .factions .union {
+    background-image: url('./imgs/logos/union.svg');
+}
 
-    .ha {
-        background-image: url('./imgs/logos/ha.svg');
-    }
+li.timeline-entry .factions .ha {
+    background-image: url('./imgs/logos/ha.svg');
+}
 
-    .aun {
-        background-image: url('./imgs/logos/aun.svg');
-    }
+li.timeline-entry .factions .aun {
+    background-image: url('./imgs/logos/aun.svg');
+}
 
-    .albatross {
-        background-image: url('./imgs/logos/albatross.svg');
-    }
+li.timeline-entry .factions .albatross {
+    background-image: url('./imgs/logos/albatross.svg');
+}
 
-    .gms {
-        background-image: url('./imgs/logos/gms.svg');
-    }
+li.timeline-entry .factions .gms {
+    background-image: url('./imgs/logos/gms.svg');
+}
 
-    .horus {
-        background-image: url('./imgs/logos/horus.svg');
-    }
+li.timeline-entry .factions .horus {
+    background-image: url('./imgs/logos/horus.svg');
+}
 
-    .ipsn {
-        background-image: url('./imgs/logos/ipsn.svg');
-    }
+li.timeline-entry .factions .ipsn {
+    background-image: url('./imgs/logos/ipsn.svg');
+}
 
-    .sparri {
-        background-image: url('./imgs/logos/sparri.svg');
-    }
+li.timeline-entry .factions .sparri {
+    background-image: url('./imgs/logos/sparri.svg');
+}
 
-    .ssc {
-        background-image: url('./imgs/logos/ssc.svg');
-    }
+li.timeline-entry .factions .ssc {
+    background-image: url('./imgs/logos/ssc.svg');
+}
 
-    .voladores {
-        background-image: url('./imgs/logos/voladores.svg');
-    }
+li.timeline-entry .factions .voladores {
+    background-image: url('./imgs/logos/voladores.svg');
 }
 
 
