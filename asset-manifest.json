@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-lancer-timeline/static/css/main.2be3f6d9.css",
-    "main.js": "/react-lancer-timeline/static/js/main.15260510.js",
+    "main.js": "/react-lancer-timeline/static/js/main.07ed15a2.js",
     "static/js/787.a65ebca8.chunk.js": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js",
     "static/media/voladores.svg": "/react-lancer-timeline/static/media/voladores.fa852a020ecd407e4b06.svg",
     "static/media/sparri.svg": "/react-lancer-timeline/static/media/sparri.0bc8d1b7349588845a11.svg",
@@ -18,11 +18,11 @@
     "static/media/link-icon-symbol.svg": "/react-lancer-timeline/static/media/link-icon-symbol.9105a04075dad07ee192.svg",
     "index.html": "/react-lancer-timeline/index.html",
     "main.2be3f6d9.css.map": "/react-lancer-timeline/static/css/main.2be3f6d9.css.map",
-    "main.15260510.js.map": "/react-lancer-timeline/static/js/main.15260510.js.map",
+    "main.07ed15a2.js.map": "/react-lancer-timeline/static/js/main.07ed15a2.js.map",
     "787.a65ebca8.chunk.js.map": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2be3f6d9.css",
-    "static/js/main.15260510.js"
+    "static/js/main.07ed15a2.js"
   ]
 }
