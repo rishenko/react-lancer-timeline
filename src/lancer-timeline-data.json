@@ -114,7 +114,7 @@
                 "ktb"
             ],
             "title": "Apollo Departs",
-            "descr": "Apollo – the first of the Ten, a series of massive generation ships – departs for an identified Gaia world.",
+            "descr": "Apollo \u2013 the first of the Ten, a series of massive generation ships \u2013 departs for an identified Gaia world.",
             "sources": [
                 {
                     "sourceKey": "lcrb",
@@ -124,7 +124,8 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 6"
                 }
-            ]
+            ],
+            "uuid": "04e4e8c0-50a1-401d-bfa8-2bee7cbed0b9"
         },
         {
             "year": 5800,
@@ -139,7 +140,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "e99a1272-a8da-4c8b-a203-55bef5644140"
         },
         {
             "year": 5500,
@@ -154,7 +156,8 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 9"
                 }
-            ]
+            ],
+            "uuid": "a40f6c71-f66c-45e4-9e35-fa0180011f94"
         },
         {
             "year": 5000,
@@ -163,7 +166,8 @@
                 "aun"
             ],
             "title": "Rihla Departs",
-            "descr": "Estimated no-later-than departure date of the Rihla during the Fall"
+            "descr": "Estimated no-later-than departure date of the Rihla during the Fall",
+            "uuid": "67d2948e-758f-41be-b6ec-7808c438b86b"
         },
         {
             "year": 5000,
@@ -172,7 +176,8 @@
                 "sparri"
             ],
             "title": "Yggdrasil Departs",
-            "descr": "Estimated no-later-than departure date of the Yggdrasil during the Fall"
+            "descr": "Estimated no-later-than departure date of the Yggdrasil during the Fall",
+            "uuid": "700f87f0-6bb8-4799-b202-76ede994a6d7"
         },
         {
             "year": 5000,
@@ -188,7 +193,8 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "intraYearIndex": "1"
+            "intraYearIndex": "1",
+            "uuid": "18098d27-e22f-4bb1-8ffe-ec57ae42efbf"
         },
         {
             "year": 4899,
@@ -203,7 +209,8 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 10"
                 }
-            ]
+            ],
+            "uuid": "87a7a538-f11b-4271-bf6c-d9060bf7f0a1"
         },
         {
             "year": 4899,
@@ -218,7 +225,8 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 14"
                 }
-            ]
+            ],
+            "uuid": "3bb37e09-c1ad-4c5c-8896-cce152924f53"
         },
         {
             "year": 4900,
@@ -233,7 +241,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "7ad3e78b-2586-4ec0-a283-a68b3d15db21"
         },
         {
             "year": 2999,
@@ -242,7 +251,8 @@
                 "ktb"
             ],
             "title": "The High Passacaglian Period",
-            "descr": "2999bu-1u. A golden age on Karrakis, seeing the people expand their influence to several planets and surrounding systems."
+            "descr": "2999bu-1u. A golden age on Karrakis, seeing the people expand their influence to several planets and surrounding systems.",
+            "uuid": "126537a6-9600-44cb-8728-55f05fda52dd"
         },
         {
             "year": 150,
@@ -257,7 +267,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "247dd6f9-8894-49a6-a282-0b201fce76f1"
         },
         {
             "year": 53,
@@ -266,13 +277,14 @@
                 "union"
             ],
             "title": "Little Wars",
-            "descr": "The Little Wars begin – a polarity struggle between Cradle's major powers fueled by the discovery of the Vaults. The accumulation of regional conflicts that followed hurled Cradle into a global war.",
+            "descr": "The Little Wars begin \u2013 a polarity struggle between Cradle's major powers fueled by the discovery of the Vaults. The accumulation of regional conflicts that followed hurled Cradle into a global war.",
             "sources": [
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "15c5c878-3e33-46b8-a364-8f77b501e8f0"
         },
         {
             "year": 0,
@@ -287,7 +299,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "15db09b2-b89a-4f9e-a68c-88125c2f6e9f"
         },
         {
             "year": 1,
@@ -296,7 +309,8 @@
                 "ktb"
             ],
             "title": "The Low Passacaglian Period",
-            "descr": "1u-1908u. The slow deterioration of the Passacaglia, seeing corruption on far-removed planets and holdings of Karrakis."
+            "descr": "1u-1908u. The slow deterioration of the Passacaglia, seeing corruption on far-removed planets and holdings of Karrakis.",
+            "uuid": "80bd15b1-a429-4d4f-afae-9cc473f85533"
         },
         {
             "year": 1400,
@@ -311,7 +325,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "64bae6ad-1e8e-4958-9b68-41a6680630e1"
         },
         {
             "year": 1450,
@@ -320,13 +335,14 @@
                 "union"
             ],
             "title": "Seeking Gaia Worlds",
-            "descr": "The first Nearlight-class interstellar ships – based on plans preserved in the Massif vaults and built using Theseus – are launched, seeking Gaia worlds identified in legacy star charts.",
+            "descr": "The first Nearlight-class interstellar ships \u2013 based on plans preserved in the Massif vaults and built using Theseus \u2013 are launched, seeking Gaia worlds identified in legacy star charts.",
             "sources": [
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "70ffe49f-7018-44b0-88b5-1e9eb7d7c365"
         },
         {
             "year": 1998,
@@ -335,7 +351,8 @@
                 "union"
             ],
             "title": "Boundary Garden Distress Signals",
-            "descr": "The USP Anthem, a Nearlight C.8 vessel associated with the Boundary Garden mission, reports first contact with distress beacons from two of the Ten – the Rihla and the Armstrong – and those descended from their original crews: the Aunic peoples, organized under the Aun Ecumene on a nearby habitable world."
+            "descr": "The USP Anthem, a Nearlight C.8 vessel associated with the Boundary Garden mission, reports first contact with distress beacons from two of the Ten \u2013 the Rihla and the Armstrong \u2013 and those descended from their original crews: the Aunic peoples, organized under the Aun Ecumene on a nearby habitable world.",
+            "uuid": "adef941e-798a-487f-b395-f746765e5262"
         },
         {
             "year": 1700,
@@ -350,7 +367,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "5b749b18-20b8-43e9-8c19-3d0784882b5b"
         },
         {
             "year": 1900,
@@ -359,7 +377,8 @@
                 "sparri"
             ],
             "title": "Yggdrasil lands on Sparr",
-            "descr": "One of the Ten, a generation ship named Yggdrasil, lands on Sparr"
+            "descr": "One of the Ten, a generation ship named Yggdrasil, lands on Sparr",
+            "uuid": "0fd47918-17ba-42bf-836b-2677ae856a04"
         },
         {
             "year": 1908,
@@ -368,7 +387,8 @@
                 "ktb"
             ],
             "title": "The Antiannorum",
-            "descr": "1908u-1999u. Corruption across the Concern reaches a breaking point. Planets revolt against Karrakis rule and war breaks out."
+            "descr": "1908u-1999u. Corruption across the Concern reaches a breaking point. Planets revolt against Karrakis rule and war breaks out.",
+            "uuid": "e55e37c0-87d7-4d4a-b6f4-2b37678f7492"
         },
         {
             "year": 1998,
@@ -377,7 +397,8 @@
                 "aun"
             ],
             "title": "Aun First Contact with Union",
-            "descr": "First Contact with Union. Cornucopia settled as part of contact contingency, Boundary Garden named."
+            "descr": "First Contact with Union. Cornucopia settled as part of contact contingency, Boundary Garden named.",
+            "uuid": "3d324401-d06c-4c09-94c6-0b6417574821"
         },
         {
             "year": 2000,
@@ -386,13 +407,14 @@
                 "union"
             ],
             "title": "Discovery of the Oracle Chorus",
-            "descr": "The Oracle Chorus installation is discovered under the Vastitas Borealis of Mars. The installation is reactivated, and the Five Voices – advanced machine minds capable of predicting the future with nearperfect precision – are identified. This creates the foundations for what would later become Forecast/ Galactic Simulation.",
+            "descr": "The Oracle Chorus installation is discovered under the Vastitas Borealis of Mars. The installation is reactivated, and the Five Voices \u2013 advanced machine minds capable of predicting the future with nearperfect precision \u2013 are identified. This creates the foundations for what would later become Forecast/ Galactic Simulation.",
             "sources": [
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "9f930b2b-831e-42d7-ad72-27cfcffb0ed6"
         },
         {
             "year": 2000,
@@ -401,7 +423,8 @@
                 "ktb"
             ],
             "title": "The Annorum Tyrannus",
-            "descr": "2000-2089u. Tyrannus suppresses the revolts on another planetary and returns to take over Karrakis, ending the bloody war there, as well as the Annorum Passacaglia."
+            "descr": "2000-2089u. Tyrannus suppresses the revolts on another planetary and returns to take over Karrakis, ending the bloody war there, as well as the Annorum Passacaglia.",
+            "uuid": "34a9921e-027e-46b2-a980-963d6705a7e1"
         },
         {
             "year": 2001,
@@ -410,13 +433,14 @@
                 "union"
             ],
             "title": "Discovery of Old Human Colonies",
-            "descr": "Several Old Human colonies are discovered beyond Cradle – some derelict, others inhabited. The Union Administrative Department (UAD) is created to oversee interstellar expansion efforts and the reintegration of all rediscovered exclaves.",
+            "descr": "Several Old Human colonies are discovered beyond Cradle \u2013 some derelict, others inhabited. The Union Administrative Department (UAD) is created to oversee interstellar expansion efforts and the reintegration of all rediscovered exclaves.",
             "sources": [
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "2a4da35d-5fd9-40ed-9328-a098df111cce"
         },
         {
             "year": 2003,
@@ -425,7 +449,8 @@
                 "ktb"
             ],
             "title": "The Succession War",
-            "descr": "2003-2017u. Tyrannus' son, Tagetes, reconquers the revolting planets of the Concern. Tyrannus, Tagetes, and his daughter work to resolve any potential succession disputes."
+            "descr": "2003-2017u. Tyrannus' son, Tagetes, reconquers the revolting planets of the Concern. Tyrannus, Tagetes, and his daughter work to resolve any potential succession disputes.",
+            "uuid": "b539b442-be1c-464c-bbda-6af7c2eebbed"
         },
         {
             "year": 2025,
@@ -434,7 +459,8 @@
                 "ktb"
             ],
             "title": "The Dynasticlade",
-            "descr": "Message broadcast on behalf of Tyrannus' and his children stating that the Annorum is ending and power will be transferred to a New Federation."
+            "descr": "Message broadcast on behalf of Tyrannus' and his children stating that the Annorum is ending and power will be transferred to a New Federation.",
+            "uuid": "06a6e150-3f72-41ad-b499-e4fc3f78d27a"
         },
         {
             "year": 2089,
@@ -443,7 +469,8 @@
                 "ktb"
             ],
             "title": "The New Federation",
-            "descr": "2089-3150u. The New Federation serves as the ruling body of the Karrakin peoples after the Dynasticlade."
+            "descr": "2089-3150u. The New Federation serves as the ruling body of the Karrakin peoples after the Dynasticlade.",
+            "uuid": "5f6328a9-8732-4793-9f5d-01e136e1b66a"
         },
         {
             "year": 2800,
@@ -452,31 +479,36 @@
                 "ktb"
             ],
             "title": "Union Contacts New Federation (KTB)",
-            "descr": "Union's first contact with the New Federation, which later became the Karrakin Trade Baronies."
+            "descr": "Union's first contact with the New Federation, which later became the Karrakin Trade Baronies.",
+            "uuid": "9cdfe315-f788-4d53-a408-11b44916ae25"
         },
         {
             "year": 2880,
             "era": "U",
             "factions": [
-                "aun", "union"
+                "aun",
+                "union"
             ],
             "title": "Second Contact Between Union and Aun",
-            "descr": "Diplomatic friction between the Aunic peoples and Union colonies in Boundary Garden leads to the First Distal War. Hardline Anthrochauvinist elements in Union launch PISTON-1 – a mass “shotgun”-style kinetic strike – toward Aunic space. The First Committee is dissolved, replaced by the Second Committee (SecComm). TBK PISTON-1 launched.",
+            "descr": "Diplomatic friction between the Aunic peoples and Union colonies in Boundary Garden leads to the First Distal War. Hardline Anthrochauvinist elements in Union launch PISTON-1 \u2013 a mass \u201cshotgun\u201d-style kinetic strike \u2013 toward Aunic space. The First Committee is dissolved, replaced by the Second Committee (SecComm). TBK PISTON-1 launched.",
             "sources": [
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "uuid": "7aa855eb-5dda-4d32-8c8b-6aae3bda5f4b"
         },
         {
             "year": 2885,
             "era": "U",
             "factions": [
-                "ktb", "union"
+                "ktb",
+                "union"
             ],
             "title": "The First Union-Karrakin War",
-            "descr": "A militant group of Karrakins bombed a Union diplomatic yacht. Union annhialated Karrakin defenses, but just before they reached Karrakis, Union turned around and left."
+            "descr": "A militant group of Karrakins bombed a Union diplomatic yacht. Union annhialated Karrakin defenses, but just before they reached Karrakis, Union turned around and left.",
+            "uuid": "0ed3b95f-043b-4a4d-8338-f25f357c42b1"
         },
         {
             "year": 2890,
@@ -485,7 +517,8 @@
                 "aun"
             ],
             "title": "Aunic Civil War Begins",
-            "descr": "Estimated beginning of Second Dawn Period. Estimated start date of the Aunic Civil War"
+            "descr": "Estimated beginning of Second Dawn Period. Estimated start date of the Aunic Civil War",
+            "uuid": "60dceeee-44da-4911-8902-deb53cd6ed43"
         },
         {
             "year": 2890,
@@ -494,7 +527,8 @@
                 "aun"
             ],
             "title": "Aunic Civil War Ends / Second Dawn Period",
-            "descr": "??? 2890-5000u. Second Dawn Period. Conclusion of the Aunic Civil War at the end of this period. Aunic re-contact with Apollonians. Aun introduced to Firmament, Minds."
+            "descr": "??? 2890-5000u. Second Dawn Period. Conclusion of the Aunic Civil War at the end of this period. Aunic re-contact with Apollonians. Aun introduced to Firmament, Minds.",
+            "uuid": "c86856ed-18c4-4b7b-8213-e7f59f8cff15"
         },
         {
             "year": 4700,
@@ -503,7 +537,8 @@
                 "aun"
             ],
             "title": "Second Cornucopian Civil War.",
-            "descr": "Seeded Ascendancy agents steal plans for GMS chassis following failed invasion of Dawn Throne by a Minor Crusade. Development of Ofanim begins."
+            "descr": "Seeded Ascendancy agents steal plans for GMS chassis following failed invasion of Dawn Throne by a Minor Crusade. Development of Ofanim begins.",
+            "uuid": "4845d466-6c3f-493c-b276-558d93d50bfa"
         },
         {
             "year": 5000,
@@ -512,7 +547,8 @@
                 "aun"
             ],
             "title": "Third Dawn Period",
-            "descr": "Estimated beginning of Third Dawn Period. First contact of Crusade forces reported at Borea, Dodona, and Calvary -- all minor colony worlds in the Boundary Garden sector of Union space."
+            "descr": "Estimated beginning of Third Dawn Period. First contact of Crusade forces reported at Borea, Dodona, and Calvary -- all minor colony worlds in the Boundary Garden sector of Union space.",
+            "uuid": "2bbddca2-8717-4fbb-8dcc-4ac366e826e7"
         },
         {
             "year": 2998,
@@ -521,7 +557,8 @@
                 "union"
             ],
             "title": "Manifestation of MONIST-1",
-            "descr": "During the course of a forecast iteration, the Five Voices manifest MONIST-1 (also known as “RA”). MONIST-1 is retroactively classified as the first NHP."
+            "descr": "During the course of a forecast iteration, the Five Voices manifest MONIST-1 (also known as \u201cRA\u201d). MONIST-1 is retroactively classified as the first NHP.",
+            "uuid": "1b636b96-2ea7-4c6c-9739-6e2ff93a2514"
         },
         {
             "year": 3000,
@@ -530,7 +567,8 @@
                 "union"
             ],
             "title": "MONIST-1 Ascends",
-            "descr": "MONIST-1 ascends, bringing about the Deimos Event – the complete disappearance of Deimos from known space. The study of paracausal science becomes possible. The disparate ships, shuttles, and force organizations of the USP are reorganized into the Union Navy."
+            "descr": "MONIST-1 ascends, bringing about the Deimos Event \u2013 the complete disappearance of Deimos from known space. The study of paracausal science becomes possible. The disparate ships, shuttles, and force organizations of the USP are reorganized into the Union Navy.",
+            "uuid": "7b5de67e-32c5-4b66-84a8-dc2012732986"
         },
         {
             "year": 3002,
@@ -539,7 +577,8 @@
                 "union"
             ],
             "title": "First Contact Accords Signed",
-            "descr": "The First Contact Accords are signed in negotiations with MONIST-1 following the Siege of Mars. The concept of “non-human persons” is defined and applied to the anomalous machine minds left behind. The shackling process is developed to constrain NHPs."
+            "descr": "The First Contact Accords are signed in negotiations with MONIST-1 following the Siege of Mars. The concept of \u201cnon-human persons\u201d is defined and applied to the anomalous machine minds left behind. The shackling process is developed to constrain NHPs.",
+            "uuid": "42c7adfd-ce91-43c6-a695-355a4207171f"
         },
         {
             "year": 3002,
@@ -548,7 +587,8 @@
                 "ssc"
             ],
             "title": "Smith-Shimano Shifts Focus to Bio-Enhancements",
-            "descr": "The FCA signing causes SSC to switch from focusing on transhumanism and AI to enhancing the human body to its limits."
+            "descr": "The FCA signing causes SSC to switch from focusing on transhumanism and AI to enhancing the human body to its limits.",
+            "uuid": "a175114a-4b4b-4355-9e7a-28d2327a80a8"
         },
         {
             "year": 3130,
@@ -557,7 +597,8 @@
                 "union"
             ],
             "title": "Blinkspace Access",
-            "descr": "3130-3200u. Blinkspace is identified and pierced. The technology to create blink fields is developed, and the first blink station is built. The UAD is dissolved and replaced with the Union Colonial Mission (UCM)."
+            "descr": "3130-3200u. Blinkspace is identified and pierced. The technology to create blink fields is developed, and the first blink station is built. The UAD is dissolved and replaced with the Union Colonial Mission (UCM).",
+            "uuid": "43bfb635-ae7e-4d51-9eea-3efc38b9eea3"
         },
         {
             "year": 3135,
@@ -566,7 +607,8 @@
                 "ha"
             ],
             "title": "Ras Shamra Colony Approved",
-            "descr": "Rights given to families to colonize Ras Sharma"
+            "descr": "Rights given to families to colonize Ras Sharma",
+            "uuid": "b7d4e84e-3008-43d0-aee9-5cccdf5e05a2"
         },
         {
             "year": 3199,
@@ -575,7 +617,8 @@
                 "ha"
             ],
             "title": "Ras Shamra Settled",
-            "descr": ""
+            "descr": "",
+            "uuid": "e623b209-ffd5-4664-8206-294b77757a48"
         },
         {
             "year": 3200,
@@ -584,16 +627,19 @@
                 "union"
             ],
             "title": "Second Expansion Begins",
-            "descr": "3200-4599u. The Second Expansion Period begins, as the Second Committee begins a massive, Unionwide colonization and expansion effort throughout the Orion Arm of the galaxy. The blink network is grown through rapid construction of gates, and billions of colonists are sent out to tens of thousands of worlds over this time. This period represents the single largest movement of human life in recorded history."
+            "descr": "3200-4599u. The Second Expansion Period begins, as the Second Committee begins a massive, Unionwide colonization and expansion effort throughout the Orion Arm of the galaxy. The blink network is grown through rapid construction of gates, and billions of colonists are sent out to tens of thousands of worlds over this time. This period represents the single largest movement of human life in recorded history.",
+            "uuid": "b4656912-ae80-4b60-9053-32d9ca4bf8b2"
         },
         {
             "year": 3348,
             "era": "U",
             "factions": [
-                "sparri", "union"
+                "sparri",
+                "union"
             ],
             "title": "Union Colonial Missions Crashes on Sparr",
-            "descr": "UCM team focused on recontacting lost colonies crash lands on Sparr."
+            "descr": "UCM team focused on recontacting lost colonies crash lands on Sparr.",
+            "uuid": "70ed353b-cd8d-4491-94bd-417fda15bdd9"
         },
         {
             "year": 3350,
@@ -602,7 +648,8 @@
                 "ha"
             ],
             "title": "Ras Shamra Pandemic",
-            "descr": "3350-3360. Pandemic sweeps over Ras Shamra, wrecking both massive parts of the population and forcing people to live in specific quarantined areas."
+            "descr": "3350-3360. Pandemic sweeps over Ras Shamra, wrecking both massive parts of the population and forcing people to live in specific quarantined areas.",
+            "uuid": "78d6b82c-0b69-452b-b043-9c87f65d82cc"
         },
         {
             "year": 3360,
@@ -611,7 +658,8 @@
                 "ha"
             ],
             "title": "Beginning of First Temperate Period",
-            "descr": "3360-3500. The events taking place after the plague years of the Ras Shamra Pandemic."
+            "descr": "3360-3500. The events taking place after the plague years of the Ras Shamra Pandemic.",
+            "uuid": "7a7104f9-c7e8-4496-9d29-12ffa31ba0ca"
         },
         {
             "year": 3500,
@@ -620,7 +668,8 @@
                 "ha"
             ],
             "title": "Ras Shamra Cedes Control to Union",
-            "descr": "3500-3600u. The Ras Shamran Trium gives control to Union's Second Committee. "
+            "descr": "3500-3600u. The Ras Shamran Trium gives control to Union's Second Committee. ",
+            "uuid": "bb9d614b-0f27-4306-863b-393090443a9f"
         },
         {
             "year": 3500,
@@ -629,7 +678,8 @@
                 "ha"
             ],
             "title": "GMS Site Built on Ras Shamra",
-            "descr": "GMS surveys and builds a Special Project site on Ras Shamra."
+            "descr": "GMS surveys and builds a Special Project site on Ras Shamra.",
+            "uuid": "b472bcc9-5466-4459-beb6-396801fcce9c"
         },
         {
             "year": 3600,
@@ -638,16 +688,19 @@
                 "ha"
             ],
             "title": "Second Temperate Period on Ras Shamra",
-            "descr": ""
+            "descr": "",
+            "uuid": "583d7b43-285d-402d-855b-fa253ea713d5"
         },
         {
             "year": 4000,
             "era": "U",
             "factions": [
-                "sparri", "union"
+                "sparri",
+                "union"
             ],
             "title": "Union returns to Sparr",
-            "descr": "Union returns to contact Sparr. Fighting breaks out between Union forces and the Sparri forces serving the cascading NHP, Ynneval."
+            "descr": "Union returns to contact Sparr. Fighting breaks out between Union forces and the Sparri forces serving the cascading NHP, Ynneval.",
+            "uuid": "3e382d5b-8fe2-45dc-bee0-7eaa573ef91b"
         },
         {
             "year": 4500,
@@ -656,7 +709,8 @@
                 "union"
             ],
             "title": "Hercynian Crisis",
-            "descr": "4500-4560u. The Hercynian Crisis. During the course of the conflict, the efficacy of hardsuits and mechanized chassis (“mechs”) is demonstrated. Union’s state manufacturer, General Massive Systems, begins galaxy-wide production of mechanized chassis."
+            "descr": "4500-4560u. The Hercynian Crisis. During the course of the conflict, the efficacy of hardsuits and mechanized chassis (\u201cmechs\u201d) is demonstrated. Union\u2019s state manufacturer, General Massive Systems, begins galaxy-wide production of mechanized chassis.",
+            "uuid": "f1d69699-9834-451e-988e-4a4f0827e7b1"
         },
         {
             "year": 4591,
@@ -665,7 +719,8 @@
                 "ha"
             ],
             "title": "Harrison Armory Established",
-            "descr": "4500-4600u. Harrison Armory is established."
+            "descr": "4500-4600u. Harrison Armory is established.",
+            "uuid": "3b1fa81e-e4c5-420d-b882-059c18e45fd8"
         },
         {
             "year": 4560,
@@ -674,16 +729,19 @@
                 "union"
             ],
             "title": "Union Civil War",
-            "descr": "4560-4591u. Mounting discontent with the great expansion, the growing need to address PISTON-1, and the acute criminality of the Hercynian Crisis boil over into widespread popular revolution across Cradle and some Galactic Core worlds. Union is gripped by civil war."
+            "descr": "4560-4591u. Mounting discontent with the great expansion, the growing need to address PISTON-1, and the acute criminality of the Hercynian Crisis boil over into widespread popular revolution across Cradle and some Galactic Core worlds. Union is gripped by civil war.",
+            "uuid": "90cb7632-408e-462b-8ac6-aad26b5d74e0"
         },
         {
             "year": 4591,
             "era": "U",
             "factions": [
-                "union", "ha"
+                "union",
+                "ha"
             ],
             "title": "Second Committee Surrenders",
-            "descr": "The remaining Central Committee members of the Second Committee agree to terms of surrender in 4591u. Some portions of Second Committee flee to Diasporan planets or to places such at Harrison Armory."
+            "descr": "The remaining Central Committee members of the Second Committee agree to terms of surrender in 4591u. Some portions of Second Committee flee to Diasporan planets or to places such at Harrison Armory.",
+            "uuid": "e699f6ad-8723-4e5a-bf07-c0e8beac5059"
         },
         {
             "year": 4600,
@@ -692,16 +750,19 @@
                 "union"
             ],
             "title": "Second Committee Surrenders, Founding of Third Committee",
-            "descr": "New stable government in Union is formed, the Third Committee (ThirdComm). The Union Colonial Mission is immediately dissolved and the Union Administrative Department is reconstituted. Expansion is halted."
+            "descr": "New stable government in Union is formed, the Third Committee (ThirdComm). The Union Colonial Mission is immediately dissolved and the Union Administrative Department is reconstituted. Expansion is halted.",
+            "uuid": "b9c82cef-354c-4e53-859b-45393767aa30"
         },
         {
             "year": 4600,
             "era": "U",
             "factions": [
-                "ha", "union"
+                "ha",
+                "union"
             ],
             "title": "John Harrison I's Execution",
-            "descr": "John Harrison I turns himself in to ThirdComm authorities and is executed by hanging."
+            "descr": "John Harrison I turns himself in to ThirdComm authorities and is executed by hanging.",
+            "uuid": "a94568eb-0404-47a7-8f83-7aa159c7650b"
         },
         {
             "year": 4600,
@@ -710,7 +771,8 @@
                 "ha"
             ],
             "title": "John Harrison II Takes the Harrison Armory Throne",
-            "descr": "After the execution of John Harrison I, JH I's clone son, JH II, takes his seat on the Temperate Throne."
+            "descr": "After the execution of John Harrison I, JH I's clone son, JH II, takes his seat on the Temperate Throne.",
+            "uuid": "73b7c518-f081-467e-a37f-d0dcb3d9db14"
         },
         {
             "year": 4600,
@@ -719,7 +781,8 @@
                 "ha"
             ],
             "title": "Third Temperate Period",
-            "descr": "4600-4815u"
+            "descr": "4600-4815u",
+            "uuid": "04c9fdd7-6ed7-49fc-adb9-66874e380ac3"
         },
         {
             "year": 4630,
@@ -728,7 +791,8 @@
                 "ha"
             ],
             "title": "The Interest War",
-            "descr": "Harrison Armory and the Karrakin Trade Baronies engage in the Interest War; Union acts as a neutral party, ultimately securing peace. Harrison I returns to Cradle and faces justice in exchange for the Armory’s continued sovereignty; the Baronies agree to become a member state of Union."
+            "descr": "Harrison Armory and the Karrakin Trade Baronies engage in the Interest War; Union acts as a neutral party, ultimately securing peace. Harrison I returns to Cradle and faces justice in exchange for the Armory\u2019s continued sovereignty; the Baronies agree to become a member state of Union.",
+            "uuid": "e1f7ec8c-d1fe-4891-b728-4301a133619c"
         },
         {
             "year": 4591,
@@ -737,7 +801,8 @@
                 "sparri"
             ],
             "title": "Sparri Diaspora Population Surpasses Population on Sparr",
-            "descr": ""
+            "descr": "",
+            "uuid": "9e68e40c-d24d-4ea0-ae58-3238a464cc62"
         },
         {
             "year": 4815,
@@ -746,7 +811,8 @@
                 "ha"
             ],
             "title": "John Harrison II Dies",
-            "descr": "John Harrison II dies, and many others, die at RA's hand during the Black Throne Incident."
+            "descr": "John Harrison II dies, and many others, die at RA's hand during the Black Throne Incident.",
+            "uuid": "e3ba5364-8fef-466e-91b0-129af348b84b"
         },
         {
             "year": 4828,
@@ -755,7 +821,8 @@
                 "ha"
             ],
             "title": "John Harrison III Takes the Temperate Throne",
-            "descr": "John Harrison III, but a child, ascends to the Temperate Throne."
+            "descr": "John Harrison III, but a child, ascends to the Temperate Throne.",
+            "uuid": "431b16c3-2111-4e83-86f5-52463a6ade0e"
         },
         {
             "year": 4828,
@@ -764,7 +831,8 @@
                 "ha"
             ],
             "title": "John Harrison III Begins the Ageless Survey of the Purview",
-            "descr": "4828-5017u. John Harrison III is sent on a survey of all planets on HA's Purview while the Stewards run the nation."
+            "descr": "4828-5017u. John Harrison III is sent on a survey of all planets on HA's Purview while the Stewards run the nation.",
+            "uuid": "f6b99dd9-a14b-4a05-b947-b189f8a28e88"
         },
         {
             "year": 4828,
@@ -773,7 +841,8 @@
                 "ha"
             ],
             "title": "Fourth Temperate Period",
-            "descr": "4828-5016u. Fourth Temperate Period continues to present (5016u) time."
+            "descr": "4828-5016u. Fourth Temperate Period continues to present (5016u) time.",
+            "uuid": "d78fc223-3aa8-46eb-81af-b09472c94c5d"
         },
         {
             "year": 4900,
@@ -782,16 +851,19 @@
                 "horus"
             ],
             "title": "GOBLIN Leaked",
-            "descr": "GOBLIN mech chassis is leaked onto the omninet."
+            "descr": "GOBLIN mech chassis is leaked onto the omninet.",
+            "uuid": "24793164-c68d-4a8d-8b64-65b588457be3"
         },
         {
             "year": 5000,
             "era": "U",
             "factions": [
-                "union", "aun"
+                "union",
+                "aun"
             ],
             "title": "Second Distal War Begins",
-            "descr": "The presence of an Aunic crusade fleet in Boundary Garden is confirmed. For the first time, a blink gate is lost to hostile state actions. The Second Distal War begins."
+            "descr": "The presence of an Aunic crusade fleet in Boundary Garden is confirmed. For the first time, a blink gate is lost to hostile state actions. The Second Distal War begins.",
+            "uuid": "55fca313-f178-4a61-b377-f6a43c13224a"
         },
         {
             "year": 5016,
@@ -800,7 +872,8 @@
                 "no-faction"
             ],
             "title": "Narrative Present 1",
-            "descr": "First year in which the events of Lancer take place."
+            "descr": "First year in which the events of Lancer take place.",
+            "uuid": "61b2cb52-a2d9-46cc-a6c1-d745464ba7a7"
         },
         {
             "year": 15005,
@@ -809,7 +882,8 @@
                 "horus"
             ],
             "title": "Hypothesized Creation of Lich chassis",
-            "descr": "Only known date for Lich creation, though could have been faked by HORUS hackers."
+            "descr": "Only known date for Lich creation, though could have been faked by HORUS hackers.",
+            "uuid": "802f8d00-2f37-42c7-be35-f59f32c21d67"
         },
         {
             "year": 2910,
@@ -824,7 +898,8 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 18"
                 }
-            ]
+            ],
+            "uuid": "8a8891e5-14e5-4484-a65d-1aee3351b11d"
         },
         {
             "year": 3000,
@@ -843,7 +918,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 381"
                 }
-            ]
+            ],
+            "uuid": "b5e79806-242b-43a1-8de8-17ad9130c592"
         },
         {
             "year": 3000,
@@ -862,7 +938,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 384"
                 }
-            ]
+            ],
+            "uuid": "6dc09722-6a3a-40ed-ab1b-e51216295f4d"
         },
         {
             "year": 3002,
@@ -881,7 +958,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 381"
                 }
-            ]
+            ],
+            "uuid": "5c91f5b3-71f4-472d-ac0e-b4027fa4d77d"
         },
         {
             "year": 3002,
@@ -900,7 +978,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "p. 381"
                 }
-            ]
+            ],
+            "uuid": "39a2c194-9349-44c0-9324-0bc588a337e3"
         },
         {
             "year": 3200,
@@ -915,7 +994,8 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 18"
                 }
-            ]
+            ],
+            "uuid": "a547a089-45d4-4130-a581-7b0377576d26"
         },
         {
             "year": 3156,
@@ -930,7 +1010,8 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 17"
                 }
-            ]
+            ],
+            "uuid": "29a99c3b-640f-443d-b1e4-c5c33234e924"
         },
         {
             "year": 3803,
@@ -945,7 +1026,8 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 69"
                 }
-            ]
+            ],
+            "uuid": "67550bed-8160-46f5-a4d5-55b3e834923c"
         },
         {
             "year": 4900,
@@ -960,7 +1042,8 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 18"
                 }
-            ]
+            ],
+            "uuid": "0d90e19e-9d0f-4637-9673-f8cb0ca4cc6c"
         },
         {
             "year": 4900,
@@ -975,7 +1058,8 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 19"
                 }
-            ]
+            ],
+            "uuid": "d514df8b-c00b-45ea-aa83-68aa20a5ba5b"
         },
         {
             "year": 4997,
@@ -990,7 +1074,8 @@
                     "sourceKey": "legionnaire",
                     "sourceLocation": "p. 19"
                 }
-            ]
+            ],
+            "uuid": "118d3a27-8ca3-4fab-afed-573d640d22ba"
         }
     ]
 }

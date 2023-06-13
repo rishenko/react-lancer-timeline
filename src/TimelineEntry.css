@@ -20,6 +20,30 @@
     text-decoration: none;
 }
 
+.timeline ul li div.shareable-link {
+    content: "";
+    display: block;
+    position: relative;
+    float: right;
+    background-image: url('./imgs/link-icon-symbol.svg');
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: 50% 50%;
+    width: 1rem;
+    height: 1rem;
+    margin-left: .5rem;
+    border-radius: .25rem;
+    padding: .75rem;
+}
+
+.timeline ul li div.shareable-link:hover {
+    border: .2rem solid #8888ee;
+    background-color: #ccccff;
+    bottom: .2rem;
+    left: .2rem;
+}
+
 /* date */
 .timeline ul li .date {
     --dateH: 3rem;
