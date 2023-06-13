@@ -54,7 +54,7 @@ function Timeline({ timelineEntries, factions, sources, visibleFactions, visible
             <h2>Timeline</h2>
             <ul>
                 {timelineEntries.sort((a, b) => timelineSortByEraYearIndex(a, b)).map((entry, index) => {
-                   return isTimelineEntryVisible(entry) && <TimelineEntry key={index} indexVal={index} entry={entry} factions={factions} sources={sources} />
+                    return isTimelineEntryVisible(entry) && <TimelineEntry key={entry.uuid} indexVal={index} entry={entry} factions={factions} sources={sources} anchorId={window.location.href.slice(window.location.href.indexOf("#") + 1)}/>
                 })}
             </ul>
         </div>
