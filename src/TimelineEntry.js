@@ -33,9 +33,12 @@ function TimelineEntry({ indexVal, entry, factions, sources, anchorId }) {
     }
   }, []);
 
+  /* add marker class for those timeline entries with {"marker": true} set */
+  var markerClass = entry.marker ? "marker" : "";
+
   return (
-    <li className={`timeline-entry ${sourceKeyText} factions-${numFactions}`} style={accentColors} ref={timelineEntryRef}>
-      <div id={entry.uuid} className="factions">{entry.factions.map((faction, i) => {
+    <li id={entry.uuid} className={`timeline-entry ${sourceKeyText} ${markerClass} factions-${numFactions}`} style={accentColors} ref={timelineEntryRef}>
+      <div className="factions">{entry.factions.map((faction, i) => {
         return <span key={faction} className={faction} style={{"--faction-color": factions[faction].color}} title={factions[faction].name}/>;
       })}</div>
       <div className="date" style={accentColors}>{entry.year}{entry.era}</div>
