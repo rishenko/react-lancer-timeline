@@ -83,6 +83,33 @@ Example entry:
 }
 ```
 
+#### Marker Entries
+
+Marker entries are used to index specific points of time that don't have an associated timeline event. For instance, in the data there are marker entries for every 1000 years. This way users can save links that will take them directly to a specific year, or be able to search for a specific 1000 year block. Also note how `intraYearIndex` is added to make sure the record appears first.
+
+Example marker entry:
+
+```json
+{
+    "year": 5000,
+    "intraYearIndex": 1,
+    "marker": true,
+    "era": "U",
+    "factions": [
+        "no-faction"
+    ],
+    "title": "5000U Marker",
+    "descr": "",
+    "sources": [
+        {
+            "sourceKey": "no-source",
+            "sourceLocation": ""
+        }
+    ],
+    "uuid": "91e4e8c0-50a1-401d-bfa8-2bee7cbed0b9"
+}
+```
+
 It should be noted that timeline entries are automatically sorted by the React app. The sort order is descending `year` for entries in the `BU` era, and ascending `year` for entries in the `U` era.
 
 ## On Contributing

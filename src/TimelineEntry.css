@@ -20,6 +20,19 @@
     text-decoration: none;
 }
 
+/* timeline marker entry styles */
+.timeline ul li.marker .descr,
+.timeline ul li.marker .source,
+.timeline ul li.marker .factions {
+    display: none;
+    height: 0rem;
+    width: 0rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+
+/* shareable link styles */
 .timeline ul li div.shareable-link {
     content: "";
     display: block;

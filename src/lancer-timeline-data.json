@@ -111,6 +111,7 @@
             "year": 6000,
             "intraYearIndex": 1,
             "era": "BU",
+            "marker": true,
             "factions": [
                 "no-faction"
             ],
@@ -122,7 +123,7 @@
                     "sourceLocation": ""
                 }
             ],
-            "uuid": "04e4e8c0-50a1-401d-bfa8-2bee7cbed0b9"
+            "uuid": "04e4e8c1-50a1-401d-bfa8-2bee7cbed0b9"
         },
         {
             "year": 6000,
@@ -179,6 +180,7 @@
         {
             "year": 5000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "BU",
             "factions": [
                 "no-faction"
@@ -277,6 +279,7 @@
         {
             "year": 4000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "BU",
             "factions": [
                 "no-faction"
@@ -294,6 +297,7 @@
         {
             "year": 3000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "BU",
             "factions": [
                 "no-faction"
@@ -327,6 +331,7 @@
         {
             "year": 2000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "BU",
             "factions": [
                 "no-faction"
@@ -344,6 +349,7 @@
         {
             "year": 1000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "BU",
             "factions": [
                 "no-faction"
@@ -393,6 +399,7 @@
         {
             "year": 0,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "U",
             "factions": [
                 "no-faction"
@@ -442,6 +449,7 @@
         {
             "year": 1000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "U",
             "factions": [
                 "no-faction"
@@ -577,7 +585,7 @@
             ],
             "title": "Aunic Planetary Control and First Enumenical Mandate",
             "descr": "1998-2100u. Integration of early Union colony, Anthem, under the Aun. The Aunic peoples establish control over Aun’Ist. The Ecumenical Mandate formally established.",
-            "uuid": "3d324401-d06c-4c09-94c6-0b6417574821",
+            "uuid": "3d324401-d06c-4c09-94c6-0b6417574822",
             "sources": [
                 {
                     "sourceKey": "fgaun",
@@ -588,6 +596,7 @@
         {
             "year": 2000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "U",
             "factions": [
                 "no-faction"
@@ -778,7 +787,7 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "7aa855eb-5dda-4d32-8c8b-6aae3bda5f4b"
+            "uuid": "7aa855eb-5dda-4d32-8c8b-6aae3bda5f4c"
         },
         {
             "year": 2880,
@@ -886,6 +895,7 @@
         {
             "year": 3000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "U",
             "factions": [
                 "no-faction"
@@ -1149,6 +1159,7 @@
         {
             "year": 4000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "U",
             "factions": [
                 "no-faction"
@@ -1459,6 +1470,7 @@
         {
             "year": 5000,
             "intraYearIndex": 1,
+            "marker": true,
             "era": "U",
             "factions": [
                 "no-faction"
@@ -1481,7 +1493,7 @@
             ],
             "title": "Third Dawn Period",
             "descr": "Estimated beginning of Third Dawn Period. First contact of Crusade forces reported at Borea, Dodona, and Calvary -- all minor colony worlds in the Boundary Garden sector of Union space.",
-            "uuid": "2bbddca2-8717-4fbb-8dcc-4ac366e826e7",
+            "uuid": "2bb3dca2-8717-4fbb-8dcc-4ac366e826e7",
             "sources": [
                 {
                     "sourceKey": "fgaun",
