@@ -111,6 +111,7 @@ function App() {
       <div className="legal">
             <Logo alt="Powered by Lancer graphic by Massif Press"/>
             <p><em>Unofficial Lancer Universe Timeline</em> is not an official Lancer product; it is a third party work, and is not affiliated with Massif Press. <em>Unofficial Lancer Universe Timeline</em> is published via the Lancer Third Party License. Lancer is copyright Massif Press.</p>
+            <p>All timeline entries are owned and copyrighted by their respective authors and publishers.</p>
         </div>
     </div>
   );
