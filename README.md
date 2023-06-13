@@ -23,9 +23,9 @@ The top level structure of the JSON data file is as follows:
 
 ```json
 {
-    "factions": [],
-    "sources": [],
-    "publishingAttributes": [],
+    "factions": {},
+    "sources": {},
+    "publishingAttributes": {},
     "timeline": []
 }
 ```
@@ -49,6 +49,7 @@ Timeline entries are represented in the following format:
 ```text
 {
     "year": (number; start year for the entry),
+    "uuid": (string; unique identifier for timeline entry),
     "intraYearIndex": (number; index number, where lower is shown first, to be added on events happening in the same year to ensure certain events come before others),
     "era": (string; the era of the timeline designated as "BU" or "U"),
     "factions": [(array of strings: the faction key, choose one from the `factions` node in the JSON data library)],
@@ -68,6 +69,7 @@ Example entry:
 ```json
 {
     "year": 5500,
+    "uuid": "95ecff30-9477-4421-bf4e-4eaabc99a34c",
     "era": "BU",
     "factions": ["ktb"],
     "title": "Beginning of The Melee",
@@ -113,5 +115,7 @@ This project is licensed under the GPL v3 license.
 ## Legal
 
 _Unofficial Lancer Universe Timeline_ is not an official Lancer product; it is a third party work, and is not affiliated with Massif Press. _Unofficial Lancer Universe Timeline_ is published via the Lancer Third Party License.
+
+All timeline entries are copyright and owned by their respective creators.
 
 Lancer is copyright Massif Press
