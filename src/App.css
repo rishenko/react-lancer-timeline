@@ -9,7 +9,7 @@
 }
 
 body {
-  --color: rgba(30, 30, 30);
+  --color: rgba(50, 50, 50);
   --bgColor: rgba(245, 245, 245);
   min-height: 100vh;
   display: grid;

@@ -78,15 +78,15 @@
 /* date flap */
 .timeline ul li .date::before {
     content: "";
-    width: var(--inlineP);
+    width: calc(var(--inlineP) + .1rem);
     aspect-ratio: 1;
     background: var(--accent-color-1);
     background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
     position: absolute;
-    top: 100%;
-
-    clip-path: polygon(0 0, 100% 0, 0 100%);
-    right: 0;
+    top: 99%;
+    clip-path: polygon(0 0, 105% 0, 0 100%);
+    right: 0rem;
+    z-index: 5;
 }
 
 /* Circle in vertical timeline bar */
@@ -95,8 +95,8 @@
     position: absolute;
     width: 2rem;
     aspect-ratio: 1;
-    background: var(--bgColor);
-    border: 0.3rem solid var(--accent-color-1);
+    background-color: var(--bgColor);
+    border: .5rem solid var(--accent-color-1);
     border-radius: 50%;
     top: 50%;
 
@@ -121,24 +121,23 @@
     font-weight: 500;
 }
 
+.timeline ul li .descr {
+    padding-block-end: .5rem;
+    font-size: .85rem;
+    font-weight: 300;
+}
+
 .timeline ul li .source {
     padding-block-start: .5rem;
     padding-block-end: .5rem;
     font-size: .75rem;
     font-weight: 300;
     font-style: italic;
-    max-height: calc(var(--num-sources) * 2.5rem);
-}
-
-.timeline ul li .descr {
-    padding-block-end: .5rem;
-    font-size: .9rem;
-    font-weight: 300;
+    max-height: calc(var(--num-sources) * 3rem);
 }
 
 /* Shadows */
-.timeline ul li .title::before,
-.timeline ul li .source::after {
+.timeline ul li .title::before {
     content: "";
     position: absolute;
     width: 90%;
@@ -148,6 +147,29 @@
     border-radius: 50%;
     filter: blur(4px);
     transform: translate(-50%, 50%);
+}
+
+.timeline ul li .source::after {
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 0.75rem;
+    background: rgba(50, 50, 50, 0.5);
+    left: 50%;
+    border-radius: 50%;
+    filter: blur(4px);
+    transform: translate(-50%, 50%);
+}
+
+.timeline ul li.marker::after {
+    content: "";
+    width: 90%;
+    height: 0.25rem;
+    background: rgba(50, 50, 50, 0.5);
+    border-radius: 50%;
+    filter: blur(4px);
+    transform: translate(0%, -85%);
+    z-index: -1;
 }
 
 .timeline-entry-source {
@@ -242,7 +264,7 @@ li.timeline-entry .factions .voladores {
     }
 
     .timeline ul li:nth-child(odd) .date::before {
-        clip-path: polygon(0 0, 100% 0, 100% 100%);
+        clip-path: polygon(0 0, 100% 0, 105% 100%);
         left: 0;
     }
 
@@ -251,8 +273,36 @@ li.timeline-entry .factions .voladores {
         left: calc(100% + var(--col-gap) + var(--line-w) / 2);
     }
 
+    .timeline ul li:nth-child(odd) .title,
+    .timeline ul li:nth-child(odd) .descr,
+    .timeline ul li:nth-child(odd) .source {
+        border-left: .2rem solid var(--accent-color-1);
+    }
+
+    .timeline ul li:nth-child(even) .title,
+    .timeline ul li:nth-child(even) .descr,
+    .timeline ul li:nth-child(even) .source {
+        border-right: .2rem solid var(--accent-color-1);
+    }
+
+    .timeline ul li .source,
+    .timeline ul li.marker .title {
+        border-bottom: .2rem solid var(--accent-color-1);
+    }
+
+    .timeline ul li:nth-child(even) .source,
+    .timeline ul li:nth-child(even).marker .title {
+        border-radius: 0 0 1rem 0;
+    }
+
+    .timeline ul li:nth-child(odd) .source,
+    .timeline ul li:nth-child(odd).marker .title {
+        border-radius: 0 0 0 1rem;
+    }
+
+
     .timeline ul li:nth-child(odd).factions-1 .date {
-        background-image: linear-gradient(120deg, var(--accent-color-1) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-1) 89.5%, var(--accent-color-1) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-1) 92%, var(--bgColor) 92.75%);
+        background-image: linear-gradient(120deg, var(--accent-color-1) 50%, var(--accent-color-1) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-1) 89.5%, var(--accent-color-1) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-1) 92%, var(--bgColor) 92.75%);
         background-size: 100%;
     }
 
@@ -266,18 +316,34 @@ li.timeline-entry .factions .voladores {
         background-size: 100%;
     }
 
+    .timeline ul li.factions-2 .date::after {
+        border-top: var(--accent-color-1) .5rem solid;
+        border-right: var(--accent-color-1) .5rem solid;
+        border-bottom: var(--accent-color-2) .5rem solid;
+        border-left: var(--accent-color-2) .5rem solid;
+        background-size: 100%;
+    }
+
+    .timeline ul li.factions-3 .date::after {
+        border-top: var(--accent-color-2) .5rem solid;
+        border-right: var(--accent-color-1) .5rem solid;
+        border-bottom: var(--accent-color-3) .5rem solid;
+        border-left: var(--accent-color-1) .5rem solid;
+        background-size: 100%;
+    }
+
     .timeline ul li:nth-child(even).factions-2 .date {
         background-image: linear-gradient(240deg, var(--accent-color-1) 50%, var(--accent-color-2) 50.5%, var(--accent-color-2) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-2) 89.5%, var(--accent-color-2) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-2) 92%, var(--bgColor) 92.75%);
         background-size: 100%;
     }
 
     .timeline ul li:nth-child(odd).factions-3 .date {
-        background-image: linear-gradient(120deg, var(--accent-color-1) 33%, var(--accent-color-2) 33.5%, var(--accent-color-2) 66% , var(--accent-color-3) 66.5%, var(--accent-color-3) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-3) 89.5%, var(--accent-color-3) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-3) 92%, var(--bgColor) 92.75%);
+        background-image: linear-gradient(120deg, var(--accent-color-1) 33%, var(--accent-color-2) 33.5%, var(--accent-color-2) 66%, var(--accent-color-3) 66.5%, var(--accent-color-3) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-3) 89.5%, var(--accent-color-3) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-3) 92%, var(--bgColor) 92.75%);
         background-size: 100%;
     }
 
     .timeline ul li:nth-child(even).factions-3 .date {
-        background-image: linear-gradient(240deg, var(--accent-color-1) 33%, var(--accent-color-2) 33.5%, var(--accent-color-2) 66% , var(--accent-color-3) 66.5%, var(--accent-color-3) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-3) 89.5%, var(--accent-color-3) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-3) 92%, var(--bgColor) 92.75%);
+        background-image: linear-gradient(240deg, var(--accent-color-1) 33%, var(--accent-color-2) 33.5%, var(--accent-color-2) 66%, var(--accent-color-3) 66.5%, var(--accent-color-3) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-3) 89.5%, var(--accent-color-3) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-3) 92%, var(--bgColor) 92.75%);
         background-size: 100%;
     }
 
