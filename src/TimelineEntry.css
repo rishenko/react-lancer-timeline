@@ -84,7 +84,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
     position: absolute;
     top: 99%;
-    clip-path: polygon(0 0, 105% 0, 0 100%);
+    clip-path: polygon(0 0, 106% 0, 0 100%);
     right: 0rem;
     z-index: 5;
 }
@@ -264,7 +264,7 @@ li.timeline-entry .factions .voladores {
     }
 
     .timeline ul li:nth-child(odd) .date::before {
-        clip-path: polygon(0 0, 100% 0, 105% 100%);
+        clip-path: polygon(0 0, 100% 0, 106% 100%);
         left: 0;
     }
 
@@ -300,6 +300,13 @@ li.timeline-entry .factions .voladores {
         border-radius: 0 0 0 1rem;
     }
 
+    .timeline ul li:nth-child(odd) .date {
+        border-radius: .5rem 0 0 0;
+    }
+
+    .timeline ul li:nth-child(even) .date {
+        border-radius: 0 .5rem 0 0;
+    }
 
     .timeline ul li:nth-child(odd).factions-1 .date {
         background-image: linear-gradient(120deg, var(--accent-color-1) 50%, var(--accent-color-1) 88%, var(--bgColor) 88.5%, var(--bgColor) 89%, var(--accent-color-1) 89.5%, var(--accent-color-1) 90.5%, var(--bgColor) 91%, var(--bgColor) 91.5%, var(--accent-color-1) 92%, var(--bgColor) 92.75%);
