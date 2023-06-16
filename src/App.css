@@ -72,61 +72,48 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.intro .site-status {
-  background: #D55;
-  color: var(--bgColor);
+.intro .notice {
   border-radius: 1rem;
   padding: 1.25rem 2rem 1rem 2rem;
-  margin: 2rem 0 2rem 0;
   align-content: center;
   text-align: center;
   font-size: 1.2rem;
   font-weight: 100%;
   position: relative;
+  margin: 2rem 0 2rem 0;
+  color: var(--bgColor);
+  background: var(--notice-color);
 }
 
-.intro .site-status::before {
+.intro .notice::before {
+  position: absolute;
+  display: block;
+  padding: 0 .75rem 0  .75rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: .75rem;
+  border: .25rem solid var(--notice-color);
+  background: var(--bgColor);
+  color: var(--notice-color);
+}
+
+.intro .notice.site-status {
+  --notice-color: #D55;
+}
+
+.intro .notice.site-status::before {
   content: "SITE STATUS";
-  position: absolute;
-  display: block;
-  padding: 0 .75rem 0  .75rem;
-  color: #D55;
-  background: var(--bgColor);
-  border: .25rem solid #D55;
-  border-radius: 1rem;
-  font-weight: bold;
-  font-size: .75rem;
   transform: translate(0, -2rem);
 }
 
-.intro .callToAction {
-  background: #5D5;
-  color: var(--bgColor);
-  border-radius: 1rem;
-  padding: 1.25rem 2rem 1rem 2rem;
-  margin-bottom: 2rem;
-  align-content: center;
-  text-align: center;
-  font-size: 1.2rem;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 100%;
-  position: relative;
-  margin: 2rem 0 2rem 0;
+.intro .notice.request {
+  --notice-color: #5D5;
+
 }
 
-.intro .callToAction::before {
-  content: "NOTICE";
-  position: absolute;
-  display: block;
-  padding: 0 .75rem 0  .75rem;
-  color: #5D5;
-  background: var(--bgColor);
-  border: .25rem solid #5D5;
-  border-radius: 1rem;
-  font-weight: bold;
+.intro .notice.request::before {
+  content: "REQUEST";
   transform: translate(0, -2rem);
-  font-size: .75rem;
 }
 
 .intro p {

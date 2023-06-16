@@ -72,8 +72,8 @@ function App() {
     <div>
       <h1>Unofficial Lancer Universe Timeline</h1>
       <div className="intro">
-        <div className="site-status">BETA: Currently undergoing testing. Timeline, faction, and source data is incomplete.</div>
-        <div className="callToAction">Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data.</div>
+        <div className="notice site-status">BETA: Currently undergoing testing. Timeline, faction, and source data is incomplete.</div>
+        <div className="notice request">Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data.</div>
         <div className="overview">
           <h2>Overview</h2>
           <p>
