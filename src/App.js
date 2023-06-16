@@ -73,6 +73,7 @@ function App() {
       <h1>Unofficial Lancer Universe Timeline</h1>
       <div className="intro">
         <div className="site-status">BETA: Currently undergoing testing. Timeline, faction, and source data is incomplete.</div>
+        <div className="callToAction">Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data.</div>
         <div className="overview">
           <h2>Overview</h2>
           <p>
@@ -83,6 +84,7 @@ function App() {
             If you would like to contribute your time to this project - whether functionality, typos,
             styling, or timeline entries - please <a href="https://github.com/rishenko/react-lancer-timeline" target="_blank">visit the project page on Github</a>.
           </p>
+
         </div>
         <h2>Filters</h2>
         <p>

@@ -37,7 +37,21 @@ h1 {
 
 h2 {
   margin-bottom: 1rem;
-  border-bottom: solid #aaa 2px;
+  border-bottom: solid #aaa .25rem;
+}
+
+a {
+  font-weight: bold;
+  color: #57f;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #99e;
+}
+
+a:hover {
+  font-size: 105%;
 }
 
 /* Credits */
@@ -61,12 +75,58 @@ h2 {
 .intro .site-status {
   background: #D55;
   color: var(--bgColor);
-  border-radius: 25px;
-  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 1rem;
+  padding: 1.25rem 2rem 1rem 2rem;
+  margin: 2rem 0 2rem 0;
+  align-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 100%;
+  position: relative;
+}
+
+.intro .site-status::before {
+  content: "SITE STATUS";
+  position: absolute;
+  display: block;
+  padding: 0 .75rem 0  .75rem;
+  color: #D55;
+  background: var(--bgColor);
+  border: .25rem solid #D55;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: .75rem;
+  transform: translate(0, -2rem);
+}
+
+.intro .callToAction {
+  background: #5D5;
+  color: var(--bgColor);
+  border-radius: 1rem;
+  padding: 1.25rem 2rem 1rem 2rem;
   margin-bottom: 2rem;
   align-content: center;
   text-align: center;
   font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100%;
+  position: relative;
+  margin: 2rem 0 2rem 0;
+}
+
+.intro .callToAction::before {
+  content: "NOTICE";
+  position: absolute;
+  display: block;
+  padding: 0 .75rem 0  .75rem;
+  color: #5D5;
+  background: var(--bgColor);
+  border: .25rem solid #5D5;
+  border-radius: 1rem;
+  font-weight: bold;
+  transform: translate(0, -2rem);
+  font-size: .75rem;
 }
 
 .intro p {
