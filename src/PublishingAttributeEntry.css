@@ -1,0 +1,16 @@
+.publishing-attribute-legend .publishing-attribute .paname {
+    color: var(--bgColor);
+}
+
+.publishing-attribute-legend .publishing-attribute.first .paname {
+    background-image: var(--pfirst-gradient);
+}
+.publishing-attribute-legend .publishing-attribute.third .paname {
+    background-image: var(--pthird-gradient);
+}
+.publishing-attribute-legend .publishing-attribute.draft .paname {
+    background-image: var(--pdraft-gradient);
+}
+.publishing-attribute-legend .publishing-attribute.published .paname {
+    background-image: var(--ppublished-gradient);
+}

@@ -1,0 +1,55 @@
+.intro div.sources-data {
+    --sources-color-dark: rgba(200,200,200,1);
+    border-radius: 1rem;
+    width: 75%;
+    margin: 2rem auto;
+    overflow: auto; 
+    position: relative;
+    border: .25rem solid var(--sources-color-dark);
+    background-color: var(--bgColor);
+}
+
+table#source-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table#source-table th {
+    padding-bottom: .5rem;
+}
+
+table#source-table td {
+    padding: .5rem .5rem;
+    margin: 0;
+    font-size: 1rem;
+}
+
+table#source-table td.publishing-attributes {
+    text-align: center;
+}
+
+table#source-table thead, table#source-table tr:nth-child(even) {
+    background-color: var(--sources-color-dark);
+}
+
+table#source-table .tag {
+    font-size: .9rem;
+    padding: .2rem .5rem;
+    color: var(--bgColor);
+}
+
+table#source-table .tag.first {
+    background-image: var(--pfirst-gradient);
+}
+
+table#source-table .tag.third {
+    background-image: var(--pthird-gradient);
+}
+
+table#source-table .tag.draft {
+    background-image: var(--pdraft-gradient);
+}
+
+table#source-table .tag.published {
+    background-image: var(--ppublished-gradient);
+}
