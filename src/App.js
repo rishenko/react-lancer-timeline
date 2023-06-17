@@ -110,7 +110,7 @@ function App() {
             <SourceLegend sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} /> 
           </div>
           <div className="publishing-attributes">
-            <h3>Source Attributes</h3>
+            <h3>Publishing Attributes</h3>
             <PublishingAttributeLegend publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} />
           </div>
         </div>
