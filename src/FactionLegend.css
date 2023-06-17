@@ -104,8 +104,7 @@ div.faction-legend .faction .logo.voladores {
   background-image: url('./imgs/logos/voladores.svg');
 }
 
-div.source-legend .source .sname,
-div.publishing-attribute-legend .publishing-attribute .paname {
+div.source-legend .source .sname {
   background-color: #555;
   color: white;
 

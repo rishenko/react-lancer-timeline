@@ -5,6 +5,7 @@ import FactionLegend from './FactionLegend';
 import SourceLegend from './SourceLegend'; 
 import PublishingAttributeLegend from './PublishingAttributeLegend'; 
 import Timeline from './Timeline';
+import SourceTable from './SourceTable';
 import './App.css';
 
 function App() {
@@ -85,6 +86,13 @@ function App() {
             styling, or timeline entries - please <a href="https://github.com/rishenko/react-lancer-timeline" target="_blank">visit the project page on Github</a>.
           </p>
 
+        </div>
+        <h2>Sources</h2>
+        <p>
+          The following table provides information and links to the publications that source many of the timeline entries.
+        </p>
+        <div className="sources-data">
+          <SourceTable sources={data.sources} publishingAttributes={data.publishingAttributes} />
         </div>
         <h2>Filters</h2>
         <p>

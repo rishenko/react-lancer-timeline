@@ -12,6 +12,7 @@
     list-style: none;
     width: min(60rem, 100%);
     margin-inline: auto;
+    margin-top: 2rem;
 }
 
 /* line */
