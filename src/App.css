@@ -31,6 +31,22 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--color);
   background: var(--bgColor);
+  position: relative;
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  background-size: 100rem;
+  background-image: url('./imgs/logos/ra.svg');
+  background-position: top;
+  opacity: .05;
+  background-repeat: no-repeat;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
 }
 
 /* Headers */
