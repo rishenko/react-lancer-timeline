@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-lancer-timeline/static/css/main.77c14a4f.css",
+    "main.css": "/react-lancer-timeline/static/css/main.ea6331e9.css",
     "main.js": "/react-lancer-timeline/static/js/main.6e2a951f.js",
     "static/js/787.a65ebca8.chunk.js": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js",
     "static/media/voladores.svg": "/react-lancer-timeline/static/media/voladores.fa852a020ecd407e4b06.svg",
@@ -16,13 +16,14 @@
     "static/media/powered_by_Lancer.svg": "/react-lancer-timeline/static/media/powered_by_Lancer.e398fe27a9294c5254c019a28ffa2611.svg",
     "static/media/ktb.svg": "/react-lancer-timeline/static/media/ktb.23a4753321dd3fc216a0.svg",
     "static/media/link-icon-symbol.svg": "/react-lancer-timeline/static/media/link-icon-symbol.9105a04075dad07ee192.svg",
+    "static/media/ra.svg": "/react-lancer-timeline/static/media/ra.2ca4b47a5fbc85867192.svg",
     "index.html": "/react-lancer-timeline/index.html",
-    "main.77c14a4f.css.map": "/react-lancer-timeline/static/css/main.77c14a4f.css.map",
+    "main.ea6331e9.css.map": "/react-lancer-timeline/static/css/main.ea6331e9.css.map",
     "main.6e2a951f.js.map": "/react-lancer-timeline/static/js/main.6e2a951f.js.map",
     "787.a65ebca8.chunk.js.map": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77c14a4f.css",
+    "static/css/main.ea6331e9.css",
     "static/js/main.6e2a951f.js"
   ]
 }
