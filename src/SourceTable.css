@@ -1,12 +1,12 @@
 .intro div.sources-data {
-    --sources-color-dark: rgba(200,200,200,1);
+    --sources-color-dark: rgba(200,200,200,.8);
     border-radius: 1rem;
     width: 75%;
     margin: 2rem auto;
     overflow: auto; 
     position: relative;
     border: .25rem solid var(--sources-color-dark);
-    background-color: var(--bgColor);
+    background-color: rgba(240,240,240,.5);
 }
 
 table#source-table {
