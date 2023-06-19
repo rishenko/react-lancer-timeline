@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useContext, useState, useEffect, useRef } from 'react';
 import data from './lancer-timeline-data.json';
 import { ReactComponent as Logo } from './imgs/powered_by_Lancer.svg';
 import FactionLegend from './FactionLegend';
@@ -6,6 +6,7 @@ import SourceLegend from './SourceLegend';
 import PublishingAttributeLegend from './PublishingAttributeLegend'; 
 import Timeline from './Timeline';
 import SourceTable from './SourceTable';
+import {ActionMessageContext} from './ActionMessageContext.js';
 import './App.css';
 
 function App() {
@@ -81,6 +82,7 @@ function App() {
   }
 
   return (
+    <ActionMessageContext.Provider value={showActionMessage}>
     <div>
       <div id="action-message" ref={actionMessageRef}>{actionMessage["message"]}</div>
       <h1>Unofficial Lancer Universe Timeline</h1>
@@ -115,20 +117,20 @@ function App() {
         <div className="filters">
           <div className="legend">
             <h3>Factions</h3>
-            <FactionLegend factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} showActionMessage={showActionMessage} />
+            <FactionLegend factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} />
           </div>
           <div className="sources">
             <h3>Sources</h3>
-            <SourceLegend sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} showActionMessage={showActionMessage} /> 
+            <SourceLegend sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} /> 
           </div>
           <div className="publishing-attributes">
             <h3>Publishing Attributes</h3>
-            <PublishingAttributeLegend publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} showActionMessage={showActionMessage} />
+            <PublishingAttributeLegend publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} />
           </div>
         </div>
       </div>
 
-      <Timeline timelineEntries={data.timeline} factions={data.factions} sources={data.sources} visibleSources={visibleSources} visibleFactions={visibleFactions} showActionMessage={showActionMessage} />
+      <Timeline timelineEntries={data.timeline} factions={data.factions} sources={data.sources} visibleSources={visibleSources} visibleFactions={visibleFactions} />
 
       <div className="legal">
             <Logo alt="Powered by Lancer graphic by Massif Press"/>
@@ -136,6 +138,7 @@ function App() {
             <p>All timeline entries are owned and copyrighted by their respective authors and publishers.</p>
         </div>
     </div>
+    </ActionMessageContext.Provider>
   );
 }
 
