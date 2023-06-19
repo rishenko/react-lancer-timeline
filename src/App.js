@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext, useState, useEffect, useRef } from 'react';
 import data from './lancer-timeline-data.json';
 import { ReactComponent as Logo } from './imgs/powered_by_Lancer.svg';
 import FactionLegend from './FactionLegend';
@@ -6,9 +6,11 @@ import SourceLegend from './SourceLegend';
 import PublishingAttributeLegend from './PublishingAttributeLegend'; 
 import Timeline from './Timeline';
 import SourceTable from './SourceTable';
+import {ActionMessageContext} from './ActionMessageContext.js';
 import './App.css';
 
 function App() {
+  const [actionMessage, setActionMessage] = useState({});
   const [visibleFactions, setVisibleFactions] = useState({});
   const [visibleSources, setVisibleSources] = useState({}); 
   const [visiblePublishingAttributes, setVisiblePublishingAttributes] = useState({}); 
@@ -33,6 +35,7 @@ function App() {
     });
     setVisiblePublishingAttributes(publishingAttributesVisibility);
 
+    setActionMessage({"message": ""});
   }, []);
 
   function toggleFactionVisibility(factionKey) {
@@ -69,8 +72,19 @@ function App() {
     }));
   }
 
+  const actionMessageRef = useRef(null);
+  function showActionMessage(message) {
+    setActionMessage({"message": message});
+    actionMessageRef.current.classList.remove("animate");
+    void actionMessageRef.current.offsetWidth;
+    actionMessageRef.current.classList.add("animate");
+    void actionMessageRef.current.offsetWidth;
+  }
+
   return (
+    <ActionMessageContext.Provider value={showActionMessage}>
     <div>
+      <div id="action-message" ref={actionMessageRef}>{actionMessage["message"]}</div>
       <h1>Unofficial Lancer Universe Timeline</h1>
       <div className="intro">
         <div className="notice site-status">BETA: Currently undergoing testing. Timeline, faction, and source data is incomplete.</div>
@@ -124,6 +138,7 @@ function App() {
             <p>All timeline entries are owned and copyrighted by their respective authors and publishers.</p>
         </div>
     </div>
+    </ActionMessageContext.Provider>
   );
 }
 

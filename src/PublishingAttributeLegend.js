@@ -5,7 +5,7 @@ function PublishingAttributeLegend({ publishingAttributes, togglePublishingAttri
   return (
     <div className="publishing-attribute-legend">
       {Object.keys(publishingAttributes).map((key) => (
-        <PublishingAttributeEntry key={key} publishingAttribute={publishingAttributes[key]} publishingAttributeKey={key} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} isVisible={visiblePublishingAttributes[key]} />
+        <PublishingAttributeEntry key={key} publishingAttribute={publishingAttributes[key]} publishingAttributeKey={key} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} isVisible={visiblePublishingAttributes[key]}/>
       ))}
     </div>
   );
