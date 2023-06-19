@@ -4,6 +4,7 @@ import SourceTableEntry from './SourceTableEntry';
 
 function SourceTable({ sources, publishingAttributes }) {
     return (
+        <div className="sources-data">
         <table id="source-table">
             <thead>
                 <tr>
@@ -18,6 +19,7 @@ function SourceTable({ sources, publishingAttributes }) {
                 })}
             </tbody>
         </table>
+        </div>
     );
 }
 

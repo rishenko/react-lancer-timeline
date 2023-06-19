@@ -3,7 +3,7 @@ import { ActionMessageContext } from './ActionMessageContext';
 
 function FactionEntry({ faction, factionKey, toggleFactionVisibility, isVisible}) {
   const showActionMessage = useContext(ActionMessageContext);
-  const message = <span>Toggling filter {faction.name} {isVisible ? 'ON' : 'OFF'}.</span>;
+  const message = <span>Toggling filter "{faction.name}" {isVisible ? 'ON' : 'OFF'}.</span>;
   return (
     <button onClick={() => {toggleFactionVisibility(factionKey); showActionMessage(message)}}>
       <div className={`faction ${factionKey} ${isVisible ? '' : 'hidden'}`} style={{"--faction-color": faction.color, color: '#fff'}}>

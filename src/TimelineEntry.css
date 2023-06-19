@@ -146,42 +146,37 @@
     border-radius: 50%;
     filter: blur(4px);
     transform: translate(-50%, 50%);
+    bottom: calc(100% + 0.125rem);
 }
 
 .timeline ul li .source::after {
     content: "";
     position: absolute;
     width: 95%;
-    height: 0.75rem;
-    background: rgba(50, 50, 50, 0.5);
+    height: 1rem;
+    background: rgba(50, 50, 50, 0.6);
     left: 50%;
     border-radius: 50%;
     filter: blur(4px);
     transform: translate(-50%, 50%);
+    z-index: -1;
+    bottom: 0.25rem;
 }
 
 .timeline ul li.marker::after {
     content: "";
     width: 90%;
-    height: 0.25rem;
+    height: 1rem;
     background: rgba(50, 50, 50, 0.5);
     border-radius: 50%;
     filter: blur(4px);
+    left: 50%;
     transform: translate(0%, -85%);
     z-index: -1;
 }
 
 .timeline-entry-source {
     display: block;
-}
-
-.timeline ul li .title::before {
-    bottom: calc(100% + 0.125rem);
-}
-
-.timeline ul li .source::after {
-    z-index: -1;
-    bottom: 0.25rem;
 }
 
 /* factions */
@@ -193,7 +188,7 @@ li.timeline-entry .factions {
 
 li.timeline-entry .factions span {
     background-color: var(--bgColor);
-    background-size: 100%;
+    background-size: cover;
     border: 0.3rem solid var(--faction-color);
     border-radius: 50%;
     width: 2.25rem;
