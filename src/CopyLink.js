@@ -7,7 +7,7 @@ function CopyLink({ elementId, name }) {
     async function copyLinkToClipboard() {
         var href = window.location.href.split("#")[0] + `#${elementId}`;
         await navigator.clipboard.writeText(href);
-        showActionMessage(<span>Copied link to <em>{name}</em>.</span>);
+        showActionMessage(<span>Copied link to "{name}".</span>);
     }
 
     return (

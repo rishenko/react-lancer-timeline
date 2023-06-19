@@ -105,14 +105,17 @@ function App() {
         <p>
           The following table provides information and links to the publications that source many of the timeline entries.
         </p>
-        <div className="sources-data">
-          <SourceTable sources={data.sources} publishingAttributes={data.publishingAttributes} />
-        </div>
+        <SourceTable sources={data.sources} publishingAttributes={data.publishingAttributes} />
         <h2>Filters</h2>
         <p>
-          Each button below can be clicked to toggle the visibility of all associated timeline entries.
-          Note that <em>Source Attributes</em> toggle visibility of all sources with those attributes.
-          Finally, the color of each timeline entry matches the corresponding faction's button color.
+          Please keep the following in mind when working with filters:
+          <ul>
+            <li>Each filter button can be clicked to toggle the visibility of all associated timeline entries.</li>
+            <li><em>Faction</em> filters toggle the visibility of timeline entries associated with that faction.</li>
+            <li><em>Source</em> filters toggle the visibility of timeline entries associated with that source.</li>
+            <li><em>Publishing Attribute</em> filters toggle the visibility of all sources with that publishing attribute.</li>
+            <li>A timeline entry will remain visible as long as one or more associated factions AND one or more associated sources is still visible.</li>
+          </ul>
         </p>
         <div className="filters">
           <div className="legend">
