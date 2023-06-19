@@ -4,7 +4,7 @@ import { ActionMessageContext } from './ActionMessageContext';
 
 function PublishingAttributeEntry({ publishingAttribute, publishingAttributeKey, togglePublishingAttributeVisibility, isVisible }) {
   const showActionMessage = useContext(ActionMessageContext);
-  const message = <span>Toggling filterss {publishingAttribute.name} {isVisible ? 'ON' : 'OFF'}.</span>;
+  const message = <span>Toggling filters {publishingAttribute.name} {isVisible ? 'ON' : 'OFF'}.</span>;
   return (
     <button onClick={() => {togglePublishingAttributeVisibility(publishingAttributeKey); showActionMessage(message)}}>
       <div className={`publishing-attribute ${publishingAttributeKey} ${isVisible ? '' : 'hidden'}`}>
