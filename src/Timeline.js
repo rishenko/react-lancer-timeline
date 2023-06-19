@@ -2,7 +2,7 @@ import React from 'react';
 import TimelineEntry from './TimelineEntry';
 import './Timeline.css';
 
-function Timeline({ timelineEntries, factions, sources, visibleFactions, visibleSources }) {
+function Timeline({ timelineEntries, factions, sources, visibleFactions, visibleSources, showActionMessage }) {
 
     /**
      * Sorting function. Logic works as follows:
@@ -54,7 +54,7 @@ function Timeline({ timelineEntries, factions, sources, visibleFactions, visible
             <h2>Timeline</h2>
             <ul>
                 {timelineEntries.sort((a, b) => timelineSortByEraYearIndex(a, b)).map((entry, index) => {
-                    return isTimelineEntryVisible(entry) && <TimelineEntry key={entry.uuid} indexVal={index} entry={entry} factions={factions} sources={sources} anchorId={window.location.href.slice(window.location.href.indexOf("#") + 1)}/>
+                    return isTimelineEntryVisible(entry) && <TimelineEntry key={entry.uuid} indexVal={index} entry={entry} factions={factions} sources={sources} showActionMessage={showActionMessage} anchorId={window.location.href.slice(window.location.href.indexOf("#") + 1)}/>
                 })}
             </ul>
         </div>

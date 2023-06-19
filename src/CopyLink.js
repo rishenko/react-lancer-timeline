@@ -1,12 +1,11 @@
 import { useState } from 'react';
 
-function CopyLink({ elementId }) {
-    const [copySuccess, setCopySuccess] = useState("")
+function CopyLink({ elementId, name, showActionMessage }) {
 
     async function copyLinkToClipboard() {
         var href = window.location.href.split("#")[0] + `#${elementId}`;
         await navigator.clipboard.writeText(href);
-        setCopySuccess("Link copied to clipboard.");
+        showActionMessage(<span>Copied link to <em>{name}</em>.</span>);
     }
 
     return (

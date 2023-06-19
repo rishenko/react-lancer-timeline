@@ -43,10 +43,46 @@ body::after {
   opacity: .05;
   background-repeat: no-repeat;
   top: 0px;
-  left: 0px;
-  right: 0px;
   bottom: 0px;
+  left: 0;
+  right: 0;
   z-index: -1;
+  width: 60rem;
+  margin: 0 auto;
+}
+
+/* Action Message */
+div#action-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 2rem;
+  background-color: #2a2;
+  color: var(--bgColor);
+  z-index: 100;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: .5rem 5rem;
+  display: none;
+}
+
+div#action-message.animate {
+  display: block;
+  -webkit-animation: fadeinout 1.5s linear forwards;
+  animation: fadeinout 1.5s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  10%,90% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  10%,90% { opacity: 1; }
 }
 
 /* Headers */

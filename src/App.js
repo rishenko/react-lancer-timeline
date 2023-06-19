@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import data from './lancer-timeline-data.json';
 import { ReactComponent as Logo } from './imgs/powered_by_Lancer.svg';
 import FactionLegend from './FactionLegend';
@@ -9,6 +9,7 @@ import SourceTable from './SourceTable';
 import './App.css';
 
 function App() {
+  const [actionMessage, setActionMessage] = useState({});
   const [visibleFactions, setVisibleFactions] = useState({});
   const [visibleSources, setVisibleSources] = useState({}); 
   const [visiblePublishingAttributes, setVisiblePublishingAttributes] = useState({}); 
@@ -33,6 +34,7 @@ function App() {
     });
     setVisiblePublishingAttributes(publishingAttributesVisibility);
 
+    setActionMessage({"message": ""});
   }, []);
 
   function toggleFactionVisibility(factionKey) {
@@ -69,8 +71,18 @@ function App() {
     }));
   }
 
+  const actionMessageRef = useRef(null);
+  function showActionMessage(message) {
+    setActionMessage({"message": message});
+    actionMessageRef.current.classList.remove("animate");
+    void actionMessageRef.current.offsetWidth;
+    actionMessageRef.current.classList.add("animate");
+    void actionMessageRef.current.offsetWidth;
+  }
+
   return (
     <div>
+      <div id="action-message" ref={actionMessageRef}>{actionMessage["message"]}</div>
       <h1>Unofficial Lancer Universe Timeline</h1>
       <div className="intro">
         <div className="notice site-status">BETA: Currently undergoing testing. Timeline, faction, and source data is incomplete.</div>
@@ -103,20 +115,20 @@ function App() {
         <div className="filters">
           <div className="legend">
             <h3>Factions</h3>
-            <FactionLegend factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} />
+            <FactionLegend factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} showActionMessage={showActionMessage} />
           </div>
           <div className="sources">
             <h3>Sources</h3>
-            <SourceLegend sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} /> 
+            <SourceLegend sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} showActionMessage={showActionMessage} /> 
           </div>
           <div className="publishing-attributes">
             <h3>Publishing Attributes</h3>
-            <PublishingAttributeLegend publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} />
+            <PublishingAttributeLegend publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} showActionMessage={showActionMessage} />
           </div>
         </div>
       </div>
 
-      <Timeline timelineEntries={data.timeline} factions={data.factions} sources={data.sources} visibleSources={visibleSources} visibleFactions={visibleFactions} />
+      <Timeline timelineEntries={data.timeline} factions={data.factions} sources={data.sources} visibleSources={visibleSources} visibleFactions={visibleFactions} showActionMessage={showActionMessage} />
 
       <div className="legal">
             <Logo alt="Powered by Lancer graphic by Massif Press"/>
