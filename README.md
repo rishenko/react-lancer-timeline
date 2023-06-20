@@ -32,15 +32,47 @@ The top level structure of the JSON data file is as follows:
 
 ### Factions
 
-...
+Faction entries are in the following format:
+
+```text
+"(string; faction unique id, words separated by dashes)": {
+    "name": (string; full name for faction),
+    "color": (string; hexcode for color used in faction buttons and timeline entry background colors)
+}
+```
+
+Example faction entry:
+
+```json
+"union": {
+    "name": "Union",
+    "color": "#000000"
+}
+```
 
 ### Sources
 
-...
 
-### Publishing Attributes
+```text
+ "(string; source unique id, acronyms or single word name preferred)": {
+            "name": (string; full name of source book),
+            "publishingAttributes": [(string; comma separate strings of publishing attribute keys)],
+            "url": "https://massif-press.itch.io/corebook-pdf"
+        },
+```
 
-...
+Example source entry:
+
+```json
+"lcrb": {
+        "name": "Lancer Core Rulebook",
+        "publishingAttributes": [
+            "first",
+            "published"
+        ],
+        "url": "https://massif-press.itch.io/corebook-pdf"
+    }
+```
 
 ### Timeline Entries
 
@@ -49,7 +81,8 @@ Timeline entries are represented in the following format:
 ```text
 {
     "year": (number; start year for the entry),
-    "uuid": (string; unique identifier for timeline entry),
+    "uuid": (required, string; unique identifier for timeline entry, preferably a uuid4),
+    "marker": (optional, boolean; flags this entry as a marker, which has a much smaller footprint and is meant for non-event entries, like a marker every 1000 years),
     "intraYearIndex": (number; index number, where lower is shown first, to be added on events happening in the same year to ensure certain events come before others),
     "era": (string; the era of the timeline designated as "BU" or "U"),
     "factions": [(array of strings: the faction key, choose one from the `factions` node in the JSON data library)],
@@ -57,27 +90,32 @@ Timeline entries are represented in the following format:
     "descr": (string: the description of the timeline entry),
     "sources": [
         {
-            "source": (string: the source of the timeline entry)
+            "source": (string: a source key from the sources list)
             "sourceLocation": (string: the location of the timeline entry in the source, usually pages in a book)
         }
     ]
 }
 ```
 
+Note that all timeline entries must contain a source from a publication.
+
 Example entry:
 
 ```json
 {
-    "year": 5500,
-    "uuid": "95ecff30-9477-4421-bf4e-4eaabc99a34c",
-    "era": "BU",
-    "factions": ["ktb"],
-    "title": "Beginning of The Melee",
-    "descr": "5500-4900bu. After communications with Earth cease due to the Fall, Karrakis planetary admin officials seize control over the colony. The colony devolves into factions and war.",
-    "sources" : [
-        {     
-            "source": "Field Guide to the Karrakin Trade Baronies",
-            "sourceLocation": "pg. 9"
+    "year": 4600,
+    "intraYearIndex": 1,
+    "era": "U",
+    "factions": [
+        "union"
+    ],
+    "title": "Second Committee Surrenders, Founding of Third Committee",
+    "descr": "New stable government in Union is formed, the Third Committee (ThirdComm). The Union Colonial Mission is immediately dissolved and the Union Administrative Department is reconstituted. Expansion is halted.",
+    "uuid": "b9c82cef-354c-4e53-859b-45393767aa30",
+    "sources": [
+        {
+            "sourceKey": "lcrb",
+            "sourceLocation": "pgs. 339"
         }
     ]
 }
@@ -118,7 +156,9 @@ It should be noted that timeline entries are automatically sorted by the React a
 
 This site's content is populated using the data format outlined under _Data Formats_, where all data is stored and pulled from `src/lancer-timeline-data.json`. All data contributions should follow the above data formats and pattern. It should be noted that there is no required ordering of nodes or list items in any of the data structures.
 
-**FOR AUTHORS OF PUBLISHED THIRD PARTY CONTENT**: This project is more than happy to receive and present any timeline data from people who have published third party content. All entries have sources at the bottom that link to a given source's home or store page.
+#### FOR AUTHORS OF PUBLISHED THIRD PARTY CONTENT
+
+This project is more than happy to receive and present any timeline data from people who have published third party content. All entries have sources at the bottom that link to a given source's home or store page.
 
 If the submitter is not the author of the third party content, the submitter will need to present some form of validation that they have received consent from the author, or have the content author contact the admins of this project.
 
@@ -131,6 +171,8 @@ Please keep those things in mind when making suggestions or submitting PRs for f
 ## Credits
 
 This timeline would not be possible without all of the hard work by Massif Press' Lancer team and the many supporters and third party content creators. All SVG faction logos were borrowed from Massif's Compcon repo.
+
+All timeline entries are credited to their authors via links to Sources.
 
 The original design of the timeline is based on the following CodePen:
 A Pen created on CodePen.io. Original URL: [https://codepen.io/MarkBoots/pen/OJOqNyB](https://codepen.io/MarkBoots/pen/OJOqNyB).
