@@ -87,7 +87,7 @@ function App() {
       <div id="action-message" ref={actionMessageRef}>{actionMessage["message"]}</div>
       <h1>Unofficial Lancer Universe Timeline</h1>
       <div className="intro">
-        <div className="notice site-status">BETA: Currently undergoing testing. Timeline, faction, and source data is incomplete.</div>
+        {/* <div className="notice site-status"></div> */}
         <div className="notice request">Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data.</div>
         <div className="overview">
           <h2>Overview</h2>
@@ -109,14 +109,14 @@ function App() {
         <h2>Filters</h2>
         <p>
           Please keep the following in mind when working with filters:
-          <ul>
-            <li>Each filter button can be clicked to toggle the visibility of all associated timeline entries.</li>
-            <li><em>Faction</em> filters toggle the visibility of timeline entries associated with that faction.</li>
-            <li><em>Source</em> filters toggle the visibility of timeline entries associated with that source.</li>
-            <li><em>Publishing Attribute</em> filters toggle the visibility of all sources with that publishing attribute.</li>
-            <li>A timeline entry will remain visible as long as one or more associated factions AND one or more associated sources is still visible.</li>
-          </ul>
         </p>
+        <ul>
+          <li>Each filter button can be clicked to toggle the visibility of all associated timeline entries.</li>
+          <li><em>Faction</em> filters toggle the visibility of timeline entries associated with that faction.</li>
+          <li><em>Source</em> filters toggle the visibility of timeline entries associated with that source.</li>
+          <li><em>Publishing Attribute</em> filters toggle the visibility of all sources with that publishing attribute.</li>
+          <li>A timeline entry will remain visible as long as one or more associated factions AND one or more associated sources is still visible.</li>
+        </ul>
         <div className="filters">
           <div className="legend">
             <h3>Factions</h3>

@@ -203,6 +203,10 @@ a:hover {
   margin-left: 2rem;
 }
 
+.intro .filters {
+  margin-top: 1rem;
+}
+
 /* Legal */
 div.legal {
   width: 60rem;
