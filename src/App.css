@@ -149,6 +149,7 @@ a:hover {
 .intro #site-messages div#notice-container {
     --notice-color: #4d4;
     --sources-color-dark: rgba(200, 200, 200);
+    width: 100%;
     position:relative;
 }
 

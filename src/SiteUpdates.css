@@ -1,6 +1,6 @@
 div#site-updates-container {
     --sources-color-dark: #555;
-    width: 75%;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
