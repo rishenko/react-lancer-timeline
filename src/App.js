@@ -7,6 +7,7 @@ import PublishingAttributeLegend from './PublishingAttributeLegend';
 import Timeline from './Timeline';
 import SourceTable from './SourceTable';
 import {ActionMessageContext} from './ActionMessageContext.js';
+import SiteUpdates from './SiteUpdates';
 import './App.css';
 
 function App() {
@@ -87,8 +88,14 @@ function App() {
       <div id="action-message" ref={actionMessageRef}>{actionMessage["message"]}</div>
       <h1>Unofficial Lancer Universe Timeline</h1>
       <div className="intro">
-        {/* <div className="notice site-status"></div> */}
-        <div className="notice request">Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data.</div>
+        <div id="site-messages">
+          <SiteUpdates />
+          <div id="notice-container">
+            <h3>COMMUNITY REQUEST</h3>
+          {/* <div className="notice site-status"></div> */}
+          <div className="notice request">Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data.</div>         
+          </div>
+        </div>
         <div className="overview">
           <h2>Overview</h2>
           <p>

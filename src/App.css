@@ -135,32 +135,52 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.intro .notice {
+.intro #site-messages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  max-height: 20rem;
+}
+
+.intro #site-messages div#notice-container {
+    --notice-color: #4d4;
+    --sources-color-dark: rgba(200, 200, 200);
+    position:relative;
+}
+
+.intro #site-messages div#notice-container h3 {
+    font-size: .9rem;
+    background-color: var(--notice-color);
+    padding: 0 .75rem 0  .75rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: .85rem;
+    border: .25rem solid var(--notice-color);
+    width: 50%;
+    top: .25rem;
+    margin: 0 auto;
+    color: var(--bgColor);
+  transform: translate(0, .5rem);
+  z-index: 1;
+}
+
+.intro #site-messages div#notice-container .notice {
   border-radius: 1rem;
   padding: 1.25rem 2rem 1rem 2rem;
   align-content: center;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 100%;
   position: relative;
-  margin: 2rem 0 2rem 0;
   color: var(--bgColor);
   background: var(--notice-color);
 }
 
-.intro .notice::before {
-  position: absolute;
-  display: block;
-  padding: 0 .75rem 0  .75rem;
-  border-radius: 1rem;
-  font-weight: bold;
-  font-size: .75rem;
-  border: .25rem solid var(--notice-color);
-  background: var(--bgColor);
-  color: var(--notice-color);
-}
-
-.intro .notice::after {
+.intro #site-messages div#notice-container .notice::after {
   content: "";
   display: block;
   position: absolute;
@@ -175,22 +195,12 @@ a:hover {
   bottom: 0.25rem;
 }
 
-.intro .notice.site-status {
+.intro #site-messages div#notice-container .notice.site-status {
   --notice-color: #D55;
 }
 
-.intro .notice.site-status::before {
+.intro #site-messages div#notice-container .notice.site-status::before {
   content: "SITE STATUS";
-  transform: translate(0, -2rem);
-}
-
-.intro .notice.request {
-  --notice-color: #5D5;
-
-}
-
-.intro .notice.request::before {
-  content: "REQUEST";
   transform: translate(0, -2rem);
 }
 
