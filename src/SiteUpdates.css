@@ -1,61 +1,48 @@
-div#site-updates-container {
-    --sources-color-dark: #555;
+#site-updates-container {
+    --notice-color: #555;
     width: 100%;
     position: relative;
     margin: 0 auto;
 }
 
-div#site-updates-container::after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 95%;
-    height: 1rem;
-    background: rgba(50, 50, 50, 0.4);
-    left: 50%;
-    border-radius: 50%;
-    filter: blur(4px);
-    transform: translate(-50%, 50%);
-    z-index: -1;
-    bottom: 0.25rem;
-    
-  }
-
-div#site-updates-container h3 {
-    font-size: .9rem;
-    background-color: var(--sources-color-dark);
-    padding: 0 .75rem 0  .75rem;
-    border-radius: 1rem;
-    font-weight: bold;
-    font-size: .85rem;
-    border: .25rem solid var(--sources-color-dark);
-    width: 50%;
-    top: .25rem;
-    margin: 0 auto;
-    color: var(--bgColor);
-  transform: translate(0, .5rem);
-  z-index: 1;
+#site-updates-container h3 {
+    --notice-color: #555;
+    --scroll-color: #666;
 }
 
-div#site-updates {
+#site-messages div.notice-container#site-updates {
     border-radius: 1rem;
     margin: 0 auto;
+    padding: 0;
     padding-top: 1rem;
     position: relative;
-    border: .25rem solid var(--sources-color-dark);
-    background-color: var(--sources-color-dark);
+    border: .25rem solid var(--notice-color);
+    background-color: var(--notice-color);
     max-height: 15rem;
-    overflow: hidden;
     color: var(--bgColor);
 }
 
-
-div#site-updates ul.site-updates-list {
+#site-updates ul.site-updates-list {
     max-height: 10rem;
-    overflow-y: auto;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-margin: 0px;
 }
 
-div#site-updates ul li.update {
+#site-updates ul.site-updates-list::-webkit-scrollbar {
+    width: .25rem;
+}
+
+#site-updates ul.site-updates-list::-webkit-scrollbar-track {
+    background: var(--notice-color);
+}
+
+#site-updates ul.site-updates-list::-webkit-scrollbar-thumb {
+    background-color: var(--bgColor);
+    border-radius: .25rem;
+}
+
+#site-updates ul li.update {
     list-style: none;
     list-style-position: 0;
     font-size: .8rem;
@@ -64,6 +51,6 @@ div#site-updates ul li.update {
     font-weight: bold;
 }
 
-div#site-updates ul li.update li {
+#site-updates ul li.update li {
     font-weight: normal;
 }
