@@ -1,0 +1,25 @@
+{
+    "updates": [
+        {
+            "date": "2023-06-22T08:00:00.000Z",
+            "details": [
+                "fixed scrolling issue with timeline entry link",
+                "added section for site updates",
+                "consolidated notice and site update code to 2-column top bar"
+            ]
+        },
+        {
+            "date": "2023-06-20T08:00:00.000Z",
+            "details": [
+                "site went live"
+            ]
+        }
+    ],
+    "messages": [
+        {
+            "type": "request",
+            "title": "Community Request",
+            "message": "Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data."
+        }
+    ]
+}

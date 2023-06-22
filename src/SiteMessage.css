@@ -1,0 +1,7 @@
+#site-messages div.notice-container.request {
+    --notice-color: #4d4;
+}
+
+#site-messages div.notice-container.alert {
+    --notice-color: #D55;
+}

@@ -14,14 +14,6 @@
     position: relative;
 }
 
-#site-messages div.notice-container.request {
-    --notice-color: #4d4;
-}
-
-#site-messages div.notice-container.alert {
-    --notice-color: #D55;
-}
-
 #site-messages h3 {
     font-size: .9rem;
     background-color: var(--notice-color);
