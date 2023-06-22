@@ -60,6 +60,18 @@ div.faction-legend .faction .fname {
   margin-left: 1.5rem;
 }
 
+div.faction-legend .faction.no-faction .fname {
+  margin-left: 0;
+}
+
+
+div.faction-legend .faction .logo.no-faction {
+  margin-left: 0;
+  background: none;
+  border: none;
+  float: left;
+}
+
 div.faction-legend .faction .logo.ktb {
   background-image: url('./imgs/logos/ktb.svg');
 }
