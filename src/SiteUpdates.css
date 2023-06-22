@@ -1,0 +1,56 @@
+#site-updates-container {
+    --notice-color: #555;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#site-updates-container h3 {
+    --notice-color: #555;
+    --scroll-color: #666;
+}
+
+#site-messages div.notice-container#site-updates {
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 1rem;
+    position: relative;
+    border: .25rem solid var(--notice-color);
+    background-color: var(--notice-color);
+    max-height: 15rem;
+    color: var(--bgColor);
+}
+
+#site-updates ul.site-updates-list {
+    max-height: 10rem;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-margin: 0px;
+}
+
+#site-updates ul.site-updates-list::-webkit-scrollbar {
+    width: .25rem;
+}
+
+#site-updates ul.site-updates-list::-webkit-scrollbar-track {
+    background: var(--notice-color);
+}
+
+#site-updates ul.site-updates-list::-webkit-scrollbar-thumb {
+    background-color: var(--bgColor);
+    border-radius: .25rem;
+}
+
+#site-updates ul li.update {
+    list-style: none;
+    list-style-position: 0;
+    font-size: .8rem;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+#site-updates ul li.update li {
+    font-weight: normal;
+}
