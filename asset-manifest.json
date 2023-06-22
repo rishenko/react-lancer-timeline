@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-lancer-timeline/static/css/main.1d6c41a1.css",
-    "main.js": "/react-lancer-timeline/static/js/main.93f5191f.js",
+    "main.css": "/react-lancer-timeline/static/css/main.69ff37c8.css",
+    "main.js": "/react-lancer-timeline/static/js/main.6ef2f61e.js",
     "static/js/787.a65ebca8.chunk.js": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js",
     "static/media/powered_by_Lancer.svg": "/react-lancer-timeline/static/media/powered_by_Lancer.e398fe27a9294c5254c019a28ffa2611.svg",
     "static/media/ssc.svg": "/react-lancer-timeline/static/media/ssc.92962d139b8b5b37019e.svg",
@@ -18,12 +18,12 @@
     "static/media/link-icon-symbol.svg": "/react-lancer-timeline/static/media/link-icon-symbol.9105a04075dad07ee192.svg",
     "static/media/ra.svg": "/react-lancer-timeline/static/media/ra.2ca4b47a5fbc85867192.svg",
     "index.html": "/react-lancer-timeline/index.html",
-    "main.1d6c41a1.css.map": "/react-lancer-timeline/static/css/main.1d6c41a1.css.map",
-    "main.93f5191f.js.map": "/react-lancer-timeline/static/js/main.93f5191f.js.map",
+    "main.69ff37c8.css.map": "/react-lancer-timeline/static/css/main.69ff37c8.css.map",
+    "main.6ef2f61e.js.map": "/react-lancer-timeline/static/js/main.6ef2f61e.js.map",
     "787.a65ebca8.chunk.js.map": "/react-lancer-timeline/static/js/787.a65ebca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d6c41a1.css",
-    "static/js/main.93f5191f.js"
+    "static/css/main.69ff37c8.css",
+    "static/js/main.6ef2f61e.js"
   ]
 }
