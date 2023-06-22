@@ -1728,16 +1728,17 @@
         {
             "year": 5014,
             "era": "U",
+            "marker": true,
             "factions": [
                 "no-faction"
             ],
             "title": "Events from No Room for a Wallflower Act I",
-            "descr": "The events from No Room for a Wallflower Act I takes place between spring and fall of 5014.",
+            "descr": "",
             "uuid": "61b2cb52-a2d9-46cc-a5c1-d745464ba7a3",
             "sources": [
                 {
-                    "sourceKey": "nrfw",
-                    "sourceLocation": "pg. 1"
+                    "sourceKey": "no-source",
+                    "sourceLocation": ""
                 }
             ]
         },
