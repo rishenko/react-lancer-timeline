@@ -40,7 +40,7 @@ function TimelineEntry({ indexVal, entry, factions, sources, anchorId }) {
   return (
     <li id={entry.uuid} className={`timeline-entry ${sourceKeyText} ${markerClass} factions-${numFactions}`} style={accentColors} ref={timelineEntryRef}>
       <div className="factions">{entry.factions.map((faction, i) => {
-        return <span key={faction} className={faction} style={{ "--faction-color": factions[faction].color }} title={factions[faction].name} />;
+        return faction != 'no-faction' && <span key={faction} className={faction} style={{ "--faction-color": factions[faction].color }} title={factions[faction].name} />;
       })}</div>
       <div className="date" style={accentColors}>{entry.year}{entry.era}</div>
       <div className="title"><CopyLink elementId={entry.uuid} name={entry.title} />{entry.title}</div>

@@ -5,7 +5,7 @@ function TimelineEntrySource({ sourceEntry, source }) {
 
   return (
     <div className={`timeline-entry-source ${sourceEntry.sourceKey}`}>
-      <a href={source.url}>{source.name}</a>{sourceLocation}
+      <a href={source.url} target="_blank">{source.name}</a>{sourceLocation}
     </div>
   );
 }
