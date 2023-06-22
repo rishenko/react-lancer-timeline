@@ -1,15 +1,20 @@
 {
     "updates": [
         {
-            "date": "2023-06-22T08:00:00.000Z",
+            "date": "2023-06-22T00:00:00.000Z",
             "details": [
+                "added No Room for Wallflower Act I data",
+                "fixed Ras Shamra typos",
+                "added flag to sources to filter out specified sources by default",
+                "fixed timeline entry links to open in a new tab",
+                "removed empty faction circles from entries and button for no-faction",
                 "fixed scrolling issue with timeline entry link",
                 "added section for site updates",
                 "consolidated notice and site update code to 2-column top bar"
             ]
         },
         {
-            "date": "2023-06-20T08:00:00.000Z",
+            "date": "2023-06-20T00:00:00.000Z",
             "details": [
                 "site went live"
             ]
