@@ -100,6 +100,15 @@
             ],
             "url": "#"
         },
+        "nrfw": {
+            "name": "No Room for a Wallflower Act I",
+            "publishingAttributes": [
+                "first",
+                "published"
+            ],
+            "url": "https://massif-press.itch.io/no-room-for-a-wallflower-act-1",
+            "defaultFilteredStatus": true
+        },
         "no-source": {
             "name": "No Source",
             "publishingAttributes": [],
@@ -999,7 +1008,7 @@
                 "union"
             ],
             "title": "Ras Shamra Colony Approved",
-            "descr": "Rights given to mining families to colonize Ras Sharma.",
+            "descr": "Rights given to mining families to colonize Ras Shamra.",
             "uuid": "b7d4e84e-3008-43d0-aee9-5cccdf5e05a2",
             "sources": [
                 {
@@ -1147,7 +1156,7 @@
                 "union"
             ],
             "title": "Second Temperate Period on Ras Shamra",
-            "descr": "3600-4500u. This period sees Ras Sharma turn into a global GMS powerhouse and supply 30% of all infantry, terrestrial armored vehicle, aerial, and orbital weaponry for the Second Committee.",
+            "descr": "3600-4500u. This period sees Ras Shamra turn into a global GMS powerhouse and supply 30% of all infantry, terrestrial armored vehicle, aerial, and orbital weaponry for the Second Committee.",
             "uuid": "583d7b43-285d-402d-855b-fa253ea713d5",
             "sources": [
                 {
@@ -1204,6 +1213,22 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
+                }
+            ]
+        },
+        {
+            "year": 4560,
+            "era": "U",
+            "factions": [
+                "union"
+            ],
+            "title": "Second Committee Launches TBK on Hercynia",
+            "descr": "A protracted war, lasting for sixty years, on Hercynia culminates in the Second Committee's use of a Total Biome Killer, TBK for short, that devestates the surface and environments of the planet.",
+            "uuid": "90cb7632-408e-462b-8ac6-aad26b5d74f0",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pgs. 22"
                 }
             ]
         },
@@ -1388,6 +1413,38 @@
             ]
         },
         {
+            "year": 4814,
+            "era": "U",
+            "factions": [
+                "no-faction"
+            ],
+            "title": "Birth of the Egregorian Overmind Endeavor",
+            "descr": "Approximate year Endeavor, a name later given by the Hercynians who found them, is born.",
+            "uuid": "61b2cb52-a1c8-46cc-a5c1-d745464ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 121"
+                }
+            ]
+        },
+        {
+            "year": 4814,
+            "era": "U",
+            "factions": [
+                "no-faction"
+            ],
+            "title": "Aboveground Farming on Hercynia Becomes Possible",
+            "descr": "The effects of Second Committee's TBK, and other relevant events, devestated Hercynia's above ground landscape for hundreds of years.",
+            "uuid": "61b2cb52-a1c8-49aa-a5c1-d745aa4ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 120"
+                }
+            ]
+        },
+        {
             "year": 4815,
             "era": "U",
             "factions": [
@@ -1464,6 +1521,102 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 196"
+                }
+            ]
+        },
+        {
+            "year": 4943,
+            "era": "U",
+            "factions": [
+                "union"
+            ],
+            "title": "Union Survey Drones Rediscover Hercynia",
+            "descr": "Union survey drones on a routine contraction-zone survey discover radio emissions and more coming from Hercynia.",
+            "uuid": "61aacb52-a1c8-49aa-a5c1-d745464ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 15"
+                }
+            ]
+        },
+        {
+            "year": 4954,
+            "era": "U",
+            "factions": [
+                "no-faction"
+            ],
+            "title": "The Hercynian United Cities is Founded",
+            "descr": "The Machine's attacks on Solo Terra lead to surrounding city-states forming a confederacy - the Hercynian United Cities.",
+            "uuid": "61b2cbf2-a1c8-49aa-a5c1-d745463ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pgs. 25"
+                }
+            ]
+        },
+        {
+            "year": 4964,
+            "era": "U",
+            "factions": [
+                "ssc"
+            ],
+            "title": "Landmark Colonial Makes Landfall on Hercynia",
+            "descr": "Landmark Colonial, one of SSC's autonomous subsidiaries, makes landfall on the planet Hercynia and establishes the Evergreen colony.",
+            "uuid": "61b2cb52-a1c8-49aa-a5c1-d745464ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 24"
+                }
+            ]
+        },
+        {
+            "year": 4964,
+            "era": "U",
+            "factions": [
+                "ssc"
+            ],
+            "title": "Founding of Merricktown on Hercynia",
+            "descr": "Jacob Merrick's grandfather creates a sublease town outside Evergreen - Merricktown.",
+            "uuid": "61b2cb52-a1c8-49aa-a5c1-d74ff63ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 99"
+                }
+            ]
+        },
+        {
+            "year": 4964,
+            "era": "U",
+            "factions": [
+                "no-faction"
+            ],
+            "title": "War Breaks Out Between the HUC and the Machine",
+            "descr": "The Machine begins advancing on the Hercynian United Cities.",
+            "uuid": "61b2cb52-a1c8-a9aa-a5c1-d745463ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pgs. 122,134"
+                }
+            ]
+        },
+        {
+            "year": 4984,
+            "era": "U",
+            "factions": [
+                "no-faction"
+            ],
+            "title": "The Chaus Family Arrives at Evergreen",
+            "descr": "Matriarchs Maggie and Weiyi Chau arrive in Evergreen, a colony on Hercynia, aboard a hauling skiff with little fuel.",
+            "uuid": "61f2cb5f-a1c8-49aa-a5c1-d745464ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 53"
                 }
             ]
         },
@@ -1553,6 +1706,38 @@
                 {
                     "sourceKey": "fgaun",
                     "sourceLocation": "pgs. 70"
+                }
+            ]
+        },
+        {
+            "year": 5012,
+            "era": "U",
+            "factions": [
+                "ssc"
+            ],
+            "title": "Unknown Assailants Attack Evergreen",
+            "descr": "Unknown assailants begin a series of attacks against Evergreen, a colony on the planet Hercynia.",
+            "uuid": "51b2cb52-a1c8-4daa-a5d1-d745464ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 24"
+                }
+            ]
+        },
+        {
+            "year": 5014,
+            "era": "U",
+            "factions": [
+                "no-faction"
+            ],
+            "title": "Events from No Room for a Wallflower Act I",
+            "descr": "The events from No Room for a Wallflower Act I takes place between spring and fall of 5014.",
+            "uuid": "61b2cb52-a2d9-46cc-a5c1-d745464ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "nrfw",
+                    "sourceLocation": "pg. 1"
                 }
             ]
         },
