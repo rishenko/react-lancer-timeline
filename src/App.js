@@ -26,7 +26,11 @@ function App() {
 
     const sourcesVisibility = {};
     Object.keys(data.sources).forEach(sourceKey => {
-      sourcesVisibility[sourceKey] = true;
+      if (data.sources[sourceKey].defaultFilteredStatus) {
+        sourcesVisibility[sourceKey] = false;
+      } else {
+        sourcesVisibility[sourceKey] = true;
+      }
     });
     setVisibleSources(sourcesVisibility);
 
@@ -114,7 +118,8 @@ function App() {
             <li><em>Faction</em> filters toggle the visibility of timeline entries associated with that faction.</li>
             <li><em>Source</em> filters toggle the visibility of timeline entries associated with that source.</li>
             <li><em>Publishing Attribute</em> filters toggle the visibility of all sources with that publishing attribute.</li>
-            <li>A timeline entry will remain visible as long as one or more associated factions AND one or more associated sources is still visible.</li>
+            <li>A timeline entry will remain visible as long as one or more factions AND one or more sources are still visible.</li>
+            <li>Sources representing campaign modules are automatically filtered out by default to avoid accidentally spoilers.</li>
           </ul>
           <div className="filters">
             <div className="legend">
