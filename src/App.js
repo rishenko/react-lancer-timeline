@@ -44,17 +44,35 @@ function App() {
   }, []);
 
   function toggleFactionVisibility(factionKey) {
-    setVisibleFactions(prevState => ({
-      ...prevState,
-      [factionKey]: !prevState[factionKey]
-    }));
+    if (factionKey === 'all-factions') {
+      var toggleVal = !visibleFactions['all-factions'];
+      const factionsVisibility = {};
+      Object.keys(visibleFactions).forEach(factionKey => {
+        factionsVisibility[factionKey] = toggleVal;
+      });
+      setVisibleFactions(factionsVisibility);
+    } else {
+      setVisibleFactions(prevState => ({
+        ...prevState,
+        [factionKey]: !prevState[factionKey]
+      }));
+    }
   };
 
   function toggleSourceVisibility(sourceKey) {
-    setVisibleSources(prevState => ({
-      ...prevState,
-      [sourceKey]: !prevState[sourceKey]
-    }));
+    if (sourceKey === 'all-sources') {
+      var toggleVal = !visibleSources['all-sources'];
+      const sourcesVisibility = {};
+      Object.keys(visibleSources).forEach(sourceKey => {
+        sourcesVisibility[sourceKey] = toggleVal;
+      });
+      setVisibleSources(sourcesVisibility);
+    } else {
+      setVisibleSources(prevState => ({
+        ...prevState,
+        [sourceKey]: !prevState[sourceKey]
+      }));
+    }
   };
 
   function togglePublishingAttributeVisibility(attributeKey) {

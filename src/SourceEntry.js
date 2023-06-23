@@ -6,8 +6,8 @@ function SourceEntry({ source, sourceKey, toggleSourceVisibility, isVisible }) {
   const message = <span>Toggling filter "{source.name}" {isVisible ? 'ON' : 'OFF'}.</span>;
   return (
     <button onClick={() => {toggleSourceVisibility(sourceKey); showActionMessage(message)}}>
-      <div className={`source ${source.name} ${isVisible ? '' : 'hidden'}`}>
-        <div className="sname">{source.name}</div>
+      <div className={`source ${sourceKey} ${isVisible ? '' : 'hidden'}`}>
+        <div className={`sname ${sourceKey}`}>{source.name}</div>
       </div>
     </button>
   );

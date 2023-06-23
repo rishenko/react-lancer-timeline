@@ -60,13 +60,15 @@ div.faction-legend .faction .fname {
   margin-left: 1.5rem;
 }
 
-div.faction-legend .faction.no-faction .fname {
-  margin-left: 0;
+div.faction-legend .faction.no-faction .fname,
+div.faction-legend .faction.all-factions .fname {
+  margin-left: 0rem;
 }
 
 
-div.faction-legend .faction .logo.no-faction {
-  margin-left: 0;
+div.faction-legend .faction .logo.no-faction,
+div.faction-legend .faction .logo.all-factions {
+  margin-left: 0rem;
   background: none;
   border: none;
   float: left;
@@ -119,7 +121,11 @@ div.faction-legend .faction .logo.voladores {
 div.source-legend .source .sname {
   background-color: #555;
   color: white;
+}
 
+div.source-legend .source .sname.all-sources {
+  background-color: #888;
+  color: white;
 }
 
 .faction.hidden,
