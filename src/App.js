@@ -43,36 +43,29 @@ function App() {
     setActionMessage({ "message": "" });
   }, []);
 
-  function toggleFactionVisibility(factionKey) {
-    if (factionKey === 'all-factions') {
-      var toggleVal = !visibleFactions['all-factions'];
-      const factionsVisibility = {};
-      Object.keys(visibleFactions).forEach(factionKey => {
-        factionsVisibility[factionKey] = toggleVal;
+  /* Category visibility functions */
+  function toggleVisibilities(categoryKey, visibleCategories, categoryVisibilityFunction) {
+    if (categoryKey === categoryKey) {
+      var toggleVal = !visibleCategories[categoryKey];
+      const categoriesVisibility = {};
+      Object.keys(visibleCategories).forEach(categoryKey => {
+        categoriesVisibility[categoryKey] = toggleVal;
       });
-      setVisibleFactions(factionsVisibility);
+      categoryVisibilityFunction(categoriesVisibility);
     } else {
-      setVisibleFactions(prevState => ({
+      categoryVisibilityFunction(prevState => ({
         ...prevState,
-        [factionKey]: !prevState[factionKey]
+        [categoryKey]: !prevState[categoryKey]
       }));
     }
+  }
+
+  function toggleFactionVisibility(factionKey) {
+    toggleVisibilities(factionKey, visibleFactions, setVisibleFactions);
   };
 
   function toggleSourceVisibility(sourceKey) {
-    if (sourceKey === 'all-sources') {
-      var toggleVal = !visibleSources['all-sources'];
-      const sourcesVisibility = {};
-      Object.keys(visibleSources).forEach(sourceKey => {
-        sourcesVisibility[sourceKey] = toggleVal;
-      });
-      setVisibleSources(sourcesVisibility);
-    } else {
-      setVisibleSources(prevState => ({
-        ...prevState,
-        [sourceKey]: !prevState[sourceKey]
-      }));
-    }
+    toggleVisibilities(sourceKey, visibleSources, setVisibleSources);
   };
 
   function togglePublishingAttributeVisibility(attributeKey) {
@@ -95,6 +88,7 @@ function App() {
     }));
   }
 
+  /* Message display function */
   const actionMessageRef = useRef(null);
   function showActionMessage(message) {
     setActionMessage({ "message": message });
