@@ -44,8 +44,8 @@ function App() {
   }, []);
 
   /* Category visibility functions */
-  function toggleVisibilities(categoryKey, visibleCategories, categoryVisibilityFunction) {
-    if (categoryKey === categoryKey) {
+  function toggleVisibilities(allCategoryKey, categoryKey, visibleCategories, categoryVisibilityFunction) {
+    if (categoryKey === allCategoryKey) {
       var toggleVal = !visibleCategories[categoryKey];
       const categoriesVisibility = {};
       Object.keys(visibleCategories).forEach(categoryKey => {
@@ -61,11 +61,11 @@ function App() {
   }
 
   function toggleFactionVisibility(factionKey) {
-    toggleVisibilities(factionKey, visibleFactions, setVisibleFactions);
+    toggleVisibilities("all-factions", factionKey, visibleFactions, setVisibleFactions);
   };
 
   function toggleSourceVisibility(sourceKey) {
-    toggleVisibilities(sourceKey, visibleSources, setVisibleSources);
+    toggleVisibilities("all-sources", sourceKey, visibleSources, setVisibleSources);
   };
 
   function togglePublishingAttributeVisibility(attributeKey) {
