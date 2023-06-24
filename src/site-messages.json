@@ -1,7 +1,14 @@
 {
     "updates": [
+
         {
-            "date": "2023-06-22T00:00:00.000Z",
+            "date": "2023-06-24T12:00:00.000Z",
+            "details": [
+                "added All Factions and All Sources filter buttons and faction/source data"
+            ]
+        },
+        {
+            "date": "2023-06-22T12:00:00.000Z",
             "details": [
                 "added No Room for Wallflower Act I data",
                 "fixed Ras Shamra typos",
@@ -14,7 +21,7 @@
             ]
         },
         {
-            "date": "2023-06-20T00:00:00.000Z",
+            "date": "2023-06-20T12:00:00.000Z",
             "details": [
                 "site went live"
             ]
