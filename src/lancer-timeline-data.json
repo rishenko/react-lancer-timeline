@@ -1835,7 +1835,7 @@
                 "ha", "ktb", "union"
             ],
             "title": "The Battle for New Creighton",
-            "descr": "Late 5019. Harrison Armory and the Perfect Ministeriat launch a campaign against the Concordant Administration and Baronic forces both on and above New Creighton. Union creates a battlegroup enforced corridor to support evacuation, leading to the Armory firing on Union forces.",
+            "descr": "Late 5019u. Harrison Armory and the Perfect Ministeriat launch a campaign against the Concordant Administration and Baronic forces both on and above New Creighton. Union creates a battlegroup enforced corridor to support evacuation, leading to the Armory firing on Union forces.",
             "uuid": "51b2bb52-f2ff-4daa-a5d1-d745464bffee",
             "sources": [
                 {
@@ -1852,7 +1852,7 @@
                 "union", "ktb", "ha"
             ],
             "title": "Union Disables Dawnline Shore Blink Gate",
-            "descr": "Rapidly escalating tensions and violence between the Baronies and Harrison Armory in the Dawnline Shore causes Union to shutdown the as yet unnamed Dawnline Shore blink gate.",
+            "descr": "Late 5019u. Rapidly escalating tensions and violence between the Baronies and Harrison Armory in the Dawnline Shore causes Union to shutdown the as yet unnamed Dawnline Shore blink gate.",
             "uuid": "51b2bb52-ffaf-4daa-a5d1-d745464bffee",
             "sources": [
                 {
@@ -1869,7 +1869,7 @@
                 "union", "ha", "ktb"
             ],
             "title": "The Armory's Defense of Harrison's World",
-            "descr": "Early 5020. Union launches a surgical strike against a major fabrication facility on Harrison's World. The Armory defends orbital shipyards from incoming Baronic forces.",
+            "descr": "Early 5020u. Union launches a surgical strike against a major fabrication facility on Harrison's World. The Armory defends orbital shipyards from incoming Baronic forces.",
             "uuid": "09bsdc52-ffaf-4daa-a5d1-d7454648a5ee",
             "sources": [
                 {
@@ -1886,7 +1886,7 @@
                 "union", "ha", "ktb"
             ],
             "title": "The Baronic Defense of Upper Laurent",
-            "descr": "Early 5020. Baronic forces gathers reinforcements from the Upper Laurent while also defending the planet against the Armory's incoming interplanetary missiles.",
+            "descr": "Early 5020u. Baronic forces gather reinforcements from the Upper Laurent while also defending the planet against the Armory's incoming interplanetary missiles.",
             "uuid": "09bsdc52-ffaf-4daa-a5d1-d745464bffee",
             "sources": [
                 {
@@ -1903,7 +1903,7 @@
                 "union", "ha"
             ],
             "title": "The Battle of Terminal Ring Station",
-            "descr": "Late 5020. Harrison Armory forces land on Terminal, a ring habitat station near New Madrassa, to try and capture a Baronic VIP. Union and Baronic forces race against the Armory, and one another, to extract the VIP first.",
+            "descr": "Late 5020u. Harrison Armory forces land on Terminal, a ring habitat station near New Madrassa, to try and capture a Baronic VIP. Union and Baronic forces race against the Armory, and one another, to extract the VIP first.",
             "uuid": "09bsdc52-ffaf-4daa-77c2-d745464528ee",
             "sources": [
                 {
@@ -1938,7 +1938,7 @@
                 "union", "ha"
             ],
             "title": "Armory Forces Engage Union Near Arkady II",
-            "descr": "Early 5021. Armory forces arrives from the Long Rim nadir beachhead and engage the Union blockade at the termination shockline near Arkady II.",
+            "descr": "Early 5021u. Armory forces arrive from the Long Rim nadir beachhead and engage the Union blockade at the termination shockline near Arkady II.",
             "uuid": "09b1dbb4-ffaf-4daa-a5d1-d741114bffee",
             "sources": [
                 {
@@ -1955,7 +1955,7 @@
                 "ktb", "ha"
             ],
             "title": "Baronic Forces Attack the Armory at Gloria",
-            "descr": "Early 5021. Baronic forces arrive from the Concern and attack Armory defense at the planet Gloria.",
+            "descr": "Early 5021u. Baronic forces arrive from the Concern and attack Armory defenses at the planet Gloria.",
             "uuid": "09badbb4-ffaf-4daa-a5d1-d741114bffee",
             "sources": [
                 {
@@ -1972,7 +1972,7 @@
                 "union", "ha", "ktb"
             ],
             "title": "Three Way Battle at the Long Rim Apex Beachhead",
-            "descr": "Early 5021. Baronic reinforcements arrive from the heavily trafficked Long Rim apex beachhead and are immediately engaged by Armory forces. Union attempts to stand them both down, resulting in the first 3-way fight of the Dawnline Incident.",
+            "descr": "Early 5021u. Baronic reinforcements arrive from the heavily trafficked Long Rim apex beachhead and are immediately engaged by Armory forces. Union attempts to stand them both down, resulting in the first 3-way fight of the Dawnline Incident.",
             "uuid": "09bedbb4-ffaf-4daa-a5d1-d741114bffee",
             "sources": [
                 {
@@ -1989,7 +1989,7 @@
                 "union", "ha", "ktb"
             ],
             "title": "Final Engagement of the Dawnline Incident",
-            "descr": "Late 5021. Harrison Armory launches a \"liberation\" attack on New Madrassa. Baronic forces counterattack. Union joins with the Baronic forces to keep the Armory at bay.",
+            "descr": "Late 5021u. Harrison Armory launches a \"liberation\" attack on New Madrassa. Baronic forces counterattack. Union joins with the Baronic forces to keep the Armory at bay.",
             "uuid": "09bfdbb4-ffaf-4daa-a5d1-d741234bffee",
             "sources": [
                 {
