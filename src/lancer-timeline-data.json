@@ -118,6 +118,15 @@
             "url": "https://massif-press.itch.io/no-room-for-a-wallflower-act-1",
             "defaultFilteredStatus": true
         },
+        "battlegroup": {
+            "name": "Lancer Battlegroup",
+            "publishingAttributes": [
+                "first",
+                "published"
+            ],
+            "url": "https://www.playrole.com/store/games/lancer-battlegroup",
+            "defaultFilteredStatus": false
+        },
         "no-source": {
             "name": "No Source",
             "publishingAttributes": [],
@@ -1741,7 +1750,7 @@
             "factions": [
                 "no-faction"
             ],
-            "title": "Events from No Room for a Wallflower Act I",
+            "title": "Narrative Present for No Room for a Wallflower Act I",
             "descr": "",
             "uuid": "61b2cb52-a2d9-46cc-a5c1-d745464ba7a3",
             "sources": [
@@ -1754,16 +1763,238 @@
         {
             "year": 5016,
             "era": "U",
+            "marker": true,
             "factions": [
                 "no-faction"
             ],
-            "title": "Narrative Present 1",
-            "descr": "First year in which the events of Lancer take place.",
+            "title": "Narrative Present for Lancer Core Rulebook",
+            "descr": "",
             "uuid": "61b2cb52-a2d9-46cc-a6c1-d745464ba7a7",
             "sources": [
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 389"
+                }
+            ]
+        },
+        {
+            "year": 5016,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "Formation of the Concordant Administration",
+            "descr": "A group of Baronies-aligned states on New Creighton ally together to create a power-sharing bloc called the Concordant Administration.",
+            "uuid": "51b2bb52-ffff-4daa-a5d1-d745464ba7a3",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 198"
+                }
+            ]
+        },
+        {
+            "year": 5019,
+            "era": "U",
+            "intraYearIndex": 1,
+            "factions": [
+                "union", "ha", "ktb"
+            ],
+            "title": "The Dawnline Incident",
+            "descr": "5019-5021u. Hostilities break out between Harrison Armory and the Baronies in the Dawnline Shore. Union Navy attempts to intervene with military force before full-scale war breaks out.",
+            "uuid": "51b2bb52-ffff-4daa-a5d1-d745464babee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 199"
+                }
+            ]
+        },
+        {
+            "year": 5019,
+            "era": "U",
+            "intraYearIndex": 2,
+            "factions": [
+                "ktb", "ha"
+            ],
+            "title": "Concordant Administration Attacks the Perfect Ministeriat",
+            "descr": "Vanguard forces of the Concordant Administration mount a surprise attack on key installations belonging to the Perfect Ministeriat and its satellite nations.",
+            "uuid": "51b2bb52-ffff-4daa-a5d1-d745464bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 198"
+                }
+            ]
+        },
+        {
+            "year": 5019,
+            "era": "U",
+            "intraYearIndex": 3,
+            "factions": [
+                "ha", "ktb", "union"
+            ],
+            "title": "The Battle for New Creighton",
+            "descr": "Late 5019. Harrison Armory and the Perfect Ministeriat launch a campaign against the Concordant Administration and Baronic forces both on and above New Creighton. Union creates a battlegroup enforced corridor to support evacuation, leading to the Armory firing on Union forces.",
+            "uuid": "51b2bb52-f2ff-4daa-a5d1-d745464bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 209,212"
+                }
+            ]
+        },
+        {
+            "year": 5019,
+            "era": "U",
+            "intraYearIndex": 4,
+            "factions": [
+                "union", "ktb", "ha"
+            ],
+            "title": "Union Disables Dawnline Shore Blink Gate",
+            "descr": "Rapidly escalating tensions and violence between the Baronies and Harrison Armory in the Dawnline Shore causes Union to shutdown the as yet unnamed Dawnline Shore blink gate.",
+            "uuid": "51b2bb52-ffaf-4daa-a5d1-d745464bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 198"
+                }
+            ]
+        },
+        {
+            "year": 5020,
+            "era": "U",
+            "intraYearIndex": 1,
+            "factions": [
+                "union", "ha", "ktb"
+            ],
+            "title": "The Armory's Defense of Harrison's World",
+            "descr": "Early 5020. Union launches a surgical strike against a major fabrication facility on Harrison's World. The Armory defends orbital shipyards from incoming Baronic forces.",
+            "uuid": "09bsdc52-ffaf-4daa-a5d1-d7454648a5ee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 210,212"
+                }
+            ]
+        },
+        {
+            "year": 5020,
+            "era": "U",
+            "intraYearIndex": 1,
+            "factions": [
+                "union", "ha", "ktb"
+            ],
+            "title": "The Baronic Defense of Upper Laurent",
+            "descr": "Early 5020. Baronic forces gathers reinforcements from the Upper Laurent while also defending the planet against the Armory's incoming interplanetary missiles.",
+            "uuid": "09bsdc52-ffaf-4daa-a5d1-d745464bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 210,212"
+                }
+            ]
+        },
+        {
+            "year": 5020,
+            "era": "U",
+            "intraYearIndex": 2,
+            "factions": [
+                "union", "ha"
+            ],
+            "title": "The Battle of Terminal Ring Station",
+            "descr": "Late 5020. Harrison Armory forces land on Terminal, a ring habitat station near New Madrassa, to try and capture a Baronic VIP. Union and Baronic forces race against the Armory, and one another, to extract the VIP first.",
+            "uuid": "09bsdc52-ffaf-4daa-77c2-d745464528ee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 210,213,214"
+                }
+            ]
+        },
+        {
+            "year": 5021,
+            "era": "U",
+            "intraYearIndex": 1,
+            "marker": true,
+            "factions": [
+                "no-faction"
+            ],
+            "title": "Narrative Present for Lancer: Battlegroup",
+            "descr": "",
+            "uuid": "61b2cb52-ffff-46cc-a5c1-d7455555a7a3",
+            "sources": [
+                {
+                    "sourceKey": "no-source",
+                    "sourceLocation": ""
+                }
+            ]
+        },
+        {
+            "year": 5021,
+            "era": "U",
+            "intraYearIndex": 2,
+            "factions": [
+                "union", "ha"
+            ],
+            "title": "Armory Forces Engage Union Near Arkady II",
+            "descr": "Early 5021. Armory forces arrives from the Long Rim nadir beachhead and engage the Union blockade at the termination shockline near Arkady II.",
+            "uuid": "09b1dbb4-ffaf-4daa-a5d1-d741114bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 211,213"
+                }
+            ]
+        },
+        {
+            "year": 5021,
+            "era": "U",
+            "intraYearIndex": 2,
+            "factions": [
+                "ktb", "ha"
+            ],
+            "title": "Baronic Forces Attack the Armory at Gloria",
+            "descr": "Early 5021. Baronic forces arrive from the Concern and attack Armory defense at the planet Gloria.",
+            "uuid": "09badbb4-ffaf-4daa-a5d1-d741114bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 215"
+                }
+            ]
+        },
+        {
+            "year": 5021,
+            "era": "U",
+            "intraYearIndex": 2,
+            "factions": [
+                "union", "ha", "ktb"
+            ],
+            "title": "Three Way Battle at the Long Rim Apex Beachhead",
+            "descr": "Early 5021. Baronic reinforcements arrive from the heavily trafficked Long Rim apex beachhead and are immediately engaged by Armory forces. Union attempts to stand them both down, resulting in the first 3-way fight of the Dawnline Incident.",
+            "uuid": "09bedbb4-ffaf-4daa-a5d1-d741114bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 211,213,215"
+                }
+            ]
+        },
+        {
+            "year": 5021,
+            "era": "U",
+            "intraYearIndex": 3,
+            "factions": [
+                "union", "ha", "ktb"
+            ],
+            "title": "Final Engagement of the Dawnline Incident",
+            "descr": "Late 5021. Harrison Armory launches a \"liberation\" attack on New Madrassa. Baronic forces counterattack. Union joins with the Baronic forces to keep the Armory at bay.",
+            "uuid": "09bfdbb4-ffaf-4daa-a5d1-d741234bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 211,213,215"
                 }
             ]
         },
