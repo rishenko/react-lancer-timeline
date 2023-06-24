@@ -1900,7 +1900,7 @@
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "union", "ha"
+                "union", "ha", "ktb"
             ],
             "title": "The Battle of Terminal Ring Station",
             "descr": "Late 5020u. Harrison Armory forces land on Terminal, a ring habitat station near New Madrassa, to try and capture a Baronic VIP. Union and Baronic forces race against the Armory, and one another, to extract the VIP first.",
