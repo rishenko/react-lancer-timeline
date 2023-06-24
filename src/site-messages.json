@@ -4,7 +4,8 @@
         {
             "date": "2023-06-24T12:00:00.000Z",
             "details": [
-                "addition of Lancer: Battlegroup timeline entries",
+                "added of Lancer: Battlegroup timeline entries",
+                "links in the Sources table now open in a new tab",
                 "added All Factions and All Sources filter buttons and faction/source data"
             ]
         },
