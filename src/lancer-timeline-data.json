@@ -1784,7 +1784,7 @@
                 "ktb"
             ],
             "title": "Formation of the Concordant Administration",
-            "descr": "A group of Karrakin-aligned states on New Creighton ally together to create a power-sharing bloc called the Concordant Administration.",
+            "descr": "A group of Baronies-aligned states on New Creighton ally together to create a power-sharing bloc called the Concordant Administration.",
             "uuid": "51b2bb52-ffff-4daa-a5d1-d745464ba7a3",
             "sources": [
                 {
@@ -1801,7 +1801,7 @@
                 "union", "ha", "ktb"
             ],
             "title": "The Dawnline Incident",
-            "descr": "5019-5021u. Hostilities break out between Harrison Armory and the Karrakin Trade Baronies in the Dawnline Shore. Union Navy attempts to intervene with military force before full-scale war breaks out.",
+            "descr": "5019-5021u. Hostilities break out between Harrison Armory and the Baronies in the Dawnline Shore. Union Navy attempts to intervene with military force before full-scale war breaks out.",
             "uuid": "51b2bb52-ffff-4daa-a5d1-d745464babee",
             "sources": [
                 {
@@ -1815,7 +1815,7 @@
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "ktb"
+                "ktb", "ha"
             ],
             "title": "Concordant Administration Attacks the Perfect Ministeriat",
             "descr": "Vanguard forces of the Concordant Administration mount a surprise attack on key installations belonging to the Perfect Ministeriat and its satellite nations.",
@@ -1832,15 +1832,15 @@
             "era": "U",
             "intraYearIndex": 3,
             "factions": [
-                "ha", "ktb"
+                "ha", "ktb", "union"
             ],
-            "title": "Harrison Armory Begins Campaign Against Baronic Forces Above New Creighton",
-            "descr": "Harrison Armory and the Perfect Ministeriat attack the Concordant and KTB and KTB-allied forces both on and above New Creighton.",
+            "title": "The Battle for New Creighton",
+            "descr": "Late 5019. Harrison Armory and the Perfect Ministeriat launch a campaign against the Concordant Administration and Baronic forces both on and above New Creighton. Union creates a battlegroup enforced corridor to support evacuation, leading to the Armory firing on Union forces.",
             "uuid": "51b2bb52-f2ff-4daa-a5d1-d745464bffee",
             "sources": [
                 {
                     "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 212"
+                    "sourceLocation": "pg. 209,212"
                 }
             ]
         },
@@ -1852,7 +1852,7 @@
                 "union", "ktb", "ha"
             ],
             "title": "Union Disables Dawnline Shore Blink Gate",
-            "descr": "Rapidly escalating tensions and violence between the Karrakin Trade Baronies and Harrison Armory in the Dawnline Shore causes Union to shutdown the as yet unnamed Dawnline Shore blink gate.",
+            "descr": "Rapidly escalating tensions and violence between the Baronies and Harrison Armory in the Dawnline Shore causes Union to shutdown the as yet unnamed Dawnline Shore blink gate.",
             "uuid": "51b2bb52-ffaf-4daa-a5d1-d745464bffee",
             "sources": [
                 {
@@ -1862,19 +1862,19 @@
             ]
         },
         {
-            "year": 5019,
+            "year": 5020,
             "era": "U",
-            "intraYearIndex": 5,
+            "intraYearIndex": 1,
             "factions": [
-                "union", "ha"
+                "union", "ha", "ktb"
             ],
-            "title": "Union and Harrison Armory Battlegroups Exchange Fire Above New Creighton",
-            "descr": "Late 5019. Harrison Armory fires on Union battlegroup after Union refuses to allow HA the capture and interrogation of personnel evacuating from New Creighton.",
-            "uuid": "51badc52-ffaf-4ddd-a5d1-d745464bffee",
+            "title": "The Armory's Defense of Harrison's World",
+            "descr": "Early 5020. Union launches a surgical strike against a major fabrication facility on Harrison's World. The Armory defends orbital shipyards from incoming Baronic forces.",
+            "uuid": "09bsdc52-ffaf-4daa-a5d1-d7454648a5ee",
             "sources": [
                 {
                     "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 209"
+                    "sourceLocation": "pg. 210,212"
                 }
             ]
         },
@@ -1883,32 +1883,15 @@
             "era": "U",
             "intraYearIndex": 1,
             "factions": [
-                "union", "ha"
+                "union", "ha", "ktb"
             ],
-            "title": "Union Attacks the Maquinera on Harrison's World",
-            "descr": "Early 5020. Union launches a surgical strike against a major chassis fabrication facility, the Maquinera, on Harrison's World.",
+            "title": "The Baronic Defense of Upper Laurent",
+            "descr": "Early 5020. Baronic forces gathers reinforcements from the Upper Laurent while also defending the planet against the Armory's incoming interplanetary missiles.",
             "uuid": "09bsdc52-ffaf-4daa-a5d1-d745464bffee",
             "sources": [
                 {
                     "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 210"
-                }
-            ]
-        },
-        {
-            "year": 5020,
-            "era": "U",
-            "intraYearIndex": 2,
-            "factions": [
-                "ha", "ktb"
-            ],
-            "title": "Harrison Armory engages Baronic Forces Above Harrison's World",
-            "descr": "Early 5020u. Harrison Armory moves to engage incoming Karrakin Trade Baronies forces and protect the Armory's shipyards.",
-            "uuid": "51ba7652-f2ff-479a-a5d1-d745464bffee",
-            "sources": [
-                {
-                    "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 212"
+                    "sourceLocation": "pg. 210,212"
                 }
             ]
         },
@@ -1919,30 +1902,13 @@
             "factions": [
                 "union", "ha"
             ],
-            "title": "Harrison Armory Attempts to Board Terminal Station",
-            "descr": "Late 5020. Union launches a surgical strike against a major chassis fabrication facility, the Maquinera, on Harrison's World.",
-            "uuid": "09bsdc52-ffaf-4daa-a5d1-d745464528ee",
+            "title": "The Battle of Terminal Ring Station",
+            "descr": "Late 5020. Harrison Armory forces land on Terminal, a ring habitat station near New Madrassa, to try and capture a Baronic VIP. Union and Baronic forces race against the Armory, and one another, to extract the VIP first.",
+            "uuid": "09bsdc52-ffaf-4daa-77c2-d745464528ee",
             "sources": [
                 {
                     "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 210"
-                }
-            ]
-        },
-        {
-            "year": 5020,
-            "era": "U",
-            "intraYearIndex": 4,
-            "factions": [
-                "union", "ha", "ktb"
-            ],
-            "title": "Union Attempts Extraction Mission From Terminal Station",
-            "descr": "Late 5020. Union attempts to extract a VIP from the Terminal ring station above New Madrassa in the midst of a battle between HA and KTB.",
-            "uuid": "09bsdc52-ffaf-4daa-a5d1-d741114bffee",
-            "sources": [
-                {
-                    "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 210"
+                    "sourceLocation": "pg. 210,213,214"
                 }
             ]
         },
@@ -1969,15 +1935,49 @@
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "union", "ha", "ktb"
+                "union", "ha"
             ],
-            "title": "Union, KTB, and HA Battlegroups Engage in Combat",
-            "descr": "Early 5021. Union, Karrakin Trade Baronies, and Harrison Armory enter the first three-way battle of the Dawnline Incident near the apex of the Long Rim beachhead.",
-            "uuid": "09bsdbb4-ffaf-4daa-a5d1-d741114bffee",
+            "title": "Armory Forces Engage Union Near Arkady II",
+            "descr": "Early 5021. Armory forces arrives from the Long Rim nadir beachhead and engage the Union blockade at the termination shockline near Arkady II.",
+            "uuid": "09b1dbb4-ffaf-4daa-a5d1-d741114bffee",
             "sources": [
                 {
                     "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 211"
+                    "sourceLocation": "pg. 211,213"
+                }
+            ]
+        },
+        {
+            "year": 5021,
+            "era": "U",
+            "intraYearIndex": 2,
+            "factions": [
+                "ktb", "ha"
+            ],
+            "title": "Baronic Forces Attack the Armory at Gloria",
+            "descr": "Early 5021. Baronic forces arrive from the Concern and attack Armory defense at the planet Gloria.",
+            "uuid": "09badbb4-ffaf-4daa-a5d1-d741114bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 215"
+                }
+            ]
+        },
+        {
+            "year": 5021,
+            "era": "U",
+            "intraYearIndex": 2,
+            "factions": [
+                "union", "ha", "ktb"
+            ],
+            "title": "Three Way Battle at the Long Rim Apex Beachhead",
+            "descr": "Early 5021. Baronic reinforcements arrive from the heavily trafficked Long Rim apex beachhead and are immediately engaged by Armory forces. Union attempts to stand them both down, resulting in the first 3-way fight of the Dawnline Incident.",
+            "uuid": "09bedbb4-ffaf-4daa-a5d1-d741114bffee",
+            "sources": [
+                {
+                    "sourceKey": "battlegroup",
+                    "sourceLocation": "pg. 211,213,215"
                 }
             ]
         },
@@ -1990,11 +1990,11 @@
             ],
             "title": "Final Engagement of the Dawnline Incident",
             "descr": "Late 5021. Harrison Armory launches a \"liberation\" attack on New Madrassa. Baronic forces counterattack. Union joins with the Baronic forces to keep the Armory at bay.",
-            "uuid": "09bsdbb4-ffaf-4daa-a5d1-d741234bffee",
+            "uuid": "09bfdbb4-ffaf-4daa-a5d1-d741234bffee",
             "sources": [
                 {
                     "sourceKey": "battlegroup",
-                    "sourceLocation": "pg. 211"
+                    "sourceLocation": "pg. 211,213,215"
                 }
             ]
         },
