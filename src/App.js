@@ -43,18 +43,29 @@ function App() {
     setActionMessage({ "message": "" });
   }, []);
 
+  /* Category visibility functions */
+  function toggleVisibilities(allCategoryKey, categoryKey, visibleCategories, categoryVisibilityFunction) {
+    if (categoryKey === allCategoryKey) {
+      var toggleVal = !visibleCategories[categoryKey];
+      const categoriesVisibility = {};
+      Object.keys(visibleCategories).forEach(categoryKey => {
+        categoriesVisibility[categoryKey] = toggleVal;
+      });
+      categoryVisibilityFunction(categoriesVisibility);
+    } else {
+      categoryVisibilityFunction(prevState => ({
+        ...prevState,
+        [categoryKey]: !prevState[categoryKey]
+      }));
+    }
+  }
+
   function toggleFactionVisibility(factionKey) {
-    setVisibleFactions(prevState => ({
-      ...prevState,
-      [factionKey]: !prevState[factionKey]
-    }));
+    toggleVisibilities("all-factions", factionKey, visibleFactions, setVisibleFactions);
   };
 
   function toggleSourceVisibility(sourceKey) {
-    setVisibleSources(prevState => ({
-      ...prevState,
-      [sourceKey]: !prevState[sourceKey]
-    }));
+    toggleVisibilities("all-sources", sourceKey, visibleSources, setVisibleSources);
   };
 
   function togglePublishingAttributeVisibility(attributeKey) {
@@ -77,6 +88,7 @@ function App() {
     }));
   }
 
+  /* Message display function */
   const actionMessageRef = useRef(null);
   function showActionMessage(message) {
     setActionMessage({ "message": message });

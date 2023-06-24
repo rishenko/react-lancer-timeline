@@ -1,5 +1,9 @@
 {
     "factions": {
+        "all-factions": {
+            "name": "All Factions",
+            "color": "#888888"
+        },
         "union": {
             "name": "Union",
             "color": "#000000"
@@ -34,7 +38,7 @@
         },
         "no-faction": {
             "name": "No Faction",
-            "color": "#888888"
+            "color": "#555"
         }
     },
     "publishingAttributes": {
@@ -52,6 +56,11 @@
         }
     },
     "sources": {
+        "all-sources": {
+            "name": "All Sources",
+            "publishingAttributes": [],
+            "url": "#"
+        },
         "lcrb": {
             "name": "Lancer Core Rulebook",
             "publishingAttributes": [
