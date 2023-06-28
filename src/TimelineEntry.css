@@ -32,12 +32,13 @@
 
 
 /* shareable link styles */
-.timeline ul li div.shareable-link {
+.timeline ul li div.shareable-link,
+.timeline ul li div.modify-entry,
+.timeline ul li div.remove-entry {
     content: "";
     display: block;
     position: relative;
     float: right;
-    background-image: url('./imgs/link-icon-symbol.svg');
     background-color: #ddd;
     background-repeat: no-repeat;
     background-size: 1rem;
@@ -49,11 +50,24 @@
     padding: .75rem;
 }
 
-.timeline ul li div.shareable-link:hover {
-    border: .2rem solid #8888ee;
+.timeline ul li div.shareable-link {
+    background-image: url('./imgs/link-icon-symbol.svg');
+}
+
+.timeline ul li div.modify-entry {
+    background-image: url('./imgs/modify-icon.svg');
+}
+
+.timeline ul li div.remove-entry {
+    background-image: url('./imgs/remove-icon.svg');
+}
+
+.timeline ul li div.shareable-link:hover,
+.timeline ul li div.modify-entry:hover,
+.timeline ul li div.remove-entry:hover {
+    --highlight-color: #8888ee;
+    box-shadow: inset 0 0 0.5em 0 var(--highlight-color), 0 0 0.5em 0 var(--highlight-color);
     background-color: #ccccff;
-    bottom: .2rem;
-    left: .2rem;
 }
 
 /* date */
@@ -241,6 +255,26 @@ li.timeline-entry .factions .voladores {
     background-image: url('./imgs/logos/voladores.svg');
 }
 
+li.edited .date span::after {
+    content: "MODIFIED";
+    --highlight-color: #0a0;
+    box-shadow: inset 0 0 0.5em 0 var(--highlight-color), 0 0 0.5em 0 var(--highlight-color);
+    border: .35rem solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    border-radius: 1.5rem;
+    padding: 0 1rem;
+    position: absolute;
+    font-size: 1rem;
+    top: -1rem;
+}
+
+li.edited:nth-child(odd) .date span::after {
+    right: 0;
+}
+
+li.edited:nth-child(even) .date span::after {
+    left: 0;
+}
 
 /* columnar grid styles */
 @media (min-width: 10rem) {
