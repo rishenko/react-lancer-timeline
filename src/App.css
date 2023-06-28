@@ -70,6 +70,10 @@ div#action-message {
   display: none;
 }
 
+.hide-edit {
+  display: none;
+}
+
 div#action-message.animate {
   display: block;
   -webkit-animation: fadeinout 1.5s linear forwards;

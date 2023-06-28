@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TimelineEntry from './TimelineEntry';
 import './Timeline.css';
 
-function Timeline({ timelineEntries, factions, sources, visibleFactions, visibleSources }) {
+function Timeline({ timelineData, factions, sources, visibleFactions, visibleSources, setTimelineEntryAction }) {
+
+    // update the timeline anytime timelineData changes, for live update purposes
+    useEffect(() => { }, [timelineData]);
 
     /**
      * Sorting function. Logic works as follows:
@@ -21,7 +24,7 @@ function Timeline({ timelineEntries, factions, sources, visibleFactions, visible
             eraYearComparisonResult = 1;
         } else if (a.era === 'BU') {
             eraYearComparisonResult = ((a.year - b.year) * -1) || intraYearIndexA - intraYearIndexB;
-        } else if ( a.era === 'U') {
+        } else if (a.era === 'U') {
             eraYearComparisonResult = (a.year - b.year) || intraYearIndexA - intraYearIndexB;
         }
 
@@ -53,12 +56,12 @@ function Timeline({ timelineEntries, factions, sources, visibleFactions, visible
         <div className="timeline">
             <h2>Timeline</h2>
             <ul>
-                {timelineEntries.sort((a, b) => timelineSortByEraYearIndex(a, b)).map((entry, index) => {
-                    return isTimelineEntryVisible(entry) && <TimelineEntry key={entry.uuid} indexVal={index} entry={entry} factions={factions} sources={sources} anchorId={window.location.href.slice(window.location.href.indexOf("#") + 1)}/>
+                {timelineData.sort((a, b) => timelineSortByEraYearIndex(a, b)).map((entry, _index) => {
+                    return isTimelineEntryVisible(entry) && <TimelineEntry key={entry.uuid} entry={entry} factions={factions} sources={sources} setTimelineEntryAction={setTimelineEntryAction} anchorId={window.location.href.slice(window.location.href.indexOf("#") + 1)} />
                 })}
             </ul>
         </div>
-    );
+    )
 }
 
 export default Timeline;
