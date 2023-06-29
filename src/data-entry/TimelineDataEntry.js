@@ -11,6 +11,7 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
             title: "",
             descr: "",
             marker: false,
+            intraYearIndex: null,
             uuid: crypto.randomUUID(),
             factions: ["no-faction"],
             sources: [{ sourceKey: "no-source", sourceLocation: "" }]
@@ -58,13 +59,10 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
         if (e.target.files) {
             const file = e.target.files[0];
             const reader = new FileReader();
-
             reader.onload = function (e) {
                 const fileContents = e.target.result;
-
                 try {
                     const jsonData = JSON.parse(fileContents);
-                    console.log(jsonData);
                     setTimelineData(jsonData);
                 } catch (error) {
                     console.error('Error parsing JSON file:', error);
@@ -116,11 +114,26 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
                     </ul>
                 </div>
 
+                <label htmlFor="year">Year:</label>
+                <div>
+                    <input id="year" type="number" {...register("year", { valueAsNumber: true, required: true, pattern: /[0-9]+/ })} aria-invalid={errors.year ? "true" : "false"} />
+                    {errors.year && errors.year.type === 'required' && <p role="alert">Year is required and must be a number.</p>}
+                </div>
+
                 <label htmlFor="uuid">UUID:</label>
                 <div>
                     <input id="uuid" {...register("uuid", { required: true, pattern: uuidRegex })} aria-invalid={errors.uuid ? "true" : "false"} />
                     {errors.uuid && errors.uuid.type === 'required' && <p role="alert">UUID is required.</p>}
                     {errors.uuid && errors.uuid.type === 'pattern' && <p role="alert">UUID must be in the UUID format.</p>}
+                </div>
+
+                <label>Era:</label>
+                <div className="eraInput">
+                    <label htmlFor="era-bu">BU:</label>
+                    <input id="era-bu" type="radio" defaultValue="BU" {...register("era")} />
+
+                    <label htmlFor="era-u">U:</label>
+                    <input id="era-u" type="radio" defaultValue="U" {...register("era")} />
                 </div>
 
                 <label htmlFor="marker">Marker:</label>
@@ -134,25 +147,16 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
                     )}
                 />
 
-                <label htmlFor="year">Year:</label>
-                <div>
-                    <input id="year" type="number" {...register("year", { valueAsNumber: true, required: true, pattern: /[0-9]+/ })} aria-invalid={errors.year ? "true" : "false"} />
-                    {errors.year && errors.year.type === 'required' && <p role="alert">Year is required and must be a number.</p>}
-                </div>
-
                 <label htmlFor="title">Title:</label>
                 <div>
                     <input id="title" type="text" {...register("title", { required: true })} aria-invalid={errors.title ? "true" : "false"} />
                     {errors.title && errors.title.type === 'required' && <p role="alert">Title is required.</p>}
                 </div>
 
-                <label>Era:</label>
-                <div className="eraInput">
-                    <label htmlFor="era-bu">BU:</label>
-                    <input id="era-bu" type="radio" defaultValue="BU" {...register("era")} />
-
-                    <label htmlFor="era-u">U:</label>
-                    <input id="era-u" type="radio" defaultValue="U" {...register("era")} />
+                <label htmlFor="year">Intra-Year Index:</label>
+                <div>
+                    <input id="year" type="number" {...register("intraYearIndex", { valueAsNumber: true, pattern: /[0-9]+/ })} aria-invalid={errors.year ? "true" : "false"} />
+                    {errors.intraYearIndex && errors.intraYearIndex.type === 'pattern' && <p role="alert">Intra-Year Index must be a number.</p>}
                 </div>
 
                 <label htmlFor="descr">Description:</label>
@@ -170,7 +174,6 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
                     </select>
                     {errors.factions && errors.factions.type === 'required' && <p role="alert">At least one faction must be selected.</p>}
                 </div>
-
 
                 <div className="sourceInputs">
                     <table className="sourceInputTable">
