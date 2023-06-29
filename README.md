@@ -6,9 +6,13 @@ This project seeks to provide an interactive timeline for content in the Lancer 
 
 Please note this readme is incomplete and this project not quite ready for primetime.
 
-## How to Use
+## How to Run
 
-...
+1. Download and install [Node JS](https://nodejs.dev/en/learn/how-to-install-nodejs/).
+2. Clone this repository to your computer.
+3. Open a terminal window and change to the directory of your cloned folder.
+4. Type in `npm install` and hit Enter.
+5. Type in `npm start` to run the application locally.
 
 ## Data Formats
 
