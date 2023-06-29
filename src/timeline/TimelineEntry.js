@@ -3,7 +3,7 @@ import TimelineEntrySource from './TimelineEntrySource';
 import CopyLink from './CopyLink';
 import ModifyLink from './ModifyLink';
 import './TimelineEntry.css';
-import { EditModeContext } from './EditModeContext';
+import { EditModeContext } from '../data-entry/EditModeContext';
 
 function TimelineEntry({ entry, factions, sources, anchorId, setTimelineEntryAction }) {
   const editMode = useContext(EditModeContext);

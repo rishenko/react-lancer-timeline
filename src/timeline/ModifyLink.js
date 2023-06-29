@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import { ActionMessageContext } from './ActionMessageContext';
-import { EditModeContext } from './EditModeContext';
+import { ActionMessageContext } from '../ActionMessageContext';
+import { EditModeContext } from '../data-entry/EditModeContext';
 
 function ModifyLink({ entry, setTimelineEntryAction, action }) {
     const showActionMessage = useContext(ActionMessageContext);

@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import data from './lancer-timeline-data.json';
+import data from './data/lancer-timeline-data.json';
 import { ReactComponent as Logo } from './imgs/powered_by_Lancer.svg';
-import FactionLegend from './FactionLegend';
-import SourceLegend from './SourceLegend';
-import PublishingAttributeLegend from './PublishingAttributeLegend';
-import Timeline from './Timeline';
-import SourceTable from './SourceTable';
+import FactionFilter from './filters/FactionFilter';
+import SourceFilter from './filters/SourceFilter';
+import PublishingAttributeFilter from './filters/PublishingAttributeFilter';
+import Timeline from './timeline/Timeline';
+import SourceTable from './source-table/SourceTable';
 import { ActionMessageContext } from './ActionMessageContext.js';
-import { EditModeContext } from './EditModeContext.js';
-import SiteMessages from './SiteMessages';
-import TimelineDataEntry from './TimelineDataEntry';
+import { EditModeContext } from './data-entry/EditModeContext.js';
+import TimelineDataEntry from './data-entry/TimelineDataEntry';
+import SiteMessages from './messages/SiteMessages';
 import './App.css';
 
 function App() {
@@ -151,15 +151,15 @@ function App() {
             <div className="filters">
               <div className="legend">
                 <h3>Factions</h3>
-                <FactionLegend factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} />
+                <FactionFilter factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} />
               </div>
               <div className="sources">
                 <h3>Sources</h3>
-                <SourceLegend sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} />
+                <SourceFilter sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} />
               </div>
               <div className="publishing-attributes">
                 <h3>Publishing Attributes</h3>
-                <PublishingAttributeLegend publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} />
+                <PublishingAttributeFilter publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} />
               </div>
             </div>
           </div>

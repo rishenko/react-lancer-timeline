@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import { ActionMessageContext } from './ActionMessageContext';
+import { ActionMessageContext } from '../ActionMessageContext';
 
 function SourceEntry({ source, sourceKey, toggleSourceVisibility, isVisible }) {
   const showActionMessage = useContext(ActionMessageContext);

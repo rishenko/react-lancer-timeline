@@ -1,8 +1,8 @@
 import React from 'react';
 import FactionEntry from './FactionEntry';
-import './FactionLegend.css';
+import './FactionFilter.css';
 
-function FactionLegend({ factions, toggleFactionVisibility, visibleFactions }) {
+function FactionFilter({ factions, toggleFactionVisibility, visibleFactions }) {
   return (
     <div className="faction-legend">
       {Object.keys(factions).map((key) => (
@@ -12,4 +12,4 @@ function FactionLegend({ factions, toggleFactionVisibility, visibleFactions }) {
   );
 }
 
-export default FactionLegend;
+export default FactionFilter;
