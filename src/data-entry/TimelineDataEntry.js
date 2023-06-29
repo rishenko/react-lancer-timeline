@@ -71,6 +71,7 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
                     setTimelineData(jsonData.timeline);
                 } catch (error) {
                     console.error('Error parsing JSON file:', error);
+                    showActionMessage(<span>There was a problem parsing your timeline entry file. Check your browser console for more information.</span>, "error");
                 }
             };
 

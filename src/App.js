@@ -104,11 +104,16 @@ function App() {
 
   /* Message display function */
   const actionMessageRef = useRef(null);
-  function showActionMessage(message) {
-    setActionMessage({ "message": message });
-    actionMessageRef.current.classList.remove("animate");
+  function showActionMessage(message, type) {
+    type = type ? type : "notice";
+    var classList = actionMessageRef.current.classList
+    setActionMessage({ "message": message , "type": type });
+    for (var classIndex = classList.length-1; classIndex>=0; classIndex--){
+      classList.remove(classList[classIndex]);
+    }
     void actionMessageRef.current.offsetWidth;
-    actionMessageRef.current.classList.add("animate");
+    classList.add(type);
+    classList.add("animate");
     void actionMessageRef.current.offsetWidth;
   }
 
