@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import data from './lancer-timeline-data.json';
+import data from './data/lancer-timeline-data.json';
 import { ReactComponent as Logo } from './imgs/powered_by_Lancer.svg';
-import FactionLegend from './FactionLegend';
-import SourceLegend from './SourceLegend';
-import PublishingAttributeLegend from './PublishingAttributeLegend';
-import Timeline from './Timeline';
-import SourceTable from './SourceTable';
+import FactionLegend from './filters/FactionLegend';
+import SourceLegend from './filters/SourceLegend';
+import PublishingAttributeLegend from './filters/PublishingAttributeLegend';
+import Timeline from './timeline/Timeline';
+import SourceTable from './source-table/SourceTable';
 import { ActionMessageContext } from './ActionMessageContext.js';
-import { EditModeContext } from './EditModeContext.js';
-import SiteMessages from './SiteMessages';
-import TimelineDataEntry from './TimelineDataEntry';
+import { EditModeContext } from './data-entry/EditModeContext.js';
+import TimelineDataEntry from './data-entry/TimelineDataEntry';
+import SiteMessages from './messages/SiteMessages';
 import './App.css';
 
 function App() {

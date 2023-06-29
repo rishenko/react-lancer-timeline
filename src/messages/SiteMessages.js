@@ -2,7 +2,7 @@ import React from 'react';
 import './SiteMessages.css';
 import SiteUpdates from './SiteUpdates'
 import SiteMessage from './SiteMessage'
-import messageData from './site-messages.json';
+import messageData from '../data/site-messages.json';
 
 function SiteMessages({ }) {
     return (

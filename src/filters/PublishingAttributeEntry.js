@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import './PublishingAttributeEntry.css';
-import { ActionMessageContext } from './ActionMessageContext';
+import { ActionMessageContext } from '../ActionMessageContext';
 
 function PublishingAttributeEntry({ publishingAttribute, publishingAttributeKey, togglePublishingAttributeVisibility, isVisible }) {
   const showActionMessage = useContext(ActionMessageContext);
