@@ -48,8 +48,8 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
         showActionMessage(<span>Saving timeline entry "{data.title}".</span>);
     }
 
-    const downloadTimelineData = () => {
-        allData['timeline'] = timelineData;
+    const downloadTimelineData = (isFinal) => {
+        allData['timeline'] = isFinal ? timelineData.map(({ edited, ...rest }) => rest) : timelineData;
         const json = JSON.stringify(allData, null, 2);
         const blob = new Blob([json], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
@@ -71,7 +71,7 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
                     setTimelineData(jsonData.timeline);
                 } catch (error) {
                     console.error('Error parsing JSON file:', error);
-                    showActionMessage(<span>There was a problem parsing your timeline entry file. Check your browser console for more information.</span>, "error");
+                    showActionMessage(<span>There was an error parsing your timeline data file. Check your browser console for more information.</span>, "error");
                 }
             };
 
@@ -90,7 +90,8 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
             <h2>Timeline Data Entry</h2>
             <div className="controller-buttons">
                 <button name="editModeToggle" className={editMode.isOn ? "edit-mode-on" : ""} onClick={toggleEditMode}>Toggle Edit Mode</button>
-                <button name="downloadTimelineData" onClick={downloadTimelineData}>Download Timeline Data</button>
+                <button name="downloadTimelineData" onClick={() => {downloadTimelineData(false)}}>Download In-Progress Data</button>
+                <button name="downloadTimelineData" onClick={() => {downloadTimelineData(true)}}>Download Final Data</button>
                 <div><label htmlFor="timelineFileUpload">Upload JSON timeline data...</label><input id="timelineFileUpload" name="timelineFileUpload" type="file" onChange={handleFileUpload} /></div>
             </div>
 
