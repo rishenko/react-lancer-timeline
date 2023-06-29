@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import data from './data/lancer-timeline-data.json';
 import { ReactComponent as Logo } from './imgs/powered_by_Lancer.svg';
-import FactionLegend from './filters/FactionLegend';
-import SourceLegend from './filters/SourceLegend';
-import PublishingAttributeLegend from './filters/PublishingAttributeLegend';
+import FactionFilter from './filters/FactionFilter';
+import SourceFilter from './filters/SourceFilter';
+import PublishingAttributeFilter from './filters/PublishingAttributeFilter';
 import Timeline from './timeline/Timeline';
 import SourceTable from './source-table/SourceTable';
 import { ActionMessageContext } from './ActionMessageContext.js';
@@ -151,15 +151,15 @@ function App() {
             <div className="filters">
               <div className="legend">
                 <h3>Factions</h3>
-                <FactionLegend factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} />
+                <FactionFilter factions={data.factions} toggleFactionVisibility={toggleFactionVisibility} visibleFactions={visibleFactions} />
               </div>
               <div className="sources">
                 <h3>Sources</h3>
-                <SourceLegend sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} />
+                <SourceFilter sources={data.sources} toggleSourceVisibility={toggleSourceVisibility} visibleSources={visibleSources} />
               </div>
               <div className="publishing-attributes">
                 <h3>Publishing Attributes</h3>
-                <PublishingAttributeLegend publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} />
+                <PublishingAttributeFilter publishingAttributes={data.publishingAttributes} togglePublishingAttributeVisibility={togglePublishingAttributeVisibility} visiblePublishingAttributes={visiblePublishingAttributes} />
               </div>
             </div>
           </div>

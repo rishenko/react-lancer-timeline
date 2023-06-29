@@ -1,7 +1,7 @@
 import React from 'react';
 import PublishingAttributeEntry from './PublishingAttributeEntry';
 
-function PublishingAttributeLegend({ publishingAttributes, togglePublishingAttributeVisibility, visiblePublishingAttributes }) {
+function PublishingAttributeFilter({ publishingAttributes, togglePublishingAttributeVisibility, visiblePublishingAttributes }) {
   return (
     <div className="publishing-attribute-legend">
       {Object.keys(publishingAttributes).map((key) => (
@@ -11,4 +11,4 @@ function PublishingAttributeLegend({ publishingAttributes, togglePublishingAttri
   );
 }
 
-export default PublishingAttributeLegend;
+export default PublishingAttributeFilter;

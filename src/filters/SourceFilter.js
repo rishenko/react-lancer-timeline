@@ -1,7 +1,7 @@
 import React from 'react';
 import SourceEntry from './SourceEntry';
 
-function SourceLegend({ sources, toggleSourceVisibility, visibleSources }) {
+function SourceFilter({ sources, toggleSourceVisibility, visibleSources }) {
   return (
     <div className="source-legend">
       {Object.keys(sources).map((key) => (
@@ -11,4 +11,4 @@ function SourceLegend({ sources, toggleSourceVisibility, visibleSources }) {
   );
 }
 
-export default SourceLegend;
+export default SourceFilter;
