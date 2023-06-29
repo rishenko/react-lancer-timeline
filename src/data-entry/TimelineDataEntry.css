@@ -15,7 +15,8 @@ div#timeline-data-entry {
     display: block;
 }
 
-#timeline-data-entry .eraInput label {
+#timeline-data-entry .eraInput label,
+#timeline-data-entry .markerInput label {
     display: inline;
     margin-left: 0;
 }
@@ -128,6 +129,12 @@ input[id="timelineFileUpload"] {
 #timeline-data-entry .sourceInputs button {
     display: inline;
     height: auto;
+}
+
+#timeline-data-entry input[type="checkbox"] {
+    height: 1rem;
+    margin: 0 auto 0 0;
+    position: relative;
 }
 
 .sourceInputTable {

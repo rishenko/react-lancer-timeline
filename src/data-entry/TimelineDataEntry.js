@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from 'react';
-import { useForm, useFieldArray } from 'react-hook-form';
+import { useForm, useFieldArray, Controller } from 'react-hook-form';
 import './TimelineDataEntry.css';
 import { EditModeContext } from './EditModeContext';
 
@@ -10,8 +10,8 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
             era: "U",
             title: "",
             descr: "",
+            marker: false,
             uuid: crypto.randomUUID(),
-            isDeveloper: true,
             factions: ["no-faction"],
             sources: [{ sourceKey: "no-source", sourceLocation: "" }]
         };
@@ -123,9 +123,20 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
                     {errors.uuid && errors.uuid.type === 'pattern' && <p role="alert">UUID must be in the UUID format.</p>}
                 </div>
 
+                <label htmlFor="marker">Marker:</label>
+                <Controller
+                    name="marker"
+                    control={control}
+                    defaultValue={false}
+                    render={({ field: { onChange, value } }) => (
+                        <input type="checkbox" name="marker" checked={value}
+                            onChange={(e) => { onChange(e); }} />
+                    )}
+                />
+
                 <label htmlFor="year">Year:</label>
                 <div>
-                    <input id="year" type="number" {...register("year", { required: true, pattern: /[0-9]+/ })} aria-invalid={errors.year ? "true" : "false"} />
+                    <input id="year" type="number" {...register("year", { valueAsNumber: true, required: true, pattern: /[0-9]+/ })} aria-invalid={errors.year ? "true" : "false"} />
                     {errors.year && errors.year.type === 'required' && <p role="alert">Year is required and must be a number.</p>}
                 </div>
 
@@ -143,6 +154,7 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
                     <label htmlFor="era-u">U:</label>
                     <input id="era-u" type="radio" defaultValue="U" {...register("era")} />
                 </div>
+
                 <label htmlFor="descr">Description:</label>
                 <textarea id="descr" rows={4} cols={50} {...register("descr")} />
 
