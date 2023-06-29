@@ -164,7 +164,7 @@ function App() {
             </div>
           </div>
 
-          <TimelineDataEntry timelineData={timelineData} setTimelineData={setTimelineData} factions={data.factions} sources={data.sources} timelineEntryAction={timelineEntryAction} setEditMode={setEditMode} />
+          <TimelineDataEntry allData={data} timelineData={timelineData} setTimelineData={setTimelineData} factions={data.factions} sources={data.sources} timelineEntryAction={timelineEntryAction} setEditMode={setEditMode} />
 
           <Timeline timelineData={timelineData} factions={data.factions} sources={data.sources} visibleSources={visibleSources} visibleFactions={visibleFactions} setTimelineEntryAction={setTimelineEntryAction} />
 

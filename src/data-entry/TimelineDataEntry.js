@@ -2,8 +2,10 @@ import React, { useEffect, useContext } from 'react';
 import { useForm, useFieldArray, Controller } from 'react-hook-form';
 import './TimelineDataEntry.css';
 import { EditModeContext } from './EditModeContext';
+import { ActionMessageContext } from '../ActionMessageContext';
 
-function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, timelineEntryAction, setEditMode }) {
+function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, sources, timelineEntryAction, setEditMode }) {
+    const showActionMessage = useContext(ActionMessageContext);
     const newEntry = () => {
         return {
             year: 5016,
@@ -43,16 +45,19 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
         } else {
             setTimelineData([...timelineData, data]);
         }
+        showActionMessage(<span>Saving timeline entry "{data.title}".</span>);
     }
 
     const downloadTimelineData = () => {
-        const json = JSON.stringify(timelineData, null, 2);
+        allData['timeline'] = timelineData;
+        const json = JSON.stringify(allData, null, 2);
         const blob = new Blob([json], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = url;
         link.download = 'timeline-data.json';
         link.click();
+        showActionMessage(<span>Downloading timeline data.</span>);
     };
 
     const handleFileUpload = (e) => {
@@ -63,13 +68,14 @@ function TimelineDataEntry({ timelineData, setTimelineData, factions, sources, t
                 const fileContents = e.target.result;
                 try {
                     const jsonData = JSON.parse(fileContents);
-                    setTimelineData(jsonData);
+                    setTimelineData(jsonData.timeline);
                 } catch (error) {
                     console.error('Error parsing JSON file:', error);
                 }
             };
 
             reader.readAsText(file);
+            showActionMessage(<span>Uploading timeline data.</span>);
         }
     };
 
