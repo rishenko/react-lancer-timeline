@@ -4,7 +4,7 @@ import SiteUpdates from './SiteUpdates'
 import SiteMessage from './SiteMessage'
 import messageData from '../data/site-messages.json';
 
-function SiteMessages({ }) {
+function SiteMessages() {
     return (
         <div id="site-messages">
             <SiteUpdates updates={messageData.updates} />
