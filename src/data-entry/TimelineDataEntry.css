@@ -7,7 +7,7 @@ div#timeline-data-entry {
 
 #timeline-data-entry label {
     display: block;
-    margin-left: 1rem;
+    margin: auto 0 auto 1rem;
 }
 
 #timeline-data-entry label textarea,
@@ -29,6 +29,10 @@ form {
     padding: 1rem;
     border-radius: 1rem;
     border: .15rem solid #888;
+}
+
+#timeline-data-entry form div {
+    margin: auto 0 auto 0;
 }
 
 #timeline-data-entry input,
