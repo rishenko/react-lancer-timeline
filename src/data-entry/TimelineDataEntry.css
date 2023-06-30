@@ -10,10 +10,6 @@ div#timeline-data-entry {
     margin: auto 0 auto 1rem;
 }
 
-#timeline-data-entry label textarea,
-#timeline-data-entry label select {
-    display: block;
-}
 
 #timeline-data-entry .eraInput label,
 #timeline-data-entry .markerInput label {
@@ -64,6 +60,7 @@ form {
 
 #timeline-data-entry textarea {
     height: 5rem;
+    width: 20rem;
 }
 
 #timeline-data-entry select {
@@ -133,7 +130,9 @@ input[id="timelineFileUpload"] {
 #timeline-data-entry .sourceInputs button {
     display: inline;
     height: auto;
-}
+}   
+
+
 
 #timeline-data-entry input[type="checkbox"] {
     height: 1rem;
@@ -166,6 +165,10 @@ input[id="timelineFileUpload"] {
 #timeline-data-entry .sourceInputTable .sourceInput input,
 #timeline-data-entry .sourceInputTable .sourceInput button {
     margin-right: 0;
+}
+
+#timeline-data-entry .sourceInputTable .sourceInput input {
+    width: 12rem;
 }
 
 /* controller buttons */

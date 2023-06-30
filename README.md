@@ -16,7 +16,7 @@ Please note this readme is incomplete and this project not quite ready for prime
 
 ## Data Formats
 
-The data used to build the timeline can be found in `src/lancer-timeline-data.json`. The JSON data contains listings for:
+The data used to build the timeline can be found in `src/data/lancer-timeline-data.json`. The JSON data contains listings for:
 
 - Factions
 - Sources
