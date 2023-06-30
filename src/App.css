@@ -59,8 +59,6 @@ div#action-message {
   right: 0;
   width: 100%;
   min-height: 2rem;
-  background-color: #2a2;
-  border-bottom: .25rem solid #080;
   color: var(--bgColor);
   z-index: 100;
   text-align: center;
@@ -70,11 +68,21 @@ div#action-message {
   display: none;
 }
 
+div#action-message.notice {
+  background-color: #2a2;
+  border-bottom: .25rem solid #080;
+}
+
+div#action-message.error {
+  background-color: #a22;
+  border-bottom: .25rem solid #800;
+}
+
 .hide-edit {
   display: none;
 }
 
-div#action-message.animate {
+div#action-message.animate  {
   display: block;
   -webkit-animation: fadeinout 1.5s linear forwards;
   animation: fadeinout 1.5s linear forwards;

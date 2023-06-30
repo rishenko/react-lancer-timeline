@@ -170,7 +170,9 @@
                     "sourceLocation": "pg. 6"
                 }
             ],
-            "uuid": "04e4e8c0-50a1-401d-bfa8-2bee7cbed0b9"
+            "uuid": "04e4e8c0-50a1-401d-bfa8-2bee7cbed0b9",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5800,
@@ -186,7 +188,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "e99a1272-a8da-4c8b-a203-55bef5644140"
+            "uuid": "e99a1272-a8da-4c8b-a203-55bef5644140",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5500,
@@ -202,7 +206,9 @@
                     "sourceLocation": "pg. 9"
                 }
             ],
-            "uuid": "a40f6c71-f66c-45e4-9e35-fa0180011f94"
+            "uuid": "a40f6c71-f66c-45e4-9e35-fa0180011f94",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5000,
@@ -236,7 +242,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 4"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5000,
@@ -253,7 +261,8 @@
                 }
             ],
             "intraYearIndex": "1",
-            "uuid": "18098d27-e22f-4bb1-8ffe-ec57ae42efbf"
+            "uuid": "18098d27-e22f-4bb1-8ffe-ec57ae42efbf",
+            "marker": false
         },
         {
             "year": 4899,
@@ -269,7 +278,9 @@
                     "sourceLocation": "pg. 10"
                 }
             ],
-            "uuid": "87a7a538-f11b-4271-bf6c-d9060bf7f0a1"
+            "uuid": "87a7a538-f11b-4271-bf6c-d9060bf7f0a1",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4899,
@@ -285,7 +296,9 @@
                     "sourceLocation": "pg. 14"
                 }
             ],
-            "uuid": "3bb37e09-c1ad-4c5c-8896-cce152924f53"
+            "uuid": "3bb37e09-c1ad-4c5c-8896-cce152924f53",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4900,
@@ -301,7 +314,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "7ad3e78b-2586-4ec0-a283-a68b3d15db21"
+            "uuid": "7ad3e78b-2586-4ec0-a283-a68b3d15db21",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4000,
@@ -353,7 +368,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 15"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2000,
@@ -405,7 +422,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "247dd6f9-8894-49a6-a282-0b201fce76f1"
+            "uuid": "247dd6f9-8894-49a6-a282-0b201fce76f1",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 53,
@@ -421,7 +440,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "15c5c878-3e33-46b8-a364-8f77b501e8f0"
+            "uuid": "15c5c878-3e33-46b8-a364-8f77b501e8f0",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 0,
@@ -455,7 +476,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "15db09b2-b89a-4f9e-a68c-88125c2f6e9f"
+            "uuid": "15db09b2-b89a-4f9e-a68c-88125c2f6e9f",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1,
@@ -471,7 +494,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 16"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1000,
@@ -505,7 +530,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "64bae6ad-1e8e-4958-9b68-41a6680630e1"
+            "uuid": "64bae6ad-1e8e-4958-9b68-41a6680630e1",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1450,
@@ -521,7 +548,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "70ffe49f-7018-44b0-88b5-1e9eb7d7c365"
+            "uuid": "70ffe49f-7018-44b0-88b5-1e9eb7d7c365",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1700,
@@ -537,7 +566,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "5b749b18-20b8-43e9-8c19-3d0784882b5b"
+            "uuid": "5b749b18-20b8-43e9-8c19-3d0784882b5b",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1900,
@@ -553,7 +584,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 412"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1908,
@@ -569,7 +602,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 17"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1998,
@@ -585,7 +620,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1998,
@@ -602,7 +639,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 1998,
@@ -611,14 +650,16 @@
                 "aun"
             ],
             "title": "Aunic Planetary Control and First Enumenical Mandate",
-            "descr": "1998-2100u. Integration of early Union colony, Anthem, under the Aun. The Aunic peoples establish control over Aun’Ist. The Ecumenical Mandate formally established.",
+            "descr": "1998-2100u. Integration of early Union colony, Anthem, under the Aun. The Aunic peoples establish control over Aun\u2019Ist. The Ecumenical Mandate formally established.",
             "uuid": "3d324401-d06c-4c09-94c6-0b6417574822",
             "sources": [
                 {
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 4"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2000,
@@ -652,7 +693,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "9f930b2b-831e-42d7-ad72-27cfcffb0ed6"
+            "uuid": "9f930b2b-831e-42d7-ad72-27cfcffb0ed6",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2000,
@@ -668,7 +711,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 20"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2001,
@@ -684,7 +729,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "2a4da35d-5fd9-40ed-9328-a098df111cce"
+            "uuid": "2a4da35d-5fd9-40ed-9328-a098df111cce",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2003,
@@ -700,7 +747,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 24"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2025,
@@ -716,7 +765,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 25"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2089,
@@ -732,7 +783,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 30"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2100,
@@ -741,14 +794,16 @@
                 "aun"
             ],
             "title": "First Dawn Period",
-            "descr": "2100-2869u. First Dawn period ushered in by the manifestation of Metat Aun above Aun’Ist. Dramatic expansion of the Ecumenical Mandate catalyzed by Metat Aun.",
+            "descr": "2100-2869u. First Dawn period ushered in by the manifestation of Metat Aun above Aun\u2019Ist. Dramatic expansion of the Ecumenical Mandate catalyzed by Metat Aun.",
             "uuid": "5f6328a9-8732-4793-9f5d-01e136e1b66a",
             "sources": [
                 {
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 1"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2100,
@@ -764,7 +819,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 1"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2800,
@@ -780,7 +837,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2870,
@@ -797,7 +856,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "7aa855eb-5dda-4d32-8c8b-6aae3bda5f4b"
+            "uuid": "7aa855eb-5dda-4d32-8c8b-6aae3bda5f4b",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2880,
@@ -814,7 +875,9 @@
                     "sourceLocation": "pg. 338"
                 }
             ],
-            "uuid": "7aa855eb-5dda-4d32-8c8b-6aae3bda5f4c"
+            "uuid": "7aa855eb-5dda-4d32-8c8b-6aae3bda5f4c",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2880,
@@ -824,7 +887,7 @@
                 "union"
             ],
             "title": "First Committee Dissolved, Second Committee Takes Over Union",
-            "descr": "In furious rejection of the First Committee’s perceived capitulation in the Cornucopia system, a military coup deposes the First Committee and launches a retaliatory attack aimed towards the Aunic homeworld: TBK PISTON-1, a spread of silent-flying, guided planet-killing weapon systems. The Second Committee is formally established.",
+            "descr": "In furious rejection of the First Committee\u2019s perceived capitulation in the Cornucopia system, a military coup deposes the First Committee and launches a retaliatory attack aimed towards the Aunic homeworld: TBK PISTON-1, a spread of silent-flying, guided planet-killing weapon systems. The Second Committee is formally established.",
             "sources": [
                 {
                     "sourceKey": "lcrb",
@@ -835,7 +898,9 @@
                     "sourceLocation": "pg. 4"
                 }
             ],
-            "uuid": "7bc855eb-5dda-4d32-8c8b-6aae3bda5f4b"
+            "uuid": "7bc855eb-5dda-4d32-8c8b-6aae3bda5f4b",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2885,
@@ -852,7 +917,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 32"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2890,
@@ -861,14 +928,16 @@
                 "aun"
             ],
             "title": "Aunic Civil War",
-            "descr": "2890-????u. Ecumenical Mandate’s response triggers a Mandate-wide schism, prompting the Aunic Civil War; concludes with the dissolution of the Ecumenical Mandate and formalization of the Ecclesiastic Ascendancy, or, Aunic Ascendancy as the ruling body of the Aunic peoples.",
+            "descr": "2890-????u. Ecumenical Mandate\u2019s response triggers a Mandate-wide schism, prompting the Aunic Civil War; concludes with the dissolution of the Ecumenical Mandate and formalization of the Ecclesiastic Ascendancy, or, Aunic Ascendancy as the ruling body of the Aunic peoples.",
             "uuid": "60dceeee-44da-4911-8902-deb53cd6ed43",
             "sources": [
                 {
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 4"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2890,
@@ -884,7 +953,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 4"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2890,
@@ -894,14 +965,16 @@
                 "union"
             ],
             "title": "Cornucopian Royal Family Flees to Golgotha",
-            "descr": "~2890u. The newly constituted Second Committee intervenes on behalf of the Cornucopian royal family, preventing Aunic forces from establishing a foothold on Golgotha; Golgotha is renamed “Dawn Throne” by the royal family, and announced as the new legitimate seat of theCornucopia-Golgotha system.",
+            "descr": "~2890u. The newly constituted Second Committee intervenes on behalf of the Cornucopian royal family, preventing Aunic forces from establishing a foothold on Golgotha; Golgotha is renamed \u201cDawn Throne\u201d by the royal family, and announced as the new legitimate seat of theCornucopia-Golgotha system.",
             "uuid": "c86856ed-18c4-4b7b-8213-e7f60f8cff15",
             "sources": [
                 {
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 4"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2998,
@@ -917,7 +990,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 339"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3000,
@@ -951,7 +1026,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 339"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3002,
@@ -967,7 +1044,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 339"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3002,
@@ -983,7 +1062,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 398"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3007,
@@ -1000,7 +1081,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 34"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3130,
@@ -1016,7 +1099,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 398"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3135,
@@ -1033,7 +1118,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,5"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3150,
@@ -1049,7 +1136,9 @@
                     "sourceKey": "fgktb",
                     "sourceLocation": "pgs. 35"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3199,
@@ -1065,7 +1154,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,6"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3200,
@@ -1081,7 +1172,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3348,
@@ -1098,7 +1191,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 413"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3350,
@@ -1114,7 +1209,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,6-8"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3360,
@@ -1130,7 +1227,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,8-9"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3500,
@@ -1147,7 +1246,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,8"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3500,
@@ -1164,7 +1265,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,8-9"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3600,
@@ -1181,7 +1284,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,9"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4000,
@@ -1216,7 +1321,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 413-414"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4500,
@@ -1232,7 +1339,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4560,
@@ -1248,7 +1357,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pgs. 22"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4560,
@@ -1264,7 +1375,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4591,
@@ -1281,7 +1394,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4600,
@@ -1298,7 +1413,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 4600,
@@ -1315,7 +1431,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 4600,
@@ -1331,7 +1448,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,17"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4630,
@@ -1357,7 +1476,8 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 13-15"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 4630,
@@ -1379,7 +1499,8 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 16"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 4630,
@@ -1396,7 +1517,8 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,17"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 4696,
@@ -1412,7 +1534,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 415"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4800,
@@ -1428,7 +1552,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 4"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4814,
@@ -1444,7 +1570,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pg. 121"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4814,
@@ -1460,7 +1588,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pg. 120"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4815,
@@ -1476,7 +1606,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 27-30"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4828,
@@ -1492,7 +1624,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 31"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4828,
@@ -1508,7 +1642,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 31"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4828,
@@ -1524,7 +1660,9 @@
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 31"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4900,
@@ -1540,7 +1678,9 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 196"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4943,
@@ -1556,7 +1696,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pg. 15"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4954,
@@ -1572,7 +1714,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pgs. 25"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4964,
@@ -1588,7 +1732,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pg. 24"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4964,
@@ -1604,7 +1750,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pg. 99"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4964,
@@ -1620,7 +1768,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pgs. 122,134"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4984,
@@ -1636,7 +1786,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pg. 53"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5000,
@@ -1670,7 +1822,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pg. 4"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5000,
@@ -1691,7 +1845,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pgs. 68-83"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5000,
@@ -1708,7 +1864,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pgs. 70"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5010,
@@ -1725,7 +1883,9 @@
                     "sourceKey": "fgaun",
                     "sourceLocation": "pgs. 70"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5012,
@@ -1741,7 +1901,9 @@
                     "sourceKey": "nrfw",
                     "sourceLocation": "pg. 24"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5014,
@@ -1758,7 +1920,8 @@
                     "sourceKey": "no-source",
                     "sourceLocation": ""
                 }
-            ]
+            ],
+            "intraYearIndex": null
         },
         {
             "year": 5016,
@@ -1775,7 +1938,8 @@
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 389"
                 }
-            ]
+            ],
+            "intraYearIndex": null
         },
         {
             "year": 5016,
@@ -1791,14 +1955,18 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 198"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 5019,
             "era": "U",
             "intraYearIndex": 1,
             "factions": [
-                "union", "ha", "ktb"
+                "union",
+                "ha",
+                "ktb"
             ],
             "title": "The Dawnline Incident",
             "descr": "5019-5021u. Hostilities break out between Harrison Armory and the Baronies in the Dawnline Shore. Union Navy attempts to intervene with military force before full-scale war breaks out.",
@@ -1808,14 +1976,16 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 199"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5019,
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "ktb", "ha"
+                "ktb",
+                "ha"
             ],
             "title": "Concordant Administration Attacks the Perfect Ministeriat",
             "descr": "Vanguard forces of the Concordant Administration mount a surprise attack on key installations belonging to the Perfect Ministeriat and its satellite nations.",
@@ -1825,14 +1995,17 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 198"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5019,
             "era": "U",
             "intraYearIndex": 3,
             "factions": [
-                "ha", "ktb", "union"
+                "ha",
+                "ktb",
+                "union"
             ],
             "title": "The Battle for New Creighton",
             "descr": "Late 5019u. Harrison Armory and the Perfect Ministeriat launch a campaign against the Concordant Administration and Baronic forces both on and above New Creighton. Union creates a battlegroup enforced corridor to support evacuation, leading to the Armory firing on Union forces.",
@@ -1842,14 +2015,17 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 209,212"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5019,
             "era": "U",
             "intraYearIndex": 4,
             "factions": [
-                "union", "ktb", "ha"
+                "union",
+                "ktb",
+                "ha"
             ],
             "title": "Union Disables Dawnline Shore Blink Gate",
             "descr": "Late 5019u. Rapidly escalating tensions and violence between the Baronies and Harrison Armory in the Dawnline Shore causes Union to shutdown the as yet unnamed Dawnline Shore blink gate.",
@@ -1859,14 +2035,17 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 198"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5020,
             "era": "U",
             "intraYearIndex": 1,
             "factions": [
-                "union", "ha", "ktb"
+                "union",
+                "ha",
+                "ktb"
             ],
             "title": "The Armory's Defense of Harrison's World",
             "descr": "Early 5020u. Union launches a surgical strike against a major fabrication facility on Harrison's World. The Armory defends orbital shipyards from incoming Baronic forces.",
@@ -1876,14 +2055,17 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 210,212"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5020,
             "era": "U",
             "intraYearIndex": 1,
             "factions": [
-                "union", "ha", "ktb"
+                "union",
+                "ha",
+                "ktb"
             ],
             "title": "The Baronic Defense of Upper Laurent",
             "descr": "Early 5020u. Baronic forces gather reinforcements from the Upper Laurent while also defending the planet against the Armory's incoming interplanetary missiles.",
@@ -1893,14 +2075,17 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 210,212"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5020,
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "union", "ha", "ktb"
+                "union",
+                "ha",
+                "ktb"
             ],
             "title": "The Battle of Terminal Ring Station",
             "descr": "Late 5020u. Harrison Armory forces land on Terminal, a ring habitat station near New Madrassa, to try and capture a Baronic VIP. Union and Baronic forces race against the Armory, and one another, to extract the VIP first.",
@@ -1910,7 +2095,8 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 210,213,214"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5021,
@@ -1935,7 +2121,8 @@
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "union", "ha"
+                "union",
+                "ha"
             ],
             "title": "Armory Forces Engage Union Near Arkady II",
             "descr": "Early 5021u. Armory forces arrive from the Long Rim nadir beachhead and engage the Union blockade at the termination shockline near Arkady II.",
@@ -1945,14 +2132,16 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 211,213"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5021,
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "ktb", "ha"
+                "ktb",
+                "ha"
             ],
             "title": "Baronic Forces Attack the Armory at Gloria",
             "descr": "Early 5021u. Baronic forces arrive from the Concern and attack Armory defenses at the planet Gloria.",
@@ -1962,14 +2151,17 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 215"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5021,
             "era": "U",
             "intraYearIndex": 2,
             "factions": [
-                "union", "ha", "ktb"
+                "union",
+                "ha",
+                "ktb"
             ],
             "title": "Three Way Battle at the Long Rim Apex Beachhead",
             "descr": "Early 5021u. Baronic reinforcements arrive from the heavily trafficked Long Rim apex beachhead and are immediately engaged by Armory forces. Union attempts to stand them both down, resulting in the first 3-way fight of the Dawnline Incident.",
@@ -1979,14 +2171,17 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 211,213,215"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 5021,
             "era": "U",
             "intraYearIndex": 3,
             "factions": [
-                "union", "ha", "ktb"
+                "union",
+                "ha",
+                "ktb"
             ],
             "title": "Final Engagement of the Dawnline Incident",
             "descr": "Late 5021u. Harrison Armory launches a \"liberation\" attack on New Madrassa. Baronic forces counterattack. Union joins with the Baronic forces to keep the Armory at bay.",
@@ -1996,7 +2191,8 @@
                     "sourceKey": "battlegroup",
                     "sourceLocation": "pg. 211,213,215"
                 }
-            ]
+            ],
+            "marker": false
         },
         {
             "year": 15005,
@@ -2012,7 +2208,9 @@
                     "sourceKey": "longrim",
                     "sourceLocation": "p. 53"
                 }
-            ]
+            ],
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 2910,
@@ -2028,7 +2226,9 @@
                     "sourceLocation": "p. 18"
                 }
             ],
-            "uuid": "8a8891e5-14e5-4484-a65d-1aee3351b11d"
+            "uuid": "8a8891e5-14e5-4484-a65d-1aee3351b11d",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3000,
@@ -2048,7 +2248,9 @@
                     "sourceLocation": "p. 381"
                 }
             ],
-            "uuid": "b5e79806-242b-43a1-8de8-17ad9130c592"
+            "uuid": "b5e79806-242b-43a1-8de8-17ad9130c592",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3000,
@@ -2068,7 +2270,9 @@
                     "sourceLocation": "p. 384"
                 }
             ],
-            "uuid": "6dc09722-6a3a-40ed-ab1b-e51216295f4d"
+            "uuid": "6dc09722-6a3a-40ed-ab1b-e51216295f4d",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3002,
@@ -2088,7 +2292,9 @@
                     "sourceLocation": "p. 381"
                 }
             ],
-            "uuid": "5c91f5b3-71f4-472d-ac0e-b4027fa4d77d"
+            "uuid": "5c91f5b3-71f4-472d-ac0e-b4027fa4d77d",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3002,
@@ -2108,7 +2314,9 @@
                     "sourceLocation": "p. 381"
                 }
             ],
-            "uuid": "39a2c194-9349-44c0-9324-0bc588a337e3"
+            "uuid": "39a2c194-9349-44c0-9324-0bc588a337e3",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3200,
@@ -2124,7 +2332,9 @@
                     "sourceLocation": "p. 18"
                 }
             ],
-            "uuid": "a547a089-45d4-4130-a581-7b0377576d26"
+            "uuid": "a547a089-45d4-4130-a581-7b0377576d26",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3156,
@@ -2140,7 +2350,9 @@
                     "sourceLocation": "p. 17"
                 }
             ],
-            "uuid": "29a99c3b-640f-443d-b1e4-c5c33234e924"
+            "uuid": "29a99c3b-640f-443d-b1e4-c5c33234e924",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 3803,
@@ -2156,7 +2368,9 @@
                     "sourceLocation": "p. 69"
                 }
             ],
-            "uuid": "67550bed-8160-46f5-a4d5-55b3e834923c"
+            "uuid": "67550bed-8160-46f5-a4d5-55b3e834923c",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4900,
@@ -2172,7 +2386,9 @@
                     "sourceLocation": "p. 18"
                 }
             ],
-            "uuid": "0d90e19e-9d0f-4637-9673-f8cb0ca4cc6c"
+            "uuid": "0d90e19e-9d0f-4637-9673-f8cb0ca4cc6c",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4900,
@@ -2188,7 +2404,9 @@
                     "sourceLocation": "p. 19"
                 }
             ],
-            "uuid": "d514df8b-c00b-45ea-aa83-68aa20a5ba5b"
+            "uuid": "d514df8b-c00b-45ea-aa83-68aa20a5ba5b",
+            "intraYearIndex": null,
+            "marker": false
         },
         {
             "year": 4997,
@@ -2204,7 +2422,9 @@
                     "sourceLocation": "p. 19"
                 }
             ],
-            "uuid": "118d3a27-8ca3-4fab-afed-573d640d22ba"
+            "uuid": "118d3a27-8ca3-4fab-afed-573d640d22ba",
+            "intraYearIndex": null,
+            "marker": false
         }
     ]
 }

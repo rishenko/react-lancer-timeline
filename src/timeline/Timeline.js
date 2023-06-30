@@ -14,21 +14,30 @@ function Timeline({ timelineData, factions, sources, visibleFactions, visibleSou
      * 3. by intraYearIndex: lower index values are shown first, no index is treated as an index with '999'
      */
     function timelineSortByEraYearIndex(a, b) {
-        var intraYearIndexA = a.intraYearIndex == null ? 999 : a.intraYearIndex;
-        var intraYearIndexB = b.intraYearIndex == null ? 999 : b.intraYearIndex;
-
         var eraYearComparisonResult = -1;
         if (a.era < b.era) {
             eraYearComparisonResult = -1;
         } else if (a.era > b.era) {
             eraYearComparisonResult = 1;
         } else if (a.era === 'BU') {
-            eraYearComparisonResult = ((a.year - b.year) * -1) || intraYearIndexA - intraYearIndexB;
+            eraYearComparisonResult = ((a.year - b.year) * -1) || intraYearIndexComparison(a.intraYearIndex, b.intraYearIndex);
         } else if (a.era === 'U') {
-            eraYearComparisonResult = (a.year - b.year) || intraYearIndexA - intraYearIndexB;
+            eraYearComparisonResult = (a.year - b.year) || intraYearIndexComparison(a.intraYearIndex, b.intraYearIndex);
         }
 
         return eraYearComparisonResult;
+    }
+
+    function intraYearIndexComparison(a, b) {
+        var aEmpty = !(isNaN(a) || a == null);
+        var bEmpty = !(isNaN(b) || b == null);
+        if (aEmpty && bEmpty) {
+            return a - b;
+        } else if (aEmpty) {
+            return -1;
+        } else {
+            return 1;
+        }
     }
 
     function isTimelineEntryVisible(entry) {

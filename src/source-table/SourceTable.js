@@ -5,20 +5,20 @@ import SourceTableEntry from './SourceTableEntry';
 function SourceTable({ sources, publishingAttributes }) {
     return (
         <div className="sources-data">
-        <table id="source-table">
-            <thead>
-                <tr>
-                    <th>Name</th><th>Publishing Attributes</th>
-                </tr>
-            </thead>
-            <tbody>
-                {Object.values(sources).map((source) => {
-                    return (
-                        (source.name != "No Source") && <SourceTableEntry key={source.name} source={source} publishingAttributes={publishingAttributes} />
-                    )
-                })}
-            </tbody>
-        </table>
+            <table id="source-table">
+                <thead>
+                    <tr>
+                        <th>Name</th><th>Publishing Attributes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {Object.values(sources).map((source) => {
+                        return (
+                            !["No Source", "All Sources"].includes(source.name) && <SourceTableEntry key={source.name} source={source} publishingAttributes={publishingAttributes} />
+                        )
+                    })}
+                </tbody>
+            </table>
         </div>
     );
 }

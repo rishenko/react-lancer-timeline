@@ -6,13 +6,17 @@ This project seeks to provide an interactive timeline for content in the Lancer 
 
 Please note this readme is incomplete and this project not quite ready for primetime.
 
-## How to Use
+## How to Run
 
-...
+1. Download and install [Node JS](https://nodejs.dev/en/learn/how-to-install-nodejs/).
+2. Clone this repository to your computer.
+3. Open a terminal window and change to the directory of your cloned folder.
+4. Type in `npm install` and hit Enter.
+5. Type in `npm start` to run the application locally.
 
 ## Data Formats
 
-The data used to build the timeline can be found in `src/lancer-timeline-data.json`. The JSON data contains listings for:
+The data used to build the timeline can be found in `src/data/lancer-timeline-data.json`. The JSON data contains listings for:
 
 - Factions
 - Sources
@@ -154,7 +158,9 @@ It should be noted that timeline entries are automatically sorted by the React a
 
 ### Data
 
-This site's content is populated using the data format outlined under _Data Formats_, where all data is stored and pulled from `src/lancer-timeline-data.json`. All data contributions should follow the above data formats and pattern. It should be noted that there is no required ordering of nodes or list items in any of the data structures.
+This site's content is populated using the data format outlined under _Data Formats_, where all data is stored and pulled from `src/data/lancer-timeline-data.json`. All data contributions should follow the above data formats and pattern. It should be noted that there is no required ordering of nodes or list items in any of the data structures.
+
+The easiest way to modify timeline data is to load the site in your browser and use the timeline editing features found by scrolling to Timeline Data Entry and clicking on the _Toggle Edit Mode_ button. After making your changes, download the timeline data file and either open a PR here on github, or by sending me a DM on Massif's PilotNET Discord.
 
 #### FOR AUTHORS OF PUBLISHED THIRD PARTY CONTENT
 
