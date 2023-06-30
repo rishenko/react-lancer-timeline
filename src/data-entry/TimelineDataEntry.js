@@ -98,7 +98,7 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
             <form onSubmit={handleSubmit(onSubmit)} className={editMode.isOn ? "" : "hide-edit"}>
                 <div id="editing-instructions">
                     <p>
-                        You can reate, edit, and delete timeline entries. Please keep the following in mind as you customize your own timeline:
+                        You can create, edit, and delete timeline entries. Please keep the following in mind as you customize your own timeline:
                     </p>
                     <ul>
                         <li>
@@ -111,13 +111,16 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
                             <strong>Resetting the Timeline</strong>: Refreshing the page restores the timeline to the original state from the server. You will lose all changes when you refresh the page, so download often.
                         </li>
                         <li>
-                            <strong>Saving Your Changes</strong>: Once you are satisfied with the updated timeline, you should download it by clicking on the <em>Download Timeline Data button</em> above.
+                            <strong>Saving Your Changes</strong>: Once you are satisfied with the updated timeline, you should download it by clicking on either the <em>Download In-Progress Data</em> or <em>Download Final Data</em> above. The only difference is that <em>Download Final Data</em> strips the data flag classifying an entry as having been edited.
                         </li>
                         <li>
                             <strong>Sharing Your Timeline</strong>: Anybody with a timeline JSON file can visit this site and use the <em>Upload JSON timeline data...</em> button above to replace the timeline with your custom version.
                         </li>
                         <li>
                             <strong>Changes Are Local Only</strong>: Timeline changes only apply to your local machine and will not be seen by others unless they upload a copy of the JSON file you downloaded.
+                        </li>
+                        <li>
+                            <strong>Modified Badge</strong>: Any created or modified entries are given an <code>edited</code> flag, causing them to be marked with a green MODIFIED badge while in edit mode. Data downloaded via the <em>Download Final Data</em> button will NOT contain the <code>edited</code> flag.
                         </li>
                     </ul>
                 </div>
