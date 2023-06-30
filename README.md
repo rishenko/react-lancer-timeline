@@ -158,7 +158,9 @@ It should be noted that timeline entries are automatically sorted by the React a
 
 ### Data
 
-This site's content is populated using the data format outlined under _Data Formats_, where all data is stored and pulled from `src/lancer-timeline-data.json`. All data contributions should follow the above data formats and pattern. It should be noted that there is no required ordering of nodes or list items in any of the data structures.
+This site's content is populated using the data format outlined under _Data Formats_, where all data is stored and pulled from `src/data/lancer-timeline-data.json`. All data contributions should follow the above data formats and pattern. It should be noted that there is no required ordering of nodes or list items in any of the data structures.
+
+The easiest way to modify timeline data is to load the site in your browser and use the timeline editing features found by scrolling to Timeline Data Entry and clicking on the _Toggle Edit Mode_ button. After making your changes, download the timeline data file and either open a PR here on github, or by sending me a DM on Massif's PilotNET Discord.
 
 #### FOR AUTHORS OF PUBLISHED THIRD PARTY CONTENT
 

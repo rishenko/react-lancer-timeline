@@ -2,6 +2,17 @@
     "updates": [
 
         {
+            "date": "2023-06-30T12:00:00.000Z",
+            "details": [
+                "added timeline entry edit mode and entry form",
+                "added buttons to download/upload custom timelines",
+                "refactored source file structure",
+                "added How to Run instructions and more to README",
+                "various minor fixes and updates"
+            ]
+        },
+
+        {
             "date": "2023-06-24T12:00:00.000Z",
             "details": [
                 "added of Lancer: Battlegroup timeline entries",
@@ -32,8 +43,8 @@
     "messages": [
         {
             "type": "request",
-            "title": "Community Request",
-            "message": "Content creators with finalized timelines and published (or near published) works are encouraged to submit factions, sources, and timeline data."
+            "title": "TIMELINE EDITING IS LIVE!!!",
+            "message": "Scroll to Timeline Data Entry and click on the \"Toggle Edit Mode\" button to begin building your own custom timeline!"
         }
     ]
 }
