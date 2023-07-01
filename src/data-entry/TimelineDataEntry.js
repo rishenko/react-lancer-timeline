@@ -27,7 +27,7 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
     const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
     const editMode = useContext(EditModeContext);
-    const { register, getValues, formState: { errors }, handleSubmit, control, reset } = useForm({ mode: "onChange", defaultValues: newEntry() });
+    const { register, formState: { errors }, handleSubmit, control, reset } = useForm({ mode: "onChange", defaultValues: newEntry() });
     const { fields, append, remove } = useFieldArray({
         control,
         name: 'sources',
@@ -99,7 +99,6 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
     }
 
     // Modal related variables and functions;
-    let subtitle;
     const [modalIsOpen, setIsOpen] = useState(false);
 
     function openModal() {
@@ -255,7 +254,7 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
                     overlayClassName="Overlay"
                     contentLabel="Entry Saved Modal"
                 >
-                    <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Timeline Entry Saved</h2>
+                    <h2>Timeline Entry Saved</h2>
                     <div className="controller-buttons">
                         <button onClick={startNew}>Start New</button>
                         <button onClick={closeModal}>Keep Editing</button>
