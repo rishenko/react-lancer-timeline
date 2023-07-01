@@ -256,7 +256,6 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
                     contentLabel="Entry Saved Modal"
                 >
                     <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Timeline Entry Saved</h2>
-                    <p><em>{getValues('title')}</em> has been saved.</p>
                     <div className="controller-buttons">
                         <button onClick={startNew}>Start New</button>
                         <button onClick={closeModal}>Keep Editing</button>
