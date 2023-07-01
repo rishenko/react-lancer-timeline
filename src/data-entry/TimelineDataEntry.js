@@ -1,11 +1,15 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { useForm, useFieldArray, Controller } from 'react-hook-form';
 import './TimelineDataEntry.css';
 import { EditModeContext } from './EditModeContext';
 import { ActionMessageContext } from '../ActionMessageContext';
+import Modal from 'react-modal';
+
+Modal.setAppElement('#root');
 
 function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, sources, timelineEntryAction, setEditMode }) {
     const showActionMessage = useContext(ActionMessageContext);
+
     const newEntry = () => {
         return {
             year: 5016,
@@ -23,7 +27,7 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
     const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
     const editMode = useContext(EditModeContext);
-    const { register, formState: { errors }, handleSubmit, control, reset } = useForm({ mode: "onChange", defaultValues: newEntry() });
+    const { register, getValues, formState: { errors }, handleSubmit, control, reset } = useForm({ mode: "onChange", defaultValues: newEntry() });
     const { fields, append, remove } = useFieldArray({
         control,
         name: 'sources',
@@ -45,7 +49,7 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
         } else {
             setTimelineData([...timelineData, data]);
         }
-        showActionMessage(<span>Saving timeline entry "{data.title}".</span>);
+        openModal();
     }
 
     const downloadTimelineData = (isFinal) => {
@@ -94,13 +98,30 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
         setEditMode(newEditMode);
     }
 
+    // Modal related variables and functions;
+    let subtitle;
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+    function openModal() {
+        setIsOpen(true);
+    }
+
+    function closeModal() {
+        setIsOpen(false);
+    }
+
+    function startNew() {
+        reset(newEntry());
+        closeModal();
+    }
+
     return (
         <div id="timeline-data-entry">
             <h2>Timeline Data Entry</h2>
             <div className="controller-buttons">
                 <button name="editModeToggle" className={editMode.isOn ? "edit-mode-on" : ""} onClick={toggleEditMode}>Toggle Edit Mode</button>
-                <button name="downloadTimelineData" onClick={() => {downloadTimelineData(false)}}>Download In-Progress Data</button>
-                <button name="downloadTimelineData" onClick={() => {downloadTimelineData(true)}}>Download Final Data</button>
+                <button name="downloadTimelineData" onClick={() => { downloadTimelineData(false) }}>Download In-Progress Data</button>
+                <button name="downloadTimelineData" onClick={() => { downloadTimelineData(true) }}>Download Final Data</button>
                 <div><label htmlFor="timelineFileUpload">Upload JSON Timeline</label><input id="timelineFileUpload" name="timelineFileUpload" type="file" onChange={handleFileUpload} /></div>
             </div>
 
@@ -227,6 +248,21 @@ function TimelineDataEntry({ allData, timelineData, setTimelineData, factions, s
 
                 <button type="button" name="reset" onClick={() => { reset(newEntry()) }}>Reset Timeline Entry Form</button>
                 <input type="submit" value="Create/Update Entry" />
+                <Modal
+                    isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    className="Modal"
+                    overlayClassName="Overlay"
+                    contentLabel="Entry Saved Modal"
+                >
+                    <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Timeline Entry Saved</h2>
+                    <p><em>{getValues('title')}</em> has been saved.</p>
+                    <div className="controller-buttons">
+                        <button onClick={startNew}>Start New</button>
+                        <button onClick={closeModal}>Keep Editing</button>
+                    </div>
+
+                </Modal>
             </form>
         </div >
     )
