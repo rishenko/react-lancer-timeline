@@ -12,7 +12,7 @@ function ModifyLink({ entry, setTimelineEntryAction, action }) {
         setTimelineEntryAction({ "action": action, "entry": entry });
         showActionMessage(<span>{actionText} timeline entry "{entry.title}".</span>);
         if (action === "modify") {
-            setTimeout(document.getElementById("timeline-data-entry").scrollIntoView({ behavior: "auto" }), 750);
+            setTimeout(document.getElementById("year").scrollIntoView({ behavior: "auto" }), 750);
         }
     }
 

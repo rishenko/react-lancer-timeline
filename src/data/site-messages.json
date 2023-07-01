@@ -2,6 +2,13 @@
     "updates": [
 
         {
+            "date": "2023-07-01T12:00:00.000Z",
+            "details": [
+                "adds a modal that appears after saving an entry with next steps",
+                "modifies edit link to take user to the year field"
+            ]
+        },
+        {
             "date": "2023-06-30T12:00:00.000Z",
             "details": [
                 "added timeline entry edit mode and entry form",

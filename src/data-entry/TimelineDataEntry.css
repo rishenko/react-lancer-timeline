@@ -67,6 +67,7 @@ form {
     height: 5rem;
 }
 
+.Modal button,
 #timeline-data-entry button,
 #timeline-data-entry input[type="submit"],
 #timeline-data-entry input[type="reset"] {
@@ -130,7 +131,7 @@ input[id="timelineFileUpload"] {
 #timeline-data-entry .sourceInputs button {
     display: inline;
     height: auto;
-}   
+}
 
 
 
@@ -240,4 +241,58 @@ p[role="alert"] {
     border-radius: .5rem;
     text-align: center;
     margin-top: .25rem;
+}
+
+/* Modal */
+.Modal {
+    --font-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #0a0;
+    border: 1rem solid #0a0;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    z-index: 1001;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.Modal h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--font-color);
+    border-bottom: none;
+}
+
+.Modal p {
+    margin: .5rem auto;
+}
+
+.Modal .controller-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto .75rem auto;
+}
+
+.Modal .controller-buttons button {
+    background-color: var(--font-color);
+    color: #0a0;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(245, 245, 245, 0.6);
+    z-index: 1000;
 }
