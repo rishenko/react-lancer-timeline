@@ -176,6 +176,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 6"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "04e4e8c0-50a1-401d-bfa8-2bee7cbed0b9",
@@ -194,6 +198,10 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "e99a1272-a8da-4c8b-a203-55bef5644140",
@@ -212,6 +220,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 9"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "a40f6c71-f66c-45e4-9e35-fa0180011f94",
@@ -284,6 +296,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 10"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "87a7a538-f11b-4271-bf6c-d9060bf7f0a1",
@@ -302,6 +318,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 14"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "3bb37e09-c1ad-4c5c-8896-cce152924f53",
@@ -375,6 +395,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 15"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -501,6 +525,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 16"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -609,6 +637,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 17"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -718,6 +750,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 20"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -766,12 +802,16 @@
                 "ktb"
             ],
             "title": "The Dynasticlade",
-            "descr": "Message broadcast on behalf of Tyrannus' and his children stating that the Annorum is ending and power will be transferred to a New Federation.",
+            "descr": "Message broadcast on behalf of Tyrannus and his children declaring that his Annorum will end with the passing of his daughter Calendula, and power will be transferred to a New Federation.",
             "uuid": "06a6e150-3f72-41ad-b499-e4fc3f78d27a",
             "sources": [
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 25"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -784,12 +824,16 @@
                 "ktb"
             ],
             "title": "The New Federation",
-            "descr": "2089-3150u. The New Federation serves as the ruling body of the Karrakin peoples after the Dynasticlade.",
+            "descr": "2089-3150u. Calendula institutes the system of major and minor houses. The New Federation serves as the ruling body of the Karrakin peoples after the Dynasticlade.",
             "uuid": "5f6328a9-8732-4793-9f5d-01e136eff66a",
             "sources": [
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 30"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -844,6 +888,10 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -924,6 +972,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 32"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -1088,6 +1140,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 34"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -1382,6 +1438,10 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -1461,7 +1521,7 @@
             "marker": false
         },
         {
-            "year": 4630,
+            "year": 4600,
             "intraYearIndex": 1,
             "era": "U",
             "factions": [
@@ -1483,6 +1543,10 @@
                 {
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 13-15"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "marker": false
