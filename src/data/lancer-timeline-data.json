@@ -127,6 +127,14 @@
             "url": "https://www.playrole.com/store/games/lancer-battlegroup",
             "defaultFilteredStatus": false
         },
+		"sotw": {
+            "name": "Shadow of the Wolf",
+            "publishingAttributes": [
+                "first",
+                "published"
+            ],
+            "url": "https://massif-press.itch.io/shadow-of-the-wolf"
+        },
         "no-source": {
             "name": "No Source",
             "publishingAttributes": [],
