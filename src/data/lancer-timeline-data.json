@@ -1613,6 +1613,24 @@
             ],
             "marker": false
         },
+		{
+            "year": 4601,
+            "intraYearIndex": null,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "The Sanjak Revolution",
+            "descr": "4601-4630u. An uprising on the Khayradi moon known as Ludra's World escalates into rebellion and war, until the House of Stone is forced to cede the moon to the rebels, who assume administration and rename it the Free Sanjak Commune.",
+            "uuid": "ac12b1d4-5dc5-4e87-8e5f-4c737ae78ebb",
+            "sources": [
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
+                }
+            ],
+            "marker": false
+        },
         {
             "year": 4630,
             "intraYearIndex": 2,
