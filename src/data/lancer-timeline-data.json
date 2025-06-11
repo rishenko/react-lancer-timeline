@@ -752,7 +752,29 @@
                 }
             ],
             "uuid": "9f930b2b-831e-42d7-ad72-27cfcffb0ed6",
-            "intraYearIndex": null,
+            "intraYearIndex": 2,
+            "marker": false
+        },
+		{
+            "year": 2000,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "The Last Argument of Kings",
+            "descr": "2000u. Tyran returns to Karrakis and resolves the succession crisis by invading Throne Karrakis.",
+            "uuid": "a01ca30b-6068-460a-8a2c-1ef40579e449",
+            "sources": [
+                {
+                    "sourceKey": "fgktb",
+                    "sourceLocation": "pg. 20"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
+                }
+            ],
+            "intraYearIndex": 3,
             "marker": false
         },
         {
@@ -762,7 +784,7 @@
                 "ktb"
             ],
             "title": "The Annorum Tyrannus",
-            "descr": "2000-2089u. Tyrannus suppresses the revolts on another planetary and returns to take over Karrakis, ending the bloody war there, as well as the Annorum Passacaglia.",
+            "descr": "2000-2089u. Tyran, now Tyrannus, ends the Annorum Passacaglia and declares the Annorum Tyrannus.",
             "uuid": "34a9921e-027e-46b2-a980-963d6705a7e1",
             "sources": [
                 {
@@ -774,7 +796,7 @@
                     "sourceLocation": "pg. 16"
                 }
             ],
-            "intraYearIndex": null,
+            "intraYearIndex": 4,
             "marker": false
         },
         {
