@@ -646,6 +646,24 @@
             "intraYearIndex": null,
             "marker": false
         },
+		{
+            "year": 1970,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "Tyran of Dellamar dispatched",
+            "descr": "1970u. Tyran of Dellamar is dispatched to Khayradin to resolve Khayradi secession and bring the world back under Annorate control.",
+            "uuid": "e719a4a2-e176-41c1-adaa-bc936a320ef4",
+            "sources": [
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
+                }
+            ],
+            "intraYearIndex": null,
+            "marker": false
+        },
         {
             "year": 1998,
             "era": "U",
