@@ -1392,6 +1392,24 @@
             "intraYearIndex": null,
             "marker": false
         },
+		{
+            "year": 3845,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "Baronic Interest established",
+            "descr": "3845u. The Second Committee recognises the Federal Karrakin Monarchy's administration of the worlds of the Dawnline Shore.",
+            "uuid": "2b55e130-f748-43fb-b73d-611dd2dfe137",
+            "sources": [
+                {
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
+                }
+            ],
+            "intraYearIndex": null,
+            "marker": false
+        },
         {
             "year": 4000,
             "intraYearIndex": 1,
