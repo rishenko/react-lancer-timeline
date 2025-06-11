@@ -1672,6 +1672,24 @@
             ],
             "marker": false
         },
+		{
+            "year": 4630,
+            "intraYearIndex": 4,
+            "era": "U",
+            "factions": [
+                "ha"
+            ],
+            "title": "COMMENCER disaster",
+            "descr": "The House of Dust becomes Republican. Hagiographic dissenters unwittingly release COMMENCER terraforming nanites, which begin to consume the moon of Bo.",
+            "uuid": "15e54259-3090-440f-a93f-ff362bc1be69",
+            "sources": [
+                {
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
+                }
+            ],
+            "marker": false
+        },
         {
             "year": 4696,
             "era": "U",
