@@ -127,6 +127,14 @@
             "url": "https://www.playrole.com/store/games/lancer-battlegroup",
             "defaultFilteredStatus": false
         },
+		"sotw": {
+            "name": "Shadow of the Wolf",
+            "publishingAttributes": [
+                "first",
+                "published"
+            ],
+            "url": "https://massif-press.itch.io/shadow-of-the-wolf"
+        },
         "no-source": {
             "name": "No Source",
             "publishingAttributes": [],
@@ -168,6 +176,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 6"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "04e4e8c0-50a1-401d-bfa8-2bee7cbed0b9",
@@ -186,6 +198,10 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "e99a1272-a8da-4c8b-a203-55bef5644140",
@@ -204,6 +220,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 9"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "a40f6c71-f66c-45e4-9e35-fa0180011f94",
@@ -276,6 +296,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 10"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "87a7a538-f11b-4271-bf6c-d9060bf7f0a1",
@@ -294,6 +318,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 14"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "uuid": "3bb37e09-c1ad-4c5c-8896-cce152924f53",
@@ -367,6 +395,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 15"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -493,6 +525,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 16"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -601,6 +637,28 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 17"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
+                }
+            ],
+            "intraYearIndex": null,
+            "marker": false
+        },
+		{
+            "year": 1970,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "Tyran of Dellamar dispatched",
+            "descr": "1970u. Tyran of Dellamar is dispatched to Khayradin to resolve Khayradi secession and bring the world back under Annorate control.",
+            "uuid": "e719a4a2-e176-41c1-adaa-bc936a320ef4",
+            "sources": [
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
             "intraYearIndex": null,
@@ -694,7 +752,29 @@
                 }
             ],
             "uuid": "9f930b2b-831e-42d7-ad72-27cfcffb0ed6",
-            "intraYearIndex": null,
+            "intraYearIndex": 2,
+            "marker": false
+        },
+		{
+            "year": 2000,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "The Last Argument of Kings",
+            "descr": "2000u. Tyran returns to Karrakis and resolves the succession crisis by invading Throne Karrakis.",
+            "uuid": "a01ca30b-6068-460a-8a2c-1ef40579e449",
+            "sources": [
+                {
+                    "sourceKey": "fgktb",
+                    "sourceLocation": "pg. 20"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
+                }
+            ],
+            "intraYearIndex": 3,
             "marker": false
         },
         {
@@ -704,15 +784,19 @@
                 "ktb"
             ],
             "title": "The Annorum Tyrannus",
-            "descr": "2000-2089u. Tyrannus suppresses the revolts on another planetary and returns to take over Karrakis, ending the bloody war there, as well as the Annorum Passacaglia.",
+            "descr": "2000-2089u. Tyran, now Tyrannus, ends the Annorum Passacaglia and declares the Annorum Tyrannus.",
             "uuid": "34a9921e-027e-46b2-a980-963d6705a7e1",
             "sources": [
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 20"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 16"
                 }
             ],
-            "intraYearIndex": null,
+            "intraYearIndex": 4,
             "marker": false
         },
         {
@@ -746,6 +830,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 24"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "intraYearIndex": null,
@@ -758,12 +846,16 @@
                 "ktb"
             ],
             "title": "The Dynasticlade",
-            "descr": "Message broadcast on behalf of Tyrannus' and his children stating that the Annorum is ending and power will be transferred to a New Federation.",
+            "descr": "Message broadcast on behalf of Tyrannus and his children declaring that his Annorum will end with the passing of his daughter Calendula, and power will be transferred to a New Federation.",
             "uuid": "06a6e150-3f72-41ad-b499-e4fc3f78d27a",
             "sources": [
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 25"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "intraYearIndex": null,
@@ -776,12 +868,16 @@
                 "ktb"
             ],
             "title": "The New Federation",
-            "descr": "2089-3150u. The New Federation serves as the ruling body of the Karrakin peoples after the Dynasticlade.",
+            "descr": "2089-3150u. Calendula institutes the system of major and minor houses. The New Federation serves as the ruling body of the Karrakin peoples after the Dynasticlade.",
             "uuid": "5f6328a9-8732-4793-9f5d-01e136eff66a",
             "sources": [
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 30"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "intraYearIndex": null,
@@ -836,6 +932,10 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pg. 338"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "intraYearIndex": null,
@@ -916,6 +1016,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 32"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "intraYearIndex": null,
@@ -1080,6 +1184,10 @@
                 {
                     "sourceKey": "fgktb",
                     "sourceLocation": "pg. 34"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "intraYearIndex": null,
@@ -1288,6 +1396,24 @@
             "intraYearIndex": null,
             "marker": false
         },
+		{
+            "year": 3845,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "Baronic Interest established",
+            "descr": "3845u. The Second Committee recognises the Federal Karrakin Monarchy's administration of the worlds of the Dawnline Shore.",
+            "uuid": "2b55e130-f748-43fb-b73d-611dd2dfe137",
+            "sources": [
+                {
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
+                }
+            ],
+            "intraYearIndex": null,
+            "marker": false
+        },
         {
             "year": 4000,
             "intraYearIndex": 1,
@@ -1374,6 +1500,10 @@
                 {
                     "sourceKey": "lcrb",
                     "sourceLocation": "pgs. 339"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "intraYearIndex": null,
@@ -1453,7 +1583,7 @@
             "marker": false
         },
         {
-            "year": 4630,
+            "year": 4600,
             "intraYearIndex": 1,
             "era": "U",
             "factions": [
@@ -1461,7 +1591,7 @@
                 "ktb"
             ],
             "title": "The First Interest War",
-            "descr": "Harrison Armory and the Karrakin Trade Baronies engage in the First Interest War; Union acts as a neutral party, ultimately securing peace. Harrison I returns to Cradle and faces justice in exchange for the Armory\u2019s continued sovereignty; the Baronies agree to become a member state of Union.",
+            "descr": "4600-4620u. Harrison Armory and the Karrakin Trade Baronies engage in the First Interest War; Union acts as a neutral party, ultimately securing peace. Harrison I returns to Cradle and faces justice in exchange for the Armory\u2019s continued sovereignty; the Baronies agree to become a member state of Union.",
             "uuid": "e1f7ec8c-d1fe-4891-b728-4301a133619c",
             "sources": [
                 {
@@ -1475,6 +1605,28 @@
                 {
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 13-15"
+                },
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
+                }
+            ],
+            "marker": false
+        },
+		{
+            "year": 4601,
+            "intraYearIndex": null,
+            "era": "U",
+            "factions": [
+                "ktb"
+            ],
+            "title": "The Sanjak Revolution",
+            "descr": "4601-4630u. An uprising on the Khayradi moon known as Ludra's World escalates into rebellion and war, until the House of Stone is forced to cede the moon to the rebels, who assume administration and rename it the Free Sanjak Commune.",
+            "uuid": "ac12b1d4-5dc5-4e87-8e5f-4c737ae78ebb",
+            "sources": [
+				{
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "marker": false
@@ -1516,6 +1668,24 @@
                 {
                     "sourceKey": "fgha",
                     "sourceLocation": "pgs. 3,17"
+                }
+            ],
+            "marker": false
+        },
+		{
+            "year": 4630,
+            "intraYearIndex": 4,
+            "era": "U",
+            "factions": [
+                "ha"
+            ],
+            "title": "COMMENCER disaster",
+            "descr": "The House of Dust becomes Republican. Hagiographic dissenters unwittingly release COMMENCER terraforming nanites, which begin to consume the moon of Bo.",
+            "uuid": "15e54259-3090-440f-a93f-ff362bc1be69",
+            "sources": [
+                {
+                    "sourceKey": "sotw",
+                    "sourceLocation": "pg. 17"
                 }
             ],
             "marker": false
